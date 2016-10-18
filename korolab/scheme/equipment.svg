@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="5175.9761"
+   width="5575.9761"
    height="912.81744"
-   viewBox="0 0 5175.976 912.81748"
+   viewBox="0 0 5575.976 912.81748"
    id="svg4173"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -27,16 +27,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.22328992"
-     inkscape:cx="2719.4549"
-     inkscape:cy="211.41833"
+     inkscape:cx="2919.4548"
+     inkscape:cy="211.41836"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-top="200"
-     fit-margin-left="300"
-     fit-margin-right="300"
+     fit-margin-left="500"
+     fit-margin-right="500"
      fit-margin-bottom="200"
      units="px"
      inkscape:window-width="1600"
@@ -45,7 +45,7 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <sodipodi:guide
-       position="1258.1581,297.50501"
+       position="1458.1581,297.50504"
        orientation="0,1"
        id="guide4258" />
   </sodipodi:namedview>
@@ -65,7 +65,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1912.737,-89.557209)">
+     transform="translate(2112.737,-89.557209)">
     <image
        sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\mikrotik.jpg"
        xlink:href="mikrotik.jpg"
