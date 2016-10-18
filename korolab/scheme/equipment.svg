@@ -27,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.22328992"
-     inkscape:cx="2192.9804"
-     inkscape:cy="-275.22796"
+     inkscape:cx="2624.5045"
+     inkscape:cy="-147.14198"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg4173"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -45,7 +45,7 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <sodipodi:guide
-       position="4113.4862,105.24434"
+       position="4174.629,104.43535"
        orientation="0,1"
        id="guide4258" />
   </sodipodi:namedview>
@@ -61,73 +61,67 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(2312.7372,-637.37476)">
-    <image
-       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\mikrotik.jpg"
-       xlink:href="mikrotik.jpg"
-       width="166.83566"
-       height="67.494774"
-       preserveAspectRatio="none"
-       id="image4189"
-       x="-1026.2793"
-       y="835.44464" />
-    <image
-       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\plc.jpg"
-       xlink:href="plc.jpg"
-       width="240.50954"
-       height="183.94702"
-       preserveAspectRatio="none"
-       id="image4200"
-       x="340.56503"
-       y="768.42773" />
-    <image
-       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\unifi.jpg"
-       xlink:href="unifi.jpg"
-       width="210.56467"
-       height="210.56467"
-       preserveAspectRatio="none"
-       id="image4211"
-       x="-364.72159"
-       y="705.70941" />
-    <image
-       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\zotac.jpg"
-       xlink:href="zotac.jpg"
-       width="210.56467"
-       height="210.56467"
-       preserveAspectRatio="none"
-       id="image4222"
-       x="1973.5858"
-       y="692.37476" />
-    <image
-       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\appletv.jpg"
-       xlink:href="appletv.jpg"
-       width="160.18126"
-       height="87.458015"
-       preserveAspectRatio="none"
-       id="image4233"
-       x="2678.8726"
-       y="815.48138" />
-    <image
-       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\iphone.jpg"
-       xlink:href="iphone.jpg"
-       width="91.735847"
-       height="183.94702"
-       preserveAspectRatio="none"
-       id="image4244"
-       x="-1612.7372"
-       y="718.99237" />
-    <image
-       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\trendent.jpg"
-       xlink:href="trendent.jpg"
-       width="403.06735"
-       height="106.94594"
-       preserveAspectRatio="none"
-       id="image4255"
-       x="1075.7965"
-       y="795.99347" />
-  </g>
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\mikrotik.jpg"
+     xlink:href="mikrotik.jpg"
+     y="198.06989"
+     x="1286.458"
+     id="image4189"
+     preserveAspectRatio="none"
+     height="67.494774"
+     width="166.83566" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\plc.jpg"
+     xlink:href="plc.jpg"
+     y="131.05298"
+     x="2653.3022"
+     id="image4200"
+     preserveAspectRatio="none"
+     height="183.94702"
+     width="240.50954" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\unifi.jpg"
+     xlink:href="unifi.jpg"
+     y="68.334656"
+     x="1948.0156"
+     id="image4211"
+     preserveAspectRatio="none"
+     height="210.56467"
+     width="210.56467" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\zotac.jpg"
+     xlink:href="zotac.jpg"
+     y="55"
+     x="4286.3228"
+     id="image4222"
+     preserveAspectRatio="none"
+     height="210.56467"
+     width="210.56467" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\appletv.jpg"
+     xlink:href="appletv.jpg"
+     y="178.10663"
+     x="4991.6094"
+     id="image4233"
+     preserveAspectRatio="none"
+     height="87.458015"
+     width="160.18126" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\iphone.jpg"
+     xlink:href="iphone.jpg"
+     y="81.617615"
+     x="700"
+     id="image4244"
+     preserveAspectRatio="none"
+     height="183.94702"
+     width="91.735847" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\trendent.jpg"
+     xlink:href="trendent.jpg"
+     y="158.61871"
+     x="3388.5337"
+     id="image4255"
+     preserveAspectRatio="none"
+     height="106.94594"
+     width="403.06735" />
 </svg>
