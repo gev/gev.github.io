@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3022.1714mm"
-   height="348.0679mm"
-   viewBox="0 0 10708.481 1233.3115"
+   width="10708.48"
+   height="1110.0269"
+   viewBox="0 0 10708.481 1110.027"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -48,13 +48,14 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.10739151"
-     inkscape:cx="4713.3144"
-     inkscape:cy="3195.6029"
+     inkscape:zoom="0.85913208"
+     inkscape:cx="5339.9871"
+     inkscape:cy="1096.9187"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     units="px" />
   <defs
      id="defs4" />
   <image
@@ -65,8 +66,8 @@
      height="962.8125"
      preserveAspectRatio="none"
      id="image5042"
-     x="0"
-     y="270.49899" />
+     x="-0.00048828137"
+     y="147.21445" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\lift.jpg"
      xlink:href="lift.jpg"
@@ -75,8 +76,8 @@
      height="923"
      preserveAspectRatio="none"
      id="image3388"
-     x="58.5"
-     y="310.31149" />
+     x="58.499542"
+     y="187.02695" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
@@ -85,7 +86,7 @@
      preserveAspectRatio="none"
      id="image5075"
      x="8856.5176"
-     y="270.04111" />
+     y="146.75656" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\hall.jpg"
      xlink:href="hall.jpg"
@@ -93,13 +94,13 @@
      height="923"
      preserveAspectRatio="none"
      id="image3366"
-     x="1658.9825"
-     y="310.31064" />
+     x="1658.9821"
+     y="187.02609" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
-     y="270.04111"
-     x="7133.0181"
+     y="146.75656"
+     x="7133.0176"
      id="image5073"
      preserveAspectRatio="none"
      height="962.8125"
@@ -111,8 +112,8 @@
      height="923"
      preserveAspectRatio="none"
      id="image3377"
-     x="3611.4824"
-     y="310.31064" />
+     x="3611.4819"
+     y="187.02609" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
@@ -120,8 +121,8 @@
      height="962.8125"
      preserveAspectRatio="none"
      id="image5071"
-     x="5385.5181"
-     y="270.04111" />
+     x="5385.5176"
+     y="146.75656" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\living-room.jpg"
      xlink:href="living-room.jpg"
@@ -129,13 +130,13 @@
      height="923"
      preserveAspectRatio="none"
      id="image3399"
-     x="5508.9829"
-     y="310.31064" />
+     x="5508.9824"
+     y="187.02609" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
-     y="270.04111"
-     x="3488.6348"
+     y="146.75656"
+     x="3488.6343"
      id="image5067"
      preserveAspectRatio="none"
      height="962.8125"
@@ -147,8 +148,8 @@
      height="923"
      preserveAspectRatio="none"
      id="image3355"
-     x="7256.4829"
-     y="310.31064" />
+     x="7256.4824"
+     y="187.02609" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
@@ -156,8 +157,8 @@
      height="962.8125"
      preserveAspectRatio="none"
      id="image5053"
-     x="1535.8263"
-     y="270.04111" />
+     x="1535.8258"
+     y="146.75656" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroom.jpg"
      xlink:href="bathroom.jpg"
@@ -166,7 +167,7 @@
      preserveAspectRatio="none"
      id="image3344"
      x="8979.9824"
-     y="310.31064" />
+     y="187.02609" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\right.png"
      xlink:href="right.png"
@@ -176,39 +177,15 @@
      preserveAspectRatio="none"
      id="image5064"
      x="10605.356"
-     y="270.04111" />
-  <g
-     id="g4165"
-     transform="matrix(1.9978507,0,0,0.99344038,-5444.8105,1665.9875)">
-    <path
-       inkscape:connector-curvature="0"
-       id="path3351"
-       d="m 2984.189,-1675.9878 4842.2908,0"
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2984.189,-1625.7384 4842.2908,0"
-       id="path4153"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4155"
-       d="m 2984.189,-1600.6138 4842.2908,0"
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4159"
-       d="m 2984.189,-1575.4892 4842.2908,0"
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2984.189,-1650.863 4842.2908,0"
-       id="path4161"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2984.189,-1550.3644 4842.2908,0"
-       id="path4163"
-       inkscape:connector-curvature="0" />
-  </g>
+     y="146.75656" />
+  <path
+     style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 517.15312,1.0001001 9674.17488,0"
+     id="path4155"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4163"
+     d="m 517.15312,60.508357 9674.17488,0"
+     style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>
