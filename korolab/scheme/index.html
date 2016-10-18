@@ -2,25 +2,37 @@
 <html>
 <head>
   <style>
-    html, body {
-      overflow  : hidden;
-    }
-    html, body {
+    html, body, table {
       padding   : 0;
       width     : 100%;
       height    : 100%;
+      overflow  : hidden;
     }
-    body {
-      overflow  : auto;
+    #equipment {
+      width    : 100%;
     }
     #interior {
       height    : 100%;
     }
+
   </style>
 </head>
 <body>
-  <object id='interior' type='image/svg+xml' data='interior.svg'>
-    Your browser does not support SVG
-  </object>
+  <table>
+    <tr>
+      <td height='10px'>
+        <object id='equipment' type='image/svg+xml' data='interior.svg'>
+          Your browser does not support SVG
+        </object>
+      </td>
+    </tr>
+  </table>
+  <tr>
+    <td style='overflow:auto'>
+      <object id='interior' type='image/svg+xml' data='interior.svg'>
+        Your browser does not support SVG
+      </object>
+    </td>
+  </tr>
 </body>
 </html>
