@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5175.9761"
+   height="912.81744"
+   viewBox="0 0 5175.976 912.81748"
+   id="svg4173"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="equipment.svg">
+  <defs
+     id="defs4175" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.22328992"
+     inkscape:cx="2719.4549"
+     inkscape:cy="211.41833"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="200"
+     fit-margin-left="300"
+     fit-margin-right="300"
+     fit-margin-bottom="200"
+     units="px"
+     inkscape:window-width="1600"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="1258.1581,297.50501"
+       orientation="0,1"
+       id="guide4258" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4178">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1912.737,-89.557209)">
+    <image
+       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\mikrotik.jpg"
+       xlink:href="mikrotik.jpg"
+       width="329.0625"
+       height="133.125"
+       preserveAspectRatio="none"
+       id="image4189"
+       x="-1156.7932"
+       y="571.74475" />
+    <image
+       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\plc.jpg"
+       xlink:href="plc.jpg"
+       width="474.375"
+       height="362.8125"
+       preserveAspectRatio="none"
+       id="image4200"
+       x="137.59476"
+       y="439.56223" />
+    <image
+       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\unifi.jpg"
+       xlink:href="unifi.jpg"
+       width="415.3125"
+       height="415.3125"
+       preserveAspectRatio="none"
+       id="image4211"
+       x="-552.72424"
+       y="296.13452" />
+    <image
+       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\zotac.jpg"
+       xlink:href="zotac.jpg"
+       width="415.3125"
+       height="415.3125"
+       preserveAspectRatio="none"
+       id="image4222"
+       x="1956.9827"
+       y="289.55722" />
+    <image
+       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\appletv.jpg"
+       xlink:href="appletv.jpg"
+       width="315.9375"
+       height="172.5"
+       preserveAspectRatio="none"
+       id="image4233"
+       x="2647.3018"
+       y="532.36975" />
+    <image
+       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\iphone.jpg"
+       xlink:href="iphone.jpg"
+       width="180.9375"
+       height="362.8125"
+       preserveAspectRatio="none"
+       id="image4244"
+       x="-1612.7372"
+       y="342.05722" />
+    <image
+       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\trendent.jpg"
+       xlink:href="trendent.jpg"
+       width="795"
+       height="210.9375"
+       preserveAspectRatio="none"
+       id="image4255"
+       x="886.9762"
+       y="493.93222" />
+  </g>
+</svg>
