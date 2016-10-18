@@ -1,38 +1,58 @@
 <!DOCTYPE html >
 <html>
 <head>
-  <style>
-    html, body, table {
-      padding   : 0;
-      width     : 100%;
-      height    : 100%;
-      overflow  : hidden;
-    }
-    #equipment {
-      width    : 100%;
-    }
-    #interior {
-      height    : 100%;
-    }
+    <style>
 
-  </style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        div {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 200%;
+            position: absolute;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        object {
+            height: 100%;
+        }
+
+        #de {
+            top: 0;
+        }
+
+        #di {
+            top: 25%;
+        }
+
+        #oe {
+            height: 12.5%;
+        }
+
+        #oi {
+            height: 25%;
+        }
+
+    </style>
 </head>
 <body>
-  <table>
-    <tr>
-      <td>
-        <object id='equipment' type='image/svg+xml' data='interior.svg'>
-          Your browser does not support SVG
-        </object>
-      </td>
-    </tr>
-      <tr>
-          <td style='overflow:auto'>
-              <object id='interior' type='image/svg+xml' data='interior.svg'>
-                  Your browser does not support SVG
-              </object>
-          </td>
-      </tr>
-  </table>
+<div id='de'>
+    <object id='oe' type='image/svg+xml' data='equipment.svg'>
+        Your browser does not support SVG
+    </object>
+</div>
+<div id='di'>
+    <object id='oi' type='image/svg+xml' data='interior.svg'>
+        Your browser does not support SVG
+    </object>
+</div>
 </body>
 </html>
