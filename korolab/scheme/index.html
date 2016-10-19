@@ -61,6 +61,14 @@
     var de = document.getElementById('de');
     var di = document.getElementById('di');
 
+    var t = setInterval(function(){
+        di.scrollLeft += 5;
+    }, 10);
+
+    window.parent.onscroll = function() {
+        clearInterval(t);
+    };
+
     de.onscroll = function() {
         var k = (di.scrollWidth - di.clientWidth) / (de.scrollWidth - de.clientWidth);
         di.scrollLeft = de.scrollLeft * k;
