@@ -82,49 +82,54 @@
 
 <script>
 
+    function sync(dst) {
+        return function() {
+            var src = this;
+            requestAnimationFrame(function() {
+                var k = (dst.scrollWidth - dst.clientWidth)
+                    / (src.scrollWidth - src.clientWidth);
+                dst.scrollLeft = Math.round(src.scrollLeft * k);
+            })
+        }
+    }
+
     var de = document.getElementById('de');
     var di = document.getElementById('di');
 
-    de.onscroll = function() {
-        var k = (di.scrollWidth - di.clientWidth) / (de.scrollWidth - de.clientWidth);
-        di.scrollLeft = Math.round(de.scrollLeft * k);
-    };
+    de.onscroll = sync(di);
+    di.onscroll = sync(de);
 
-    di.onscroll = function() {
-        var k = (de.scrollWidth - de.clientWidth) / (di.scrollWidth - di.clientWidth);
-        de.scrollLeft = Math.round(di.scrollLeft * k);
-    };
+    function scroll(f) {
+        var a = 10,
+            t = 2000;
+        return function () {
+            var v = 0,
+                t0 = performance.now();
 
-    function scroll(t, f) {
-        var a = 20,
-            v = 0,
-            t0 = performance.now();
-        function step (t1) {
-            v += Math.PI * (t1 - t0) / t;
-            if (v >= Math.PI) return;
-            f(Math.round(a + a * Math.cos(v)));
-            t0 = t1;
+            function step(t1) {
+                v += t1 - t0;
+                if (v >= t) return;
+                f(Math.round(a + a * Math.cos(Math.PI * v / t)));
+                t0 = t1;
+                requestAnimationFrame(step);
+            }
+
             requestAnimationFrame(step);
         }
-        requestAnimationFrame(step);
     }
 
-    var bl = document.getElementById('bl');
-    var br = document.getElementById('br');
 
-    bl.onclick = function () {
-        scroll(2000, function (dx) {
+    document
+        .getElementById('bl')
+        .onclick = scroll(function (dx) {
             di.scrollLeft -= dx
-        })
-    };
+        });
 
-    br.onclick = function () {
-        scroll(2000, function (dx) {
+    document
+        .getElementById('br')
+        .onclick = scroll(function (dx) {
             di.scrollLeft += dx
-        })
-    };
-
-
+        });
 
 
 </script>
