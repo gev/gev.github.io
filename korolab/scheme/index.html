@@ -30,19 +30,20 @@
         }
 
         #oe {
-            height: 14.9%;
+            height: 16.1%;
         }
 
         #di {
-            top: 24.7%;
+            top: 27.2%;
         }
 
         #oi {
-            height: 37.55%;
+            height: 36.2%;
         }
 
     </style>
 </head>
+
 <body>
 <div id='de'>
     <object id='oe' type='image/svg+xml' data='equipment.svg'>
@@ -54,5 +55,24 @@
         Your browser does not support SVG
     </object>
 </div>
+
+<script>
+
+    var de = document.getElementById('de');
+    var di = document.getElementById('di');
+
+    de.onscroll = function() {
+        var k = (di.scrollWidth - di.clientWidth) / (de.scrollWidth - de.clientWidth);
+        di.scrollLeft = de.scrollLeft * k;
+
+    };
+
+    di.onscroll = function() {
+        var k = (de.scrollWidth - de.clientWidth) / (di.scrollWidth - di.clientWidth);
+        de.scrollLeft = di.scrollLeft * k;
+
+    };
+
+</script>
 </body>
 </html>
