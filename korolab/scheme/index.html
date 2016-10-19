@@ -96,14 +96,14 @@
     };
 
     function scroll(t, f) {
-        var cosParameter = 30,
-            scrollCount = 0,
-            oldTimestamp = performance.now();
-        function step (newTimestamp) {
-            scrollCount += Math.PI / (t / (newTimestamp - oldTimestamp));
-            if (scrollCount >= Math.PI) return;
-            f(Math.round(cosParameter + cosParameter * Math.cos(scrollCount)));
-            oldTimestamp = newTimestamp;
+        var a = 20,
+            v = 0,
+            t0 = performance.now();
+        function step (t1) {
+            v += Math.PI * (t1 - t0) / t;
+            if (v >= Math.PI) return;
+            f(Math.round(a + a * Math.cos(v)));
+            t0 = t1;
             requestAnimationFrame(step);
         }
         requestAnimationFrame(step);
@@ -113,13 +113,13 @@
     var br = document.getElementById('br');
 
     bl.onclick = function () {
-        scroll(1250, function (dx) {
+        scroll(2000, function (dx) {
             di.scrollLeft -= dx
         })
     };
 
     br.onclick = function () {
-        scroll(1300, function (dx) {
+        scroll(2000, function (dx) {
             di.scrollLeft += dx
         })
     };
