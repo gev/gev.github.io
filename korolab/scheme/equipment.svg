@@ -513,8 +513,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.63155927"
-     inkscape:cx="4346.7721"
-     inkscape:cy="52.714837"
+     inkscape:cx="7026.0145"
+     inkscape:cy="-106.00471"
      inkscape:document-units="px"
      inkscape:current-layer="svg4173"
      showgrid="false"
@@ -727,19 +727,4 @@
      id="path24899"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
-  <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1356.9674,367.51242 c 5652.5573,-0.0653 5652.5573,-0.0653 5652.5573,-0.0653"
-     id="path27885"
-     inkscape:connector-curvature="0" />
-  <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 3072.3376,437.3088 916.3011,0"
-     id="path27887"
-     inkscape:connector-curvature="0" />
-  <path
-     inkscape:connector-curvature="0"
-     id="path27889"
-     d="m 4802.3376,402.39429 916.3011,0"
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>
