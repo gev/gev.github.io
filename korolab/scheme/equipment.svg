@@ -593,8 +593,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.44657984"
-     inkscape:cx="1075.7064"
-     inkscape:cy="-161.68413"
+     inkscape:cx="959.8199"
+     inkscape:cy="-116.73548"
      inkscape:document-units="px"
      inkscape:current-layer="svg4173"
      showgrid="false"
@@ -795,9 +795,10 @@
      sodipodi:nodetypes="ccc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker91009);marker-end:url(#marker91009)"
-     d="m 1220.3865,259.87659 0,-201.11959 5938.4677,0 0,143.24671"
+     d="m 1220.3865,225.87659 0,-167.11959 5938.4677,0 0,143.24671"
      id="path90809"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker91507);marker-end:url(#marker91721)"
      d="m 6564.8078,203.7636 39.4013,0 0,-145.0066"
