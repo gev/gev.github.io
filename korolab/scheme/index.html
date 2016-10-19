@@ -55,6 +55,11 @@
             opacity: 0.5;
         }
 
+        .scroller:hover {
+            opacity: 1;
+            font-size: 80px;
+        }
+
         #bl {
             left: 0;
         }
@@ -83,13 +88,19 @@
 <script>
 
     function sync(dst) {
+        var t;
         return function() {
+            clearTimeout(t);
             var src = this;
             requestAnimationFrame(function() {
+                dst.onscroll = undefined;
                 var k = (dst.scrollWidth - dst.clientWidth)
                     / (src.scrollWidth - src.clientWidth);
                 dst.scrollLeft = Math.round(src.scrollLeft * k);
-            })
+                t = setTimeout(function() {
+                    dst.onscroll = sync(src)
+                }, 200)
+            });
         }
     }
 
@@ -100,8 +111,8 @@
     di.onscroll = sync(de);
 
     function scroll(f) {
-        var a = 10,
-            t = 2000;
+        var a = 20,
+            t = 1000;
         return function () {
             var v = 0,
                 t0 = performance.now();
@@ -109,7 +120,7 @@
             function step(t1) {
                 v += t1 - t0;
                 if (v >= t) return;
-                f(Math.round(a + a * Math.cos(Math.PI * v / t)));
+                f(Math.round(a  - a * Math.cos(Math.PI * v / t)));
                 t0 = t1;
                 requestAnimationFrame(step);
             }
