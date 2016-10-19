@@ -49,8 +49,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.305"
-     inkscape:cx="3031.8259"
-     inkscape:cy="546.47869"
+     inkscape:cx="1615.2472"
+     inkscape:cy="438.96685"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -2017,16 +2017,17 @@
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\cam.png"
      xlink:href="cam.png"
+     transform="scale(-1,1)"
      width="91.347412"
      height="101.70012"
      preserveAspectRatio="none"
      id="image36364"
-     x="1490.1526"
+     x="-149.5"
      y="236.32816" />
   <path
      id="path36589"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker37841);marker-end:url(#marker37699)"
-     d="m 7410.8413,245.45402 -0.021,-241.6441273 -5972.4257,0.1461264 -0.3669,265.1781809 33.1661,0"
+     d="M 7410.8413,245.45402 7410.8203,3.8098927 218.3946,3.9560191 218.0277,269.1342 l -38.96505,0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <g
