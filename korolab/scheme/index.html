@@ -11,7 +11,7 @@
             overflow: hidden;
         }
 
-        div {
+        .scroll {
             padding: 0;
             margin: 0;
             width: 100%;
@@ -41,20 +41,44 @@
             height: 36.2%;
         }
 
+        .scroller {
+            position: absolute;
+            top: 50%;
+            width: 100px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            outline: 0;
+            color: white;
+            font-size: 75px;
+            text-shadow: black 0 0 15px;
+            opacity: 0.5;
+        }
+
+        #bl {
+            left: 0;
+        }
+
+        #br {
+            right: 0;
+        }
+
     </style>
 </head>
 
 <body>
-<div id='de'>
+<div class='scroll' id='de'>
     <object id='oe' type='image/svg+xml' data='equipment.svg'>
         Your browser does not support SVG
     </object>
 </div>
-<div id='di'>
+<div class='scroll' id='di'>
     <object id='oi' type='image/svg+xml' data='interior.svg'>
         Your browser does not support SVG
     </object>
 </div>
+<button id='bl' class='scroller'><</button>
+<button id='br' class='scroller'>></button>
 
 <script>
 
@@ -70,8 +94,38 @@
     di.onscroll = function() {
         var k = (de.scrollWidth - de.clientWidth) / (di.scrollWidth - di.clientWidth);
         de.scrollLeft = di.scrollLeft * k;
-
     };
+
+    function scroll(t, f) {
+        var cosParameter = 70,
+            scrollCount = 0,
+            oldTimestamp = performance.now();
+        function step (newTimestamp) {
+            scrollCount += Math.PI / (t / (newTimestamp - oldTimestamp));
+            if (scrollCount >= Math.PI) return;
+            f(Math.round(cosParameter * Math.sin(scrollCount)));
+            oldTimestamp = newTimestamp;
+            requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+    }
+
+    var bl = document.getElementById('bl');
+    var br = document.getElementById('br');
+
+    bl.onclick = function () {
+        scroll(700, function (dx) {
+            di.scrollLeft -= dx
+        })
+    };
+
+    br.onclick = function () {
+        scroll(700, function (dx) {
+            di.scrollLeft += dx
+        })
+    };
+
+
 
 </script>
 </body>
