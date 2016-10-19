@@ -96,13 +96,13 @@
     };
 
     function scroll(t, f) {
-        var cosParameter = 70,
+        var cosParameter = 30,
             scrollCount = 0,
             oldTimestamp = performance.now();
         function step (newTimestamp) {
             scrollCount += Math.PI / (t / (newTimestamp - oldTimestamp));
             if (scrollCount >= Math.PI) return;
-            f(Math.round(cosParameter * Math.sin(scrollCount)));
+            f(Math.round(cosParameter + cosParameter * Math.cos(scrollCount)));
             oldTimestamp = newTimestamp;
             requestAnimationFrame(step);
         }
@@ -113,16 +113,17 @@
     var br = document.getElementById('br');
 
     bl.onclick = function () {
-        scroll(700, function (dx) {
+        scroll(1250, function (dx) {
             di.scrollLeft -= dx
         })
     };
 
     br.onclick = function () {
-        scroll(700, function (dx) {
+        scroll(1300, function (dx) {
             di.scrollLeft += dx
         })
     };
+
 
 
 
