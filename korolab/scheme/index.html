@@ -19,9 +19,9 @@
             left: 0;
             height: 100%;
             position: absolute;
+            pointer-events: none;
             will-change: left;
             transition-property: left;
-            transition-duration: 500ms;
             animation-timing-function: ease-in-out
         }
 
@@ -90,31 +90,32 @@
 
 <script>
 
-    var oe = $('#oe');
-    var oi = $('#oi');
-
     function sync(src, dst, x) {
         var k = (dst.offsetWidth - document.body.clientWidth)
               / (src.offsetWidth - document.body.clientWidth);
         dst.style.left = Math.round(x * k) + 'px'
     }
 
-//    function scrollTo(src, dst) {
-//        return function (e) {
-//            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
-//                return true;
-//            var dx = e.deltaX * e.deltaFactor;
-//            cancelAnimationFrame(id);
-//            id = requestAnimationFrame(function () {
-//                src.scrollLeft += dx;
-//                sync(src, dst);
-//            });
-//            return false;
-//        }
-//    }
+    function scrollBy(src, dst, dx, dt) {
+        dt += 'ms';
+        src.style.transitionDuration = dt;
+        dst.style.transitionDuration = dt;
+        var l = document.body.clientWidth - src.offsetWidth;
+        var x = src.offsetLeft - dx;
+        x = x > 0 ? 0 : x < l ? l : x;
+        src.style.left = x + 'px';
+        sync(src, dst, x)
+    }
 
-//    di.mousewheel(scrollTo(di[0], de[0]));
-//    de.mousewheel(scrollTo(de[0], di[0]));
+    function scrollTo(src, dst) {
+        return function (e) {
+            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
+                return true;
+            var dx = e.deltaX * e.deltaFactor;
+            scrollBy(src, dst, dx, 0);
+            return false;
+        }
+    }
 
     function dx(src) {
         var n = src.offsetWidth / document.body.clientWidth;
@@ -123,21 +124,20 @@
         return Math.round(src.offsetWidth / m)
     }
 
-    function scrollBy(src, dst, delta) {
-        var l = document.body.clientWidth - src.offsetWidth;
-        var x = src.offsetLeft - delta * dx(src);
-        x = x > 0 ? 0 : x < l ? l : x;
-        src.style.left = x + 'px';
-        sync(src, dst, x)
+    function scroll(d) {
+        return function () {
+            scrollBy(oi, oe, d * dx(oi), 500)
+        }
     }
 
-    $('#bl').click(function () {
-        scrollBy(oi[0], oe[0], -1)
-    });
+    var oe = $('#oe')[0];
+    var oi = $('#oi')[0];
 
-    $('#br').click(function () {
-        scrollBy(oi[0], oe[0], 1)
-    });
+    $('#bl').click(scroll(-1));
+    $('#br').click(scroll(1));
+
+    $('#di').mousewheel(scrollTo(oi, oe));
+    $('#de').mousewheel(scrollTo(oe, oi));
 
 </script>
 </body>
