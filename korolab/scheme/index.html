@@ -94,6 +94,7 @@
         dst.scrollTo(Math.round(src.scrollLeft() * k), {axis : 'x'});
     }
 
+
     function scrollTo(src, dst) {
         return function (e) {
             if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
@@ -103,7 +104,6 @@
                 progress : function() {sync(src, dst)},
                 axis : 'x'
             });
-            console.log(e);
             return false;
         }
     }
