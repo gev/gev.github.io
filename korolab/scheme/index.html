@@ -96,13 +96,15 @@
 
     function scrollTo(src, dst) {
         return function (e) {
+            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
+                return true;
             var dx = e.deltaX * e.deltaFactor;
             src.scrollTo(src.scrollLeft() + dx, {
                 progress : function() {sync(src, dst)},
                 axis : 'x'
             });
             console.log(e);
-            return e.deltaY * e.deltaY > e.deltaX*e.deltaX;
+            return false;
         }
     }
 
