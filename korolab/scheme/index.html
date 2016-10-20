@@ -136,7 +136,7 @@
     $('#bl').click(scroll(-1));
     $('#br').click(scroll(1));
 
-    $('#di').on('mousewheel', scrollTo(oi, oe));
+    $(window).mousewheel(scrollTo(oi, oe));
     $('#de').mousewheel(scrollTo(oe, oi));
 
 </script>
