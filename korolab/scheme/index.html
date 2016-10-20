@@ -4,9 +4,9 @@
     <style>
 
         * {
-            overflow: hidden;
-            padding: 0;
             margin: 0;
+            padding: 0;
+            overflow: hidden;
         }
 
         html, body {
@@ -15,29 +15,35 @@
         }
 
         object {
-            position: absolute;
             top: 0;
             left: 0;
             height: 100%;
+            position: absolute;
             will-change: left;
             transition-property: left;
             transition-duration: 500ms;
         }
 
-        #oe {
+        #de, #di {
+            left: 0;
+            width: 100%;
+            position: absolute;
+        }
+
+        #de {
             top: 0;
             height: 32.2%;
         }
 
-        #oi {
+        #di {
             top: 27.2%;
             height: 72.4%;
         }
 
         .scroller {
-            position: absolute;
             top: 50%;
             width: 100px;
+            position: absolute;
             border: none;
             background: transparent;
             cursor: pointer;
@@ -65,12 +71,16 @@
 </head>
 
 <body>
-<object id='oe' type='image/svg+xml' data='equipment.svg'>
-    Your browser does not support SVG
-</object>
-<object id='oi' type='image/svg+xml' data='interior.svg'>
-    Your browser does not support SVG
-</object>
+<div id='de'>
+    <object id='oe' type='image/svg+xml' data='equipment.svg'>
+        Your browser does not support SVG
+    </object>
+</div>
+<div id='di'>
+    <object id='oi' type='image/svg+xml' data='interior.svg'>
+        Your browser does not support SVG
+    </object>
+</div>
 <button id='bl' class='scroller'><</button>
 <button id='br' class='scroller'>></button>
 
