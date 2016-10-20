@@ -119,8 +119,8 @@
     var di = document.getElementById('di');
     var oi = document.getElementById('oi');
 
-    onscroll(oe, syncTo(de, di));
-    onscroll(oi, syncTo(de, di));
+    onscroll(de, syncTo(de, di));
+    onscroll(di, syncTo(de, di));
 
     function scroll(f) {
         var a = 20,
