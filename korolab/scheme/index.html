@@ -91,7 +91,7 @@
     function sync(src, dst) {
         var k = (dst[0].scrollWidth - dst.width())
               / (src[0].scrollWidth - src.width());
-        dst.scrollLeft(Math.round(src.scrollLeft() * k));
+        dst.scrollLeft = Math.round(src.scrollLeft() * k);
 //        dst.scrollTo(Math.round(src.scrollLeft() * k), {axis : 'x'});
     }
 
@@ -109,14 +109,14 @@
         }
     }
 
-    di.mousewheel(scrollTo(di, de));
-    de.mousewheel(scrollTo(de, di));
+    di.mousewheel(scrollTo(di[0], de[0]));
+    de.mousewheel(scrollTo(de[0], di[0]));
 
     function dx() {
         return 3 * di.width() / 4
     }
 
-    function scrollBy(dx) {
+    function scrollBy(src, dst, dx) {
         var t0 = performance.now();
         var x0 = di.scrollLeft();
         var x1 = x0 + dx;
@@ -124,11 +124,11 @@
         function step(t1) {
             x += dx * (t1 - t0) / 1000;
             if ((x - x0) * (x - x0) >= dx * dx) {
-                di.scrollLeft(x1);
-                sync(di, de)
+                dst.scrollLeft = x1;
+                sync(src, dst)
             } else {
-                di.scrollLeft(x);
-                sync(di, de);
+                dst.scrollLeft = x;
+                sync(src, dst);
                 t0 = t1;
                 requestAnimationFrame(step)
             }
@@ -146,11 +146,11 @@
     }
 
     $('#bl').click(function () {
-        scrollBy(-dx())
+        scrollBy(di[0], de[0], -dx())
     });
 
     $('#br').click(function () {
-        scrollBy(dx())
+        scrollBy(di[0], de[0], dx())
     });
 
 
