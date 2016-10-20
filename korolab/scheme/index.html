@@ -3,22 +3,20 @@
 <head>
     <style>
 
-        html, body {
+        * {
+            overflow: hidden;
             padding: 0;
             margin: 0;
+        }
+
+        html, body {
             width: 100%;
             height: 100%;
-            overflow: hidden;
         }
 
         .scroll {
-            padding: 0;
-            margin: 0;
             width: 100%;
-            height: 200%;
             position: absolute;
-            overflow-x: auto;
-            overflow-y: hidden;
         }
 
         object {
@@ -27,18 +25,12 @@
 
         #de {
             top: 0;
-        }
-
-        #oe {
-            height: 16.1%;
+            height: 32.2%;
         }
 
         #di {
             top: 27.2%;
-        }
-
-        #oi {
-            height: 36.2%;
+            height: 72.4%;
         }
 
         .scroller {
@@ -51,8 +43,8 @@
             outline: 0;
             color: white;
             font-size: 75px;
-            text-shadow: black 0 0 15px;
-            opacity: 0.5;
+            text-shadow: black 0 0 20px;
+            opacity: 0.75;
         }
 
         .scroller:hover {
@@ -87,28 +79,48 @@
 
 <script>
 
-    function sync(dst) {
-        var t;
-        return function() {
-            clearTimeout(t);
-            var src = this;
+    function scrollTo(src, dst, dx) {
+        src.scrollLeft += dx;
+        var k = (dst.scrollWidth - dst.clientWidth)
+            / (src.scrollWidth - src.clientWidth);
+        dst.scrollLeft = Math.round(src.scrollLeft * k);
+    }
+
+    function syncTo(src, dst) {
+        return function(e) {
+            e = e || window.event;
+            var dx = e.deltaX || e.detail || e.wheelDelta;
             requestAnimationFrame(function() {
-                dst.onscroll = undefined;
-                var k = (dst.scrollWidth - dst.clientWidth)
-                    / (src.scrollWidth - src.clientWidth);
-                dst.scrollLeft = Math.round(src.scrollLeft * k);
-                t = setTimeout(function() {
-                    dst.onscroll = sync(src)
-                }, 200)
-            });
+                scrollTo(src, dst, dx);
+            })
+        }
+    }
+
+    function onscroll (e, f) {
+        if (e.addEventListener) {
+            if ('onwheel' in document) {
+                // IE9+, FF17+, Ch31+
+                e.addEventListener("wheel", f);
+            } else if ('onmousewheel' in document) {
+                // устаревший вариант события
+                e.addEventListener("mousewheel", f);
+            } else {
+                // Firefox < 17
+                e.addEventListener("MozMousePixelScroll", f);
+            }
+        } else { // IE8-
+            e.attachEvent("onmousewheel", f);
         }
     }
 
     var de = document.getElementById('de');
-    var di = document.getElementById('di');
+    var oe = document.getElementById('oe');
 
-    de.onscroll = sync(di);
-    di.onscroll = sync(de);
+    var di = document.getElementById('di');
+    var oi = document.getElementById('oi');
+
+    onscroll(oe, syncTo(de, di));
+    onscroll(oi, syncTo(de, di));
 
     function scroll(f) {
         var a = 20,
@@ -129,17 +141,16 @@
         }
     }
 
-
     document
         .getElementById('bl')
         .onclick = scroll(function (dx) {
-            di.scrollLeft -= dx
+            scrollTo(di, de, -dx);
         });
 
     document
         .getElementById('br')
         .onclick = scroll(function (dx) {
-            di.scrollLeft += dx
+            scrollTo(di, de, dx);
         });
 
 
