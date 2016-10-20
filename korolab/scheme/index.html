@@ -91,7 +91,8 @@
     function sync(src, dst) {
         var k = (dst[0].scrollWidth - dst.width())
               / (src[0].scrollWidth - src.width());
-        dst.scrollTo(Math.round(src.scrollLeft() * k), {axis : 'x'});
+        dst.scrollLeft(Math.round(src.scrollLeft() * k));
+//        dst.scrollTo(Math.round(src.scrollLeft() * k), {axis : 'x'});
     }
 
 
@@ -116,11 +117,15 @@
     }
 
     function scrollBy(dx) {
-        di.scrollTo(di.scrollLeft() + dx, 500, {
+        di.animate({scrollLeft: di.scrollLeft() + dx}, {
             progress : function(){sync(di, de)},
-            easing :'easeInOutSine',
-            axis : 'x'
-        })
+            easing :'easeInOutSine'
+        });
+//        di.scrollTo(di.scrollLeft() + dx, 500, {
+//            progress : function(){sync(di, de)},
+//            easing :'easeInOutSine',
+//            axis : 'x'
+//        })
     }
 
     $('#bl').click(function () {
