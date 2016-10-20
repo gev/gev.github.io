@@ -101,7 +101,8 @@
                 progress : function() {sync(src, dst)},
                 axis : 'x'
             });
-            return false;
+            console.log(e);
+            return e.deltaY * e.deltaY > e.deltaX*e.deltaX;
         }
     }
 
