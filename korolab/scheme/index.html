@@ -111,6 +111,7 @@
     de.mousewheel(scrollTo(de[0], di[0]));
 
     function scrollBy(src, dst, delta) {
+        cancelAnimationFrame(id);
         var dx = delta * 3 * src.clientWidth / 4;
         var t0 = performance.now();
         var x0 = src.scrollLeft;
