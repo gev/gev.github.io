@@ -110,15 +110,15 @@
     di.mousewheel(scrollTo(di[0], de[0]));
     de.mousewheel(scrollTo(de[0], di[0]));
 
-    function scrollBy(src, dst, dx) {
-        dx *= 3 * src.clientWidth / 4;
+    function scrollBy(src, dst, delta) {
+        var dx = delta * 3 * src.clientWidth / 4;
         var t0 = performance.now();
         var x0 = src.scrollLeft;
         var x1 = x0 + dx;
         var x = x0;
         function step(t1) {
             cancelAnimationFrame(id);
-            x += dx * (t1 - t0) / 10000;
+            x += delta;// * (t1 - t0) / 1000;
             if ((x - x0) * (x - x0) >= dx * dx) {
                 src.scrollLeft = x1;
                 sync(src, dst)
