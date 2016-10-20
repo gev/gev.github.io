@@ -25,6 +25,8 @@
             left: 0;
             height: 100%;
             pointer-events: none;
+            transition-property: left;
+            transition-duration: 1s;
         }
 
         #de {
@@ -87,7 +89,9 @@
 <script>
 
     var de = $('#de');
+    var oe = $('#oe');
     var di = $('#di');
+    var oi = $('#oi');
 
     function sync(src, dst) {
         var k = (dst.scrollWidth - dst.clientWidth)
@@ -137,11 +141,13 @@
     }
 
     $('#bl').click(function () {
-        scrollBy(di[0], de[0], -1)
+        oi[0].style.left = 0;
+        //scrollBy(di[0], de[0], -1)
     });
 
     $('#br').click(function () {
-        scrollBy(di[0], de[0], 1)
+        oi[0].style.left = -3 * di[0].clientWidth / 4 + 'px';
+        //scrollBy(di[0], de[0], 1)
     });
 
 </script>
