@@ -89,9 +89,9 @@
     var di = $('#di');
 
     function sync(src, dst) {
-        var k = (dst[0].scrollWidth - dst.width())
-              / (src[0].scrollWidth - src.width());
-        dst.scrollLeft = Math.round(src.scrollLeft() * k);
+        var k = (dst.scrollWidth - dst.clientWidth)
+              / (src.scrollWidth - src.clientWidth);
+        dst.scrollLeft = Math.round(src.scrollLeft * k);
 //        dst.scrollTo(Math.round(src.scrollLeft() * k), {axis : 'x'});
     }
 
@@ -101,10 +101,11 @@
             if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
                 return true;
             var dx = e.deltaX * e.deltaFactor;
-            src.scrollTo(src.scrollLeft() + dx, {
-                progress : function() {sync(src, dst)},
-                axis : 'x'
-            });
+            scrollBy(src, dst, dx, 10);
+//            src.scrollTo(src.scrollLeft() + dx, {
+//                progress : function() {sync(src, dst)},
+//                axis : 'x'
+//            });
             return false;
         }
     }
@@ -116,18 +117,18 @@
         return 3 * di.width() / 4
     }
 
-    function scrollBy(src, dst, dx) {
+    function scrollBy(src, dst, dx, q) {
         var t0 = performance.now();
-        var x0 = di.scrollLeft();
+        var x0 = src.scrollLeft;
         var x1 = x0 + dx;
         var x = x0;
         function step(t1) {
-            x += dx * (t1 - t0) / 1000;
+            x += dx * (t1 - t0) / q;
             if ((x - x0) * (x - x0) >= dx * dx) {
-                dst.scrollLeft = x1;
+                src.scrollLeft = x1;
                 sync(src, dst)
             } else {
-                dst.scrollLeft = x;
+                src.scrollLeft = x;
                 sync(src, dst);
                 t0 = t1;
                 requestAnimationFrame(step)
@@ -146,11 +147,11 @@
     }
 
     $('#bl').click(function () {
-        scrollBy(di[0], de[0], -dx())
+        scrollBy(di[0], de[0], -dx(), 1000)
     });
 
     $('#br').click(function () {
-        scrollBy(di[0], de[0], dx())
+        scrollBy(di[0], de[0], dx(), 1000)
     });
 
 
