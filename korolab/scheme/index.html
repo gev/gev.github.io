@@ -115,7 +115,8 @@
         var x0 = src.scrollLeft;
         var x1 = x0 + dx;
         var x = x0;
-        function step(t1) {
+        function step() {
+            var t1 = performance.now();
             x += dx * (t1 - t0) / q;
             if ((x - x0) * (x - x0) >= dx * dx) {
                 src.scrollLeft = x1;
