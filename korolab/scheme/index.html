@@ -92,13 +92,14 @@
         dst.scrollLeft = Math.round(src.scrollLeft * k);
     }
 
-
+    var id;
     function scrollTo(src, dst) {
         return function (e) {
             if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
                 return true;
             var dx = e.deltaX * e.deltaFactor;
-            requestAnimationFrame(function () {
+            cancelAnimationFrame(id);
+            id = requestAnimationFrame(function () {
                 src.scrollLeft += dx;
                 sync(src, dst);
             });
@@ -115,7 +116,9 @@
         var x0 = src.scrollLeft;
         var x1 = x0 + dx;
         var x = x0;
+        var id;
         function step(t1) {
+            cancelAnimationFrame(id);
             x += dx * (t1 - t0) / 1000;
             if ((x - x0) * (x - x0) >= dx * dx) {
                 src.scrollLeft = x1;
@@ -124,10 +127,10 @@
                 src.scrollLeft = x;
                 sync(src, dst);
                 t0 = t1;
-                requestAnimationFrame(step)
+                id = requestAnimationFrame(step)
             }
         }
-        requestAnimationFrame(step)
+        id = requestAnimationFrame(step)
     }
 
     $('#bl').click(function () {
