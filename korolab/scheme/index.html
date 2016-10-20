@@ -22,6 +22,7 @@
             will-change: left;
             transition-property: left;
             transition-duration: 500ms;
+            animation-timing-function: ease-in-out
         }
 
         #de, #di {
@@ -115,9 +116,16 @@
 //    di.mousewheel(scrollTo(di[0], de[0]));
 //    de.mousewheel(scrollTo(de[0], di[0]));
 
+    function dx(src) {
+        var n = src.offsetWidth / document.body.clientWidth;
+        var m = Math.floor(n);
+        if (n > m) m++;
+        return Math.round(src.offsetWidth / m)
+    }
+
     function scrollBy(src, dst, delta) {
         var l = document.body.clientWidth - src.offsetWidth;
-        var x = src.offsetLeft - delta * 3 * document.body.clientWidth / 4;
+        var x = src.offsetLeft - delta * dx(src);
         x = x > 0 ? 0 : x < l ? l : x;
         src.style.left = x + 'px';
         sync(src, dst, x)
