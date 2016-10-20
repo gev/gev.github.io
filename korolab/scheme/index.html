@@ -116,10 +116,9 @@
         var x0 = src.scrollLeft;
         var x1 = x0 + dx;
         var x = x0;
-        var id;
         function step(t1) {
             cancelAnimationFrame(id);
-            x += dx * (t1 - t0) / 100;
+            x += dx * (t1 - t0) / 10000;
             if ((x - x0) * (x - x0) >= dx * dx) {
                 src.scrollLeft = x1;
                 sync(src, dst)
