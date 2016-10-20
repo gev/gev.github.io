@@ -117,10 +117,27 @@
     }
 
     function scrollBy(dx) {
-        di.animate({scrollLeft: di.scrollLeft() + dx}, {
-            progress : function(){sync(di, de)},
-            easing :'easeInOutSine'
-        });
+        var t0 = performance.now();
+        var x0 = di.scrollLeft();
+        var x1 = x0 + dx;
+        var x = x0;
+        function step(t1) {
+            x += dx * (t1 - t0) / 1000;
+            if ((x - x0) * (x - x0) >= dx * dx) {
+                di.scrollLeft(x1);
+                sync(di, de)
+            } else {
+                di.scrollLeft(x);
+                sync(di, de);
+                t0 = t1;
+                requestAnimationFrame(step)
+            }
+        }
+        requestAnimationFrame(step);
+//        di.animate({scrollLeft: di.scrollLeft() + dx}, {
+//            progress : function(){sync(di, de)},
+//            easing :'easeInOutSine'
+//        });
 //        di.scrollTo(di.scrollLeft() + dx, 500, {
 //            progress : function(){sync(di, de)},
 //            easing :'easeInOutSine',
