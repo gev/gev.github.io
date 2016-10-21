@@ -73,9 +73,8 @@
 
 <body>
 <div id='de'>
-    <object id='oe' type='image/svg+xml' data='equipment.svg'>
-        Your browser does not support SVG
-    </object>
+    <img id='oe' src='equipment.svg'>
+    </img>
 </div>
 <div id='di'>
     <object id='oi' type='image/svg+xml' data='interior.svg'>
@@ -109,10 +108,10 @@
 
     function scrollTo(src, dst) {
         return function (e) {
-//            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
-//                return true;
-//            var dx = e.deltaX * e.deltaFactor;
-            scrollBy(src, dst, 100, 0);
+            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
+                return true;
+            var dx = e.deltaX * e.deltaFactor;
+            scrollBy(src, dst, dx, 0);
             return false;
         }
     }
