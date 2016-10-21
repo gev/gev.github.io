@@ -73,14 +73,8 @@
 
 <body>
 <div id='de'>
-    <object id='oe' type='image/svg+xml' data='equipment.svg'>
-        Your browser does not support SVG
-    </object>
 </div>
 <div id='di'>
-    <object id='oi' type='image/svg+xml' data='interior.svg'>
-        Your browser does not support SVG
-    </object>
 </div>
 <button id='bl' class='scroller'><</button>
 <button id='br' class='scroller'>></button>
@@ -137,7 +131,7 @@
     $('#bl').click(scroll(-1));
     $('#br').click(scroll(1));
 
-    $('#di').mousewheel(scrollTo(oi, oe));
+    $(window).mousewheel(scrollTo(oi, oe));
     $('#de').mousewheel(scrollTo(oe, oi));
 
 </script>
