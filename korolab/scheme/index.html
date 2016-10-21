@@ -78,6 +78,9 @@
     </object>
 </div>
 <div id='di'>
+    <object id='oi' type='image/svg+xml' data='interior.svg'>
+        Your browser does not support SVG
+    </object>
 </div>
 <button id='bl' class='scroller'><</button>
 <button id='br' class='scroller'>></button>
@@ -106,10 +109,11 @@
 
     function scrollTo(src, dst) {
         return function (e) {
-//            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
-//                return true;
-//            var dx = e.deltaX * e.deltaFactor;
-            scrollBy(src, dst, 100, 0);
+            console.log(e);
+            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
+                return true;
+            var dx = e.deltaX * e.deltaFactor;
+            scrollBy(src, dst, dx, 0);
             return false;
         }
     }
