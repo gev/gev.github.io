@@ -109,10 +109,10 @@
 
     function scrollTo(src, dst) {
         return function (e) {
-            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
-                return true;
-            var dx = e.deltaX * e.deltaFactor;
-            scrollBy(src, dst, dx, 0);
+//            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
+//                return true;
+//            var dx = e.deltaX * e.deltaFactor;
+            scrollBy(src, dst, 100, 0);
             return false;
         }
     }
@@ -136,7 +136,7 @@
     $('#bl').click(scroll(-1));
     $('#br').click(scroll(1));
 
-    $(window).mousewheel(scrollTo(oi, oe));
+    $('#di').mousewheel(scrollTo(oi, oe));
     $('#de').mousewheel(scrollTo(oe, oi));
 
 </script>
