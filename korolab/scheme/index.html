@@ -7,11 +7,12 @@
             /*margin: 0;*/
             padding: 0;
             overflow: hidden;
+            user-select: none;
         }
 
         html, body {
             width: 100%;
-            height: 100%;
+            /*height: 100%;*/
         }
 
         object {
@@ -91,60 +92,55 @@
 
 <script>
 
-    $(function(){
+    function sync(src, dst, x) {
+        var k = (dst.offsetWidth - document.body.clientWidth)
+              / (src.offsetWidth - document.body.clientWidth);
+        dst.style.left = Math.round(x * k) + 'px'
+    }
 
-        function sync(src, dst, x) {
-            var k = (dst.offsetWidth - document.body.clientWidth)
-                / (src.offsetWidth - document.body.clientWidth);
-            dst.style.left = Math.round(x * k) + 'px'
+    function scrollBy(src, dst, dx, dt) {
+        dt += 'ms';
+        src.style.transitionDuration = dt;
+        dst.style.transitionDuration = dt;
+        var l = document.body.clientWidth - src.offsetWidth;
+        var x = src.offsetLeft - dx;
+        x = x > 0 ? 0 : x < l ? l : x;
+        src.style.left = x + 'px';
+        sync(src, dst, x)
+    }
+
+    function scrollTo(src, dst) {
+        return function (e) {
+            console.log(e);
+            if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
+                return true;
+            var dx = e.deltaX * e.deltaFactor;
+            scrollBy(src, dst, dx, 0);
+            return false;
         }
+    }
 
-        function scrollBy(src, dst, dx, dt) {
-            dt += 'ms';
-            src.style.transitionDuration = dt;
-            dst.style.transitionDuration = dt;
-            var l = document.body.clientWidth - src.offsetWidth;
-            var x = src.offsetLeft - dx;
-            x = x > 0 ? 0 : x < l ? l : x;
-            src.style.left = x + 'px';
-            sync(src, dst, x)
+    function dx(src) {
+        var n = src.offsetWidth / document.body.clientWidth;
+        var m = Math.floor(n);
+        if (n > m) m++;
+        return Math.round(src.offsetWidth / m)
+    }
+
+    function scroll(d) {
+        return function () {
+            scrollBy(oi, oe, d * dx(oi), 500)
         }
+    }
 
-        function scrollTo(src, dst) {
-            return function (e) {
-                console.log(e);
-                if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
-                    return true;
-                var dx = e.deltaX * e.deltaFactor;
-                scrollBy(src, dst, dx, 0);
-                return false;
-            }
-        }
+    var oe = $('#oe')[0];
+    var oi = $('#oi')[0];
 
-        function dx(src) {
-            var n = src.offsetWidth / document.body.clientWidth;
-            var m = Math.floor(n);
-            if (n > m) m++;
-            return Math.round(src.offsetWidth / m)
-        }
+    $('#bl').click(scroll(-1));
+    $('#br').click(scroll(1));
 
-        function scroll(d) {
-            return function () {
-                scrollBy(oi, oe, d * dx(oi), 500)
-            }
-        }
-
-        var oe = $('#oe')[0];
-        var oi = $('#oi')[0];
-
-        $('#bl').click(scroll(-1));
-        $('#br').click(scroll(1));
-
-        $('#di').mousewheel(scrollTo(oi, oe));
-        $('#de').mousewheel(scrollTo(oe, oi));
-
-    })
-
+    $('#di').mousewheel(scrollTo(oi, oe));
+    $('#de').mousewheel(scrollTo(oe, oi));
 
 </script>
 </body>
