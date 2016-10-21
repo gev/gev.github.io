@@ -23,7 +23,7 @@
             pointer-events: none;
             will-change: left;
             transition-property: left;
-            animation-timing-function: ease-in-out
+            animation-timing-function: ease-out
         }
 
         #de, #di {
@@ -89,8 +89,11 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js'></script>
 
 <script>
+
+    var id;
 
     function sync(src, dst, x) {
         var k = (dst.offsetWidth - document.body.clientWidth)
@@ -98,7 +101,8 @@
         dst.style.left = Math.round(x * k) + 'px'
     }
 
-    function scrollBy(src, dst, dx, dt) {
+    function shift(src, dst, dx, dt) {
+        cancelAnimationFrame(id);
         dt += 'ms';
         src.style.transitionDuration = dt;
         dst.style.transitionDuration = dt;
@@ -109,13 +113,12 @@
         sync(src, dst, x)
     }
 
-    function scrollTo(src, dst) {
+    function scroll(src, dst) {
         return function (e) {
-            console.log(e);
             if (e.deltaY * e.deltaY > e.deltaX*e.deltaX)
                 return true;
             var dx = e.deltaX * e.deltaFactor;
-            scrollBy(src, dst, dx, 0);
+            shift(src, dst, dx, 0);
             return false;
         }
     }
@@ -127,20 +130,74 @@
         return Math.round(src.offsetWidth / m)
     }
 
-    function scroll(d) {
+    function swipe(src, dst, d) {
         return function () {
-            scrollBy(oi, oe, d * dx(oi), 500)
+            shift(src, dst, d * dx(oi), 500)
+        }
+    }
+
+    function move(src, dst) {
+        return function (e) {
+            var touch = e.originalEvent.targetTouches[0];
+            var dx = src.touch.pageX - touch.pageX;
+            var dy = src.touch.pageY - touch.pageY;
+            src.v .push(dx / (e.timeStamp - src.t));
+            if (src.v.length > 3) src.v.shift();
+            src.t = e.timeStamp;
+            src.touch = touch;
+            if (dy * dy > dx * dx) return true;
+            shift(src, dst, dx, 0);
+            return false;
+        }
+    }
+
+    function start(src) {
+        return function (e) {
+            src.touch = e.originalEvent.targetTouches[0];
+            src.t = e.timeStamp;
+            src.v = [0, 0];
+        }
+    }
+
+    function end(src, dst) {
+        return function () {
+            console.log(src.v);
+            var t0 = performance.now();
+            var v0 = v = src.v.reduce(function(a, b) {return a + b}) / src.v.length;
+            var a = (v > 0 ? -1 : 1) / 500;
+            console.log('->', v);
+            function step() {
+                var t1 = performance.now();
+                var dt = (t1 - t0);
+                var dx = v * dt;
+                v += a * dt;
+                console.log(v, dx, dt);
+                if (v0 * v <= 0) return;
+                t0 = t1;
+                shift(src, dst, dx, 0);
+                id = requestAnimationFrame(step);
+            }
+            id = requestAnimationFrame(step);
         }
     }
 
     var oe = $('#oe')[0];
     var oi = $('#oi')[0];
 
-    $('#bl').click(scroll(-1));
-    $('#br').click(scroll(1));
+    $('#bl').click(swipe(oi, oe, -1));
+    $('#br').click(swipe(oi, oe, 1));
 
-    $('#di').mousewheel(scrollTo(oi, oe));
-    $('#de').mousewheel(scrollTo(oe, oi));
+    $('#di')
+        .on('touchstart', start(oi))
+        .on('touchmove', move(oi, oe))
+        .on('touchend', end(oi, oe))
+        .mousewheel(scroll(oi, oe));
+    $('#de')
+        .on('touchstart', start(oe))
+        .on('touchmove', move(oe, oi))
+        .on('touchend', end(oe, oi))
+        .mousewheel(scroll(oe, oi));
+
 
 </script>
 </body>
