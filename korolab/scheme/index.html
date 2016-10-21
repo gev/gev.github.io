@@ -164,7 +164,7 @@
             console.log(src.v);
             var t0 = performance.now();
             var v0 = v = src.v.reduce(function(a, b) {return a + b}) / src.v.length;
-            var a = (v > 0 ? -1 : 1) / 500;
+            var a = (v > 0 ? -1 : 1) / 400;
             console.log('->', v);
             function step() {
                 var t1 = performance.now();
