@@ -7,7 +7,7 @@ $(function () {
         cam: {
             style: GREEN_GLOW,
             caption: 'Камера наблюдения',
-            text: 'Показывают, что проиходит в холле у лифтов'
+            text: 'Показывает, что проиходит в холле у лифтов'
         },
         basip: {
             style: GREEN_GLOW,
