@@ -9,7 +9,7 @@ $(function () {
             style: GREEN_GLOW,
             title: 'Камера наблюдения',
             text: 'Показывает, что проиходит в холле у лифтов',
-            adjust: {x: -50, y: 0}
+            adjust: {x: -30, y: 0}
         },
         basip: {
             style: GREEN_GLOW,
@@ -77,11 +77,6 @@ $(function () {
             title: 'Встраваемые колонки',
             text: 'Проигрывают музыку, интеренет радио и передают системые сообщения',
             my: 'top right'
-        },
-        hallLighting : {
-            style: HALL_LIGHTING,
-            title: '',
-            text:''
         }
     };
 
