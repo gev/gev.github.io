@@ -213,6 +213,7 @@ $(function () {
         for (var i in m) {
             var e = svg.getElementById(i);
             e.setAttribute('class', m[i].style);
+            var p = m[i].position ||
             $(e).qtip({
                 content: {
                     text: m[i].caption + '\n' + m[i].text
