@@ -3,6 +3,8 @@
     padding: 0;
     overflow: hidden;
     user-select: none;
+    font-family: Sans;
+    font-size: 20px;
 }
 
 html, body {
@@ -12,11 +14,12 @@ html, body {
 
 object {
     height: 100%;
+    position: static;
 }
 
 #ce, #ci {
     top: 0;
-    left: 0;
+    left: -50%;
     height: 100%;
     position: absolute;
     will-change: left;

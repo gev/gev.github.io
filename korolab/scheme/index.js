@@ -62,7 +62,7 @@ $(function () {
         var l = document.body.clientWidth - src.offsetWidth;
         var x = src.offsetLeft - dx;
         x = x > 0 ? 0 : x < l ? l : x;
-        src.style.left = x + 'px';
+        src.style.left = Math.round(x) + 'px';
         sync(src, dst, x)
     }
 
@@ -80,7 +80,7 @@ $(function () {
         var n = src.offsetWidth / document.body.clientWidth;
         var m = Math.floor(n);
         if (n > m) m++;
-        return Math.round(src.offsetWidth / m)
+        return src.offsetWidth / m
     }
 
     function swipe(src, dst, d) {
@@ -92,8 +92,8 @@ $(function () {
     function move(src, dst) {
         return function (e) {
             var touch = e.originalEvent.targetTouches[0];
-            var dx = src.touch.pageX - touch.pageX;
-            var dy = src.touch.pageY - touch.pageY;
+            var dx = src.touch.screenX - touch.screenX;
+            var dy = src.touch.screenY - touch.screenY;
             src.v.push(dx / (e.timeStamp - src.t));
             if (src.v.length > 3) src.v.shift();
             src.t = e.timeStamp;
@@ -108,25 +108,22 @@ $(function () {
         return function (e) {
             src.touch = e.originalEvent.targetTouches[0];
             src.t = e.timeStamp;
-            src.v = [0, 0];
+            src.v = [0];
         }
     }
 
     function end(src, dst) {
         return function () {
-            console.log(src.v);
             var t0 = performance.now();
             var v0 = v = src.v.reduce(function (a, b) {
                     return a + b
                 }) / src.v.length;
             var a = (v > 0 ? -1 : 1) / 400;
-            console.log('->', v);
             function step() {
                 var t1 = performance.now();
                 var dt = (t1 - t0);
                 var dx = v * dt;
                 v += a * dt;
-                console.log(v, dx, dt);
                 if (v0 * v <= 0) return;
                 t0 = t1;
                 shift(src, dst, dx, 0);
