@@ -9,7 +9,7 @@ $(function () {
             style: GREEN_GLOW,
             title: 'Камера наблюдения',
             text: 'Показывает, что проиходит в холле у лифтов',
-            adjust: {x: -50, y: 0}
+            adjust: {x: -30, y: -30}
         },
         basip: {
             style: GREEN_GLOW,
@@ -35,7 +35,9 @@ $(function () {
         socket: {
             style: GREEN_GLOW,
             title: 'Управляемая розетка',
-            text: 'Не позволит оставить утюг включенным, когда все уйдут из дома'
+            text: 'Не позволит оставить утюг включенным, когда все уйдут из дома',
+            my: 'center center',
+            adjust: {x: -240, y: 40}
         },
         button: {
             style: GREEN_GLOW,
@@ -77,7 +79,7 @@ $(function () {
             title: 'Встраиваемые колонки',
             text: 'Проигрывают музыку, интернет радио и передают системые сообщения',
             my: 'top right',
-            adjust: {x: -105, y: 30}
+            adjust: {x: -50, y: 0}
         },
         hallLighting : {
             style: HALL_LIGHTING,
