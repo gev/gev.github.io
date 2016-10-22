@@ -174,12 +174,41 @@ $(function () {
     function swipe(src, dst, d) {
         return function () {
             shift(src, dst, d * dx(ci), 500)
+            return false;
         }
     }
 
-    function move(src, dst) {
+    function validMouse(e) {
+        return e.originalEvent.button === 0 && e.originalEvent.buttons === 1
+    }
+
+    function validTouch(e) {
+        return e.originalEvent.targetTouches === 1
+    }
+
+    function getMouse(e) {
+        return e.originalEvent
+    }
+
+    function getTouch(e) {
+        return e.originalEvent.targetTouches[0]
+    }
+
+    function start(src, get, valid) {
         return function (e) {
-            var touch = e.originalEvent.targetTouches[0];
+            if (!valid(e)) return true;
+            src.touch = get(e);
+            src.t = e.timeStamp;
+            src.v = [0];
+            return false;
+        }
+    }
+
+    function move(src, dst, valid, get) {
+        return function (e) {
+            if (!valid(e)) return true;
+            if (!src.touch) return true;
+            var touch = get(e);
             var dx = src.touch.screenX - touch.screenX;
             var dy = src.touch.screenY - touch.screenY;
             src.v.push(dx / (e.timeStamp - src.t));
@@ -192,16 +221,10 @@ $(function () {
         }
     }
 
-    function start(src) {
+    function end(src, dst, valid) {
         return function (e) {
-            src.touch = e.originalEvent.targetTouches[0];
-            src.t = e.timeStamp;
-            src.v = [0];
-        }
-    }
-
-    function end(src, dst) {
-        return function () {
+            if (!valid(e)) return true;
+            if (!src.v) return true;
             var t0 = performance.now();
             var v0 = v = src.v.reduce(function (a, b) {
                     return a + b
@@ -220,6 +243,12 @@ $(function () {
             }
 
             id = requestAnimationFrame(step);
+
+            delete src.touch;
+            delete src.v;
+            delete src.t;
+
+            return false;
         }
     }
 
@@ -251,9 +280,12 @@ $(function () {
             var svg = o.getSVGDocument();
             $(svg)
                 .find('svg')
-                .on('touchstart', start(src))
-                .on('touchmove', move(src, dst))
-                .on('touchend', end(src, dst))
+                .mousedown(start(src, validMouse, getMouse))
+                .on('touchstart', start(src, validTouch, getTouch))
+                .mousemove(move(src, dst, validMouse, getMouse))
+                .on('touchmove', move(src, dst, validTouch, getTouch))
+                .mouseup(end(src, dst, validMouse))
+                .on('touchend', end(src, validTouch, dst))
                 .mousewheel(scroll(src, dst));
             map(svg, m, conteiner)
         })
