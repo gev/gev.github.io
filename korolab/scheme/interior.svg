@@ -161,7 +161,7 @@
          id="feComponentTransfer26">
         <feFuncA
            type="linear"
-           slope="0.6"
+           slope="0.9"
            id="feFuncA28" />
       </feComponentTransfer>
       <feOffset
@@ -248,7 +248,7 @@
          id="feComponentTransfer68">
         <feFuncA
            type="linear"
-           slope="0.6"
+           slope="0.9"
            id="feFuncA70" />
       </feComponentTransfer>
       <feOffset
@@ -273,7 +273,7 @@
            id="feFuncB80" />
       </feComponentTransfer>
       <feGaussianBlur
-         stdDeviation="64"
+         stdDeviation="128"
          id="feGaussianBlur82" />
       <feOffset
          dx="0"
@@ -281,7 +281,7 @@
          result="s1"
          id="feOffset84" />
       <feGaussianBlur
-         stdDeviation="32"
+         stdDeviation="64"
          id="feGaussianBlur86" />
       <feOffset
          dx="0"
@@ -289,7 +289,7 @@
          result="s2"
          id="feOffset88" />
       <feGaussianBlur
-         stdDeviation="16"
+         stdDeviation="32"
          id="feGaussianBlur90" />
       <feOffset
          dx="0"
@@ -297,7 +297,7 @@
          result="s3"
          id="feOffset92" />
       <feGaussianBlur
-         stdDeviation="8"
+         stdDeviation="16"
          id="feGaussianBlur94" />
       <feOffset
          dx="0"
@@ -2754,6 +2754,7 @@
      x="3263.9141"
      id="hallLighting"
      preserveAspectRatio="none"
+     opacity="0"
      height="109.11201"
      width="163.66805" />
   <image
@@ -2762,6 +2763,7 @@
      width="180.78381"
      height="99.986572"
      preserveAspectRatio="none"
+     opacity="0"
      id="bedroomLeftLamp"
      x="7471.8091"
      y="479.79218" />
@@ -2771,7 +2773,8 @@
      width="180.2863"
      height="98.609634"
      preserveAspectRatio="none"
-     id="image9862"
+     opacity="0"
+     id="bedroomRightLamp"
      x="8538.8359"
      y="480.05814" />
 </svg>

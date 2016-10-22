@@ -1,10 +1,26 @@
+.hall-lighting {
+    opacity: 0;
+}
+
 .hall-lighting:hover {
+    opacity: 1;
     filter: url(#hall-lighting);
 }
 
-.bedroom-lighting:hover {
-    filter: url(#hall-lighting);
+
+
+
+.bedroom-lighting {
+    opacity: 0;
 }
+
+.bedroom-lighting:hover {
+    opacity: 1;
+    filter: url(#bedroom-lighting);
+}
+
+
+
 
 .green-glow:hover {
     filter: url(#green-glow);
