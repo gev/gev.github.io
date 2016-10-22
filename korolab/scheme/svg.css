@@ -1,3 +1,7 @@
+.hall-lighting:hover {
+    filter: url(#hall-lighting);
+}
+
 .green-glow:hover {
     filter: url(#green-glow);
 }

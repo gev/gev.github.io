@@ -1,5 +1,6 @@
 $(function () {
 
+    var HALL_LIGHTING = 'hall-lighting';
     var GREEN_GLOW = 'green-glow';
     var SCALE = 'scale';
 
@@ -76,6 +77,11 @@ $(function () {
             title: 'Встраваемые колонки',
             text: 'Проигрывают музыку, интеренет радио и передают системые сообщения',
             my: 'top right'
+        },
+        hallLighting : {
+            style: HALL_LIGHTING,
+            title: '',
+            text:''
         }
     };
 
