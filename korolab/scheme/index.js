@@ -31,7 +31,9 @@ $(function () {
         motionSensor: {
             style: GREEN_GLOW,
             title: 'Датчик движения',
-            text: 'Автоматически управляет светом в коридоре'
+            text: 'Автоматически управляет светом в коридоре',
+            my: 'center center',
+            adjust: {x: -180, y: -80}
         },
         socket: {
             style: GREEN_GLOW,
@@ -85,17 +87,19 @@ $(function () {
         hallLighting : {
             style: HALL_LIGHTING,
             title: 'Торшер',
-            text:'Автоматически регулирует яркость света в светлое и темное время суток'
+            text:'Автоматически регулирует яркость света в светлое и темное время суток',
+            my: 'top right',
+            adjust: {x: -80, y: 0}
         },
         bedroomLeftLamp : {
             style: BEDROOM_LIGHTING,
-            title: 'Торшер',
-            text:'Автоматически регулирует яркость света в светлое и темное время суток'
+            title: 'Люстра',
+            text:'Создает приятную подсветку в спальне'
         },
         bedroomRightLamp : {
             style: BEDROOM_LIGHTING,
-            title: 'Торшер',
-            text:'Автоматически регулирует яркость света в светлое и темное время суток'
+            title: 'Люстра',
+            text:'Создает приятную подсветку в спальне'
         }
     };
 
