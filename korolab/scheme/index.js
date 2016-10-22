@@ -144,9 +144,9 @@ $(function () {
                     text: i
                 },
                 position: {
-                    my: 'top left',
+                    my: 'top center',
                     at: 'center center',
-                    adjust: { x: 0, y: 0 }
+                    adjust: { x: 0, y: 10 }
                 },
                 style: {
                     classes: 'qtip-bootstrap qtip-shadow'
