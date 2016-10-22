@@ -1,5 +1,35 @@
-.green:hover {
+.green-glow:hover {
+    filter: url(#green-glow);
+}
 
-    filter: url(#glow);
+@keyframes scale {
+    from    {
+        transform-origin: 50% 50%;
+        transform: scale(1);
+    }
+    to {
+        transform-origin: 50% 50%;
+        transform: scale(1.3);
+    }
+}
 
+@keyframes unscale {
+    from    {
+        transform-origin: 50% 50%;
+        transform: scale(1.3);
+    }
+    to {
+        transform-origin: 50% 50%;
+        transform: scale(1);
+    }
+}
+
+.scale {
+    animation: unscale 1s;
+    animation-fill-mode: forwards
+}
+
+.scale:hover {
+    animation: scale 1s;
+    animation-fill-mode: forwards
 }

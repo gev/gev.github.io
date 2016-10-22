@@ -77,7 +77,7 @@
 
     <defs id="defs4">
 
-        <filter id="glow" x="-200%" y="-200%" width="400%" height="400%"
+        <filter id="green-glow" x="-200%" y="-200%" width="400%" height="400%"
                 filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
             <feComponentTransfer in="SourceAlpha">
                 <feFuncR type="discrete" tableValues=""/>

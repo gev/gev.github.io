@@ -1,50 +1,79 @@
 $(function () {
 
-    var GREEN = 'green';
+    var GREEN_GLOW = 'green-glow';
+    var SCALE = 'scale';
 
     var mapi = {
         cam: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         basip: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         finger: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         ipad: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         motionSensor: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         socket: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         button: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         hallCond: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         bedroomCond: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         livingUnifi: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         bedroomUnifi: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         kitchenAcoustics: {
-            clazz: GREEN
+            style: GREEN_GLOW
         },
         bathroomAcoustics: {
-            clazz: GREEN
+            style: GREEN_GLOW
         }
     };
 
-    var mape = {};
+    var mape = {
+        mikrotik : {
+            style : SCALE
+        },
+        plc : {
+            style : SCALE
+        },
+        zotac : {
+            style : SCALE
+        },
+        appletv : {
+            style : SCALE
+        },
+        iphone : {
+            style : SCALE
+        },
+        trendent : {
+            style : SCALE
+        },
+        gsm : {
+            style : SCALE
+        },
+        server : {
+            style : SCALE
+        },
+        pioneer : {
+            style : SCALE
+        }
+    };
 
     var id;
 
@@ -137,7 +166,7 @@ $(function () {
     function map(svg, m, conteiner) {
         for (var i in m) {
             var e = svg.getElementById(i);
-            e.setAttribute('class', m[i].clazz);
+            e.setAttribute('class', m[i].style);
             $(e).qtip({
                 content: {
                     text: i
