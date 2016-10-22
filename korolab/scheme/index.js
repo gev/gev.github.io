@@ -113,12 +113,12 @@ $(function () {
         zotac: {
             style: SCALE,
             title: 'Медиаплеер',
-            text: 'Показывает фильмы из домашней библиотеки и интернет телевидение'
+            text: 'Показывает фильмы из домашней медиатеки и интернет телевидение'
         },
         appletv: {
             style: SCALE,
             title: 'APPLE TV',
-            text: 'Показывает контент из APPLE store и вопроизводит потоки по AirPlay'
+            text: 'Показывает контент из APPLE store и вопроизводит потоки AirPlay'
         },
         iphone: {
             style: SCALE,
