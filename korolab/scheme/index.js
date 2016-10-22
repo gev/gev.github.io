@@ -5,73 +5,117 @@ $(function () {
 
     var mapi = {
         cam: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         basip: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         finger: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         ipad: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         motionSensor: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         socket: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         button: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         hallCond: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         bedroomCond: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         livingUnifi: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         bedroomUnifi: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         kitchenAcoustics: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         },
         bathroomAcoustics: {
-            style: GREEN_GLOW
+            style: GREEN_GLOW,
+            caption: '',
+            text: ''
         }
     };
 
     var mape = {
-        mikrotik : {
-            style : SCALE
+        mikrotik: {
+            style: SCALE,
+            caption: '',
+            text: ''
         },
-        plc : {
-            style : SCALE
+        plc: {
+            style: SCALE,
+            caption: '',
+            text: ''
         },
-        zotac : {
-            style : SCALE
+        zotac: {
+            style: SCALE,
+            caption: '',
+            text: ''
         },
-        appletv : {
-            style : SCALE
+        appletv: {
+            style: SCALE,
+            caption: '',
+            text: ''
         },
-        iphone : {
-            style : SCALE
+        iphone: {
+            style: SCALE,
+            caption: '',
+            text: ''
         },
-        trendent : {
-            style : SCALE
+        trendent: {
+            style: SCALE,
+            caption: '',
+            text: ''
         },
-        gsm : {
-            style : SCALE
+        gsm: {
+            style: SCALE,
+            caption: '',
+            text: ''
         },
-        server : {
-            style : SCALE
+        server: {
+            style: SCALE,
+            caption: '',
+            text: ''
         },
-        pioneer : {
-            style : SCALE
+        pioneer: {
+            style: SCALE,
+            caption: '',
+            text: ''
         }
     };
 
@@ -148,6 +192,7 @@ $(function () {
                     return a + b
                 }) / src.v.length;
             var a = (v > 0 ? -1 : 1) / 400;
+
             function step() {
                 var t1 = performance.now();
                 var dt = (t1 - t0);
@@ -186,7 +231,7 @@ $(function () {
 
     function init(conteiner, src, dst, m) {
         var o = conteiner.find('object')[0];
-        o.addEventListener('load', function() {
+        o.addEventListener('load', function () {
             var svg = o.getSVGDocument();
             $(svg)
                 .find('svg')
@@ -198,8 +243,10 @@ $(function () {
         })
     }
 
-    var $ce = $('#ce'); var ce = $ce[0];
-    var $ci = $('#ci'); var ci = $ci[0];
+    var $ce = $('#ce');
+    var ce = $ce[0];
+    var $ci = $('#ci');
+    var ci = $ci[0];
 
     init($ce, ce, ci, mape);
     init($ci, ci, ce, mapi);
