@@ -3,18 +3,27 @@
     padding: 0;
     overflow: hidden;
     user-select: none;
-    font-family: Sans;
+    font-family: Helvetica, "Helvetica Neue", Sans;
 }
 
 html, body {
     width: 100%;
     height: 100%;
     font-size: 20px;
+    background: white;
 }
 
 object {
-    height: 100%;
     position: static;
+    background: transparent;
+}
+
+#oe {
+    height: 50%;
+}
+
+#oi {
+    height: 100%;
 }
 
 #ce, #ci {
@@ -22,6 +31,8 @@ object {
     left: 0;
     height: 100%;
     position: absolute;
+    overflow-clip: none;
+    background: transparent;
     will-change: left;
     transition-property: left;
     animation-timing-function: ease-in-out
@@ -31,11 +42,13 @@ object {
     left: 0;
     width: 100%;
     position: absolute;
+    overflow-clip: none;
+    background: transparent;
 }
 
 #de {
     top: 0;
-    height: 32.2%;
+    height: 64.4%;
 }
 
 #di {

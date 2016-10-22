@@ -173,7 +173,7 @@
                         id="feFuncG11"/>
                 <feFuncB
                         type="discrete"
-                        tableValues="0.7"
+                        tableValues="0.4"
                         id="feFuncB13"/>
             </feComponentTransfer>
             <feGaussianBlur
