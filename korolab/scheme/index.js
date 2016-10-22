@@ -6,7 +6,7 @@ $(function () {
     var mapi = {
         cam: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Камера наблюдения',
             text: ''
         },
         basip: {
@@ -214,7 +214,7 @@ $(function () {
             e.setAttribute('class', m[i].style);
             $(e).qtip({
                 content: {
-                    text: i
+                    text: m[i].caption + '\n' + m[i].text
                 },
                 position: {
                     my: 'top center',
