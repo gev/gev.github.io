@@ -11,53 +11,53 @@ $(function () {
         },
         basip: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Видеодомофон',
             text: ''
         },
         finger: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Сканер отпечатка файла',
             text: ''
         },
         ipad: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Настенная панель',
             text: ''
         },
         motionSensor: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Датчик движения',
             text: ''
         },
         socket: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Управляемая розетка',
             text: ''
         },
         button: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Кнопки управления',
             text: ''
         },
         hallCond: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Кондиционер',
             text: ''
         },
         bedroomCond: {
             style: GREEN_GLOW,
-            caption: '',
+            caption: 'Кондиционер',
             text: ''
         },
         livingUnifi: {
             style: GREEN_GLOW,
-            caption: '',
-            text: ''
+            caption: 'Wi-Fi точка доступа',
+            text: 'Раздает интернет в гостинной'
         },
         bedroomUnifi: {
             style: GREEN_GLOW,
-            caption: '',
-            text: ''
+            caption: 'Wi-Fi точка доступа',
+            text: 'Раздает интернет в ванной комнате'
         },
         kitchenAcoustics: {
             style: GREEN_GLOW,
