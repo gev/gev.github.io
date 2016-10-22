@@ -6,68 +6,68 @@ $(function () {
     var mapi = {
         cam: {
             style: GREEN_GLOW,
-            caption: 'Камера наблюдения',
+            title: 'Камера наблюдения',
             text: 'Показывает, что проиходит в холле у лифтов'
         },
         basip: {
             style: GREEN_GLOW,
-            caption: 'Видеодомофон',
+            title: 'Видеодомофон',
             text: 'Позволяет хозяину поговорить с гостями и открыть им дверь'
         },
         finger: {
             style: GREEN_GLOW,
-            caption: 'Сканер отпечатка пальца',
+            title: 'Сканер отпечатка пальца',
             text: 'При уходе из кватиры запускает сценарий "ухожу из дома", котрый выключает весь свет, отключает управляемые розетки, переводит климат-контроль в режим экомии и включает охрану' +
             'При возващении домой запускает сценарий "пришел домой", который выключает охрану и переводит климат контороль в комфортный режим'
         },
         ipad: {
             style: GREEN_GLOW,
-            caption: 'Настенная панель',
+            title: 'Настенная панель',
             text: 'Позволяет управлять всеми функциями умного дома'
         },
         motionSensor: {
             style: GREEN_GLOW,
-            caption: 'Датчик движения',
+            title: 'Датчик движения',
             text: 'Автоматически управляет светом в коридоре'
         },
         socket: {
             style: GREEN_GLOW,
-            caption: 'Управляемая розетка',
+            title: 'Управляемая розетка',
             text: ''
         },
         button: {
             style: GREEN_GLOW,
-            caption: 'Кнопки управления',
+            title: 'Кнопки управления',
             text: 'регулируют яркость света'
         },
         hallCond: {
             style: GREEN_GLOW,
-            caption: 'Кондиционер',
+            title: 'Кондиционер',
             text: 'Поддерживает комфортную температуру летом'
         },
         bedroomCond: {
             style: GREEN_GLOW,
-            caption: 'Кондиционер',
+            title: 'Кондиционер',
             text: 'Поддерживает комфортную температуру летом'
         },
         livingUnifi: {
             style: GREEN_GLOW,
-            caption: 'Wi-Fi точка доступа',
+            title: 'Wi-Fi точка доступа',
             text: 'Раздает интернет в гостинной'
         },
         bedroomUnifi: {
             style: GREEN_GLOW,
-            caption: 'Wi-Fi точка доступа',
+            title: 'Wi-Fi точка доступа',
             text: 'Раздает интернет в ванной комнате'
         },
         kitchenAcoustics: {
             style: GREEN_GLOW,
-            caption: 'Встраваемые колонки',
+            title: 'Встраваемые колонки',
             text: 'Проигрывают музыку, интеренет радио и передают системые сообщения'
         },
         bathroomAcoustics: {
             style: GREEN_GLOW,
-            caption: 'Встраваемые колонки',
+            title: 'Встраваемые колонки',
             text: 'Проигрывают музыку, интеренет радио и передают системые сообщения'
         }
     };
@@ -75,47 +75,47 @@ $(function () {
     var mape = {
         mikrotik: {
             style: SCALE,
-            caption: 'Роутер',
+            title: 'Роутер',
             text: 'Раздает интернет и обеспечивает внешнее управление умным домом'
         },
         plc: {
             style: SCALE,
-            caption: 'Контроллер управления',
+            title: 'Контроллер управления',
             text: 'Сердце системы - управляет всеми функциями '
         },
         zotac: {
             style: SCALE,
-            caption: 'Медиаплеер',
+            title: 'Медиаплеер',
             text: 'Показывает фильмы из домашней библитеки и интернет телевидение'
         },
         appletv: {
             style: SCALE,
-            caption: 'APPLE TV',
+            title: 'APPLE TV',
             text: 'Показывает контент из APPLE store и вопроизводит потоки по AirPlay'
         },
         iphone: {
             style: SCALE,
-            caption: 'iPhone',
+            title: 'iPhone',
             text: 'Управляет всеми функция умного дома'
         },
         trendent: {
             style: SCALE,
-            caption: 'Коммутатор',
+            title: 'Коммутатор',
             text: 'Объединяет все IP устройства в единую сеть'
         },
         gsm: {
             style: SCALE,
-            caption: 'GSM модем',
+            title: 'GSM модем',
             text: 'Сообщает хозяину о проишествиях призошедших в доме'
         },
         server: {
             style: SCALE,
-            caption: 'Собирает и передает данные панелям управления, упрвляет домашеней мультимедия системой и системой голосового информирования',
+            title: 'Собирает и передает данные панелям управления, упрвляет домашеней мультимедия системой и системой голосового информирования',
             text: ''
         },
         pioneer: {
             style: SCALE,
-            caption: 'AV ресивер',
+            title: 'AV ресивер',
             text: 'Выдает многоканальный звук для домашего кинотеатра'
         }
     };
@@ -213,15 +213,15 @@ $(function () {
         for (var i in m) {
             var e = svg.getElementById(i);
             e.setAttribute('class', m[i].style);
-            var p = m[i].position ||
             $(e).qtip({
                 content: {
-                    text: m[i].caption + '\n' + m[i].text
+                    title: m[i].title,
+                    text: m[i].text
                 },
                 position: {
-                    my: 'top center',
-                    at: 'center center',
-                    adjust: {x: 0, y: 10},
+                    my: m[i].my || 'top center',
+                    at: m[i].at || 'center center',
+                    adjust: m[i].adjust || {x: 0, y: 10},
                     container: conteiner
                 },
                 style: {
