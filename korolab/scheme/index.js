@@ -47,7 +47,7 @@ $(function () {
             title: 'Кондиционер',
             text: 'Поддерживает комфортную температуру летом',
             my: 'top center',
-            adjust: {x: -90, y: 0}
+            adjust: {x: -90, y: 30}
             
         },
         bedroomCond: {
@@ -55,7 +55,7 @@ $(function () {
             title: 'Кондиционер',
             text: 'Поддерживает комфортную температуру летом',
             my: 'top center',
-            adjust: {x: -105, y: 0}
+            adjust: {x: -105, y: 30}
         },
         livingUnifi: {
             style: GREEN_GLOW,
