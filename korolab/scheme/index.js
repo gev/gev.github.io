@@ -28,7 +28,7 @@ $(function () {
         motionSensor: {
             style: GREEN_GLOW,
             caption: 'Датчик движения',
-            text: 'Автоматически включает свет'
+            text: 'Автоматически управляет светом в коридоре'
         },
         socket: {
             style: GREEN_GLOW,
