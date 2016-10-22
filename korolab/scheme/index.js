@@ -7,27 +7,28 @@ $(function () {
         cam: {
             style: GREEN_GLOW,
             caption: 'Камера наблюдения',
-            text: ''
+            text: 'Показывают, что проиходит в холле у лифтов'
         },
         basip: {
             style: GREEN_GLOW,
             caption: 'Видеодомофон',
-            text: ''
+            text: 'Позволяет хозяину поговорить с гостями и открыть им дверь'
         },
         finger: {
             style: GREEN_GLOW,
-            caption: 'Сканер отпечатка файла',
-            text: ''
+            caption: 'Сканер отпечатка пальца',
+            text: 'При уходе из кватиры запускает сценарий "ухожу из дома", котрый выключает весь свет, отключает управляемые розетки, переводит климат-контроль в режим экомии и включает охрану' +
+            'При возващении домой запускает сценарий "пришел домой", который выключает охрану и переводит климат контороль в комфортный режим'
         },
         ipad: {
             style: GREEN_GLOW,
             caption: 'Настенная панель',
-            text: ''
+            text: 'Позволяет управлять всеми функциями умного дома'
         },
         motionSensor: {
             style: GREEN_GLOW,
             caption: 'Датчик движения',
-            text: ''
+            text: 'Автоматически включает свет'
         },
         socket: {
             style: GREEN_GLOW,
@@ -37,17 +38,17 @@ $(function () {
         button: {
             style: GREEN_GLOW,
             caption: 'Кнопки управления',
-            text: ''
+            text: 'регулируют яркость света'
         },
         hallCond: {
             style: GREEN_GLOW,
             caption: 'Кондиционер',
-            text: ''
+            text: 'Поддерживает комфортную температуру летом'
         },
         bedroomCond: {
             style: GREEN_GLOW,
             caption: 'Кондиционер',
-            text: ''
+            text: 'Поддерживает комфортную температуру летом'
         },
         livingUnifi: {
             style: GREEN_GLOW,
@@ -61,61 +62,61 @@ $(function () {
         },
         kitchenAcoustics: {
             style: GREEN_GLOW,
-            caption: '',
-            text: ''
+            caption: 'Встраваемые колонки',
+            text: 'Проигрывают музыку, интеренет радио и передают системые сообщения'
         },
         bathroomAcoustics: {
             style: GREEN_GLOW,
-            caption: '',
-            text: ''
+            caption: 'Встраваемые колонки',
+            text: 'Проигрывают музыку, интеренет радио и передают системые сообщения'
         }
     };
 
     var mape = {
         mikrotik: {
             style: SCALE,
-            caption: '',
-            text: ''
+            caption: 'Роутер',
+            text: 'Раздает интернет и обеспечивает внешнее управление умным домом'
         },
         plc: {
             style: SCALE,
-            caption: '',
-            text: ''
+            caption: 'Контроллер управления',
+            text: 'Сердце системы - управляет всеми функциями '
         },
         zotac: {
             style: SCALE,
-            caption: '',
-            text: ''
+            caption: 'Медиаплеер',
+            text: 'Показывает фильмы из домашней библитеки и интернет телевидение'
         },
         appletv: {
             style: SCALE,
-            caption: '',
-            text: ''
+            caption: 'APPLE TV',
+            text: 'Показывает контент из APPLE store и вопроизводит потоки по AirPlay'
         },
         iphone: {
             style: SCALE,
-            caption: '',
-            text: ''
+            caption: 'iPhone',
+            text: 'Управляет всеми функция умного дома'
         },
         trendent: {
             style: SCALE,
-            caption: '',
-            text: ''
+            caption: 'Коммутатор',
+            text: 'Объединяет все IP устройства в единую сеть'
         },
         gsm: {
             style: SCALE,
-            caption: '',
-            text: ''
+            caption: 'GSM модем',
+            text: 'Сообщает хозяину о проишествиях призошедших в доме'
         },
         server: {
             style: SCALE,
-            caption: '',
+            caption: 'Собирает и передает данные панелям управления, упрвляет домашеней мультимедия системой и системой голосового информирования',
             text: ''
         },
         pioneer: {
             style: SCALE,
-            caption: '',
-            text: ''
+            caption: 'AV ресивер',
+            text: 'Выдает многоканальный звук для домашего кинотеатра'
         }
     };
 
