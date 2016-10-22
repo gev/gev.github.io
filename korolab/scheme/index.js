@@ -2,47 +2,49 @@ $(function () {
 
     var GREEN = 'green';
 
-    var mape = {
+    var mapi = {
         cam: {
-            clazz : GREEN
+            clazz: GREEN
         },
         basip: {
-            clazz : GREEN
+            clazz: GREEN
         },
         finger: {
-            clazz : GREEN
+            clazz: GREEN
         },
         ipad: {
-            clazz : GREEN
+            clazz: GREEN
         },
         motionSensor: {
-            clazz : GREEN
+            clazz: GREEN
         },
         socket: {
-            clazz : GREEN
+            clazz: GREEN
         },
         button: {
-            clazz : GREEN
+            clazz: GREEN
         },
         hallCond: {
-            clazz : GREEN
+            clazz: GREEN
         },
         bedroomCond: {
-            clazz : GREEN
+            clazz: GREEN
         },
         livingUnifi: {
-            clazz : GREEN
+            clazz: GREEN
         },
         bedroomUnifi: {
-            clazz : GREEN
+            clazz: GREEN
         },
         kitchenAcoustics: {
-            clazz : GREEN
+            clazz: GREEN
         },
         bathroomAcoustics: {
-            clazz : GREEN
+            clazz: GREEN
         }
     };
+
+    var mape = {};
 
     var id;
 
@@ -136,7 +138,7 @@ $(function () {
     }
 
     function map(svg, m) {
-        for (var i in mape) {
+        for (var i in m) {
             var e = svg.getElementById(i);
             e.setAttribute('class', m[i].clazz);
             $(e).qtip({
@@ -146,7 +148,7 @@ $(function () {
                 position: {
                     my: 'top center',
                     at: 'center center',
-                    adjust: { x: 0, y: 10 }
+                    adjust: {x: 0, y: 10}
                 },
                 style: {
                     classes: 'qtip-bootstrap qtip-shadow'
@@ -155,29 +157,27 @@ $(function () {
         }
     }
 
+    function init(src, dst, m) {
+        src.addEventListener('load', function() {
+            var svg = src.getSVGDocument();
+            $(svg)
+                .find('svg')
+                .on('touchstart', start(src))
+                .on('touchmove', move(src, dst))
+                .on('touchend', end(src, dst))
+                .mousewheel(scroll(src, dst));
+            map(svg, m)
+        })
+    }
+
     var oe = $('#oe')[0];
     var oi = $('#oi')[0];
 
-    var svgi = oi.getSVGDocument();
-    var svge = oe.getSVGDocument();
-
-    map(svgi,mape);
+    init(oe, oi, mape);
+    init(oi, oe, mapi);
 
     $('#bl').click(swipe(oi, oe, -1));
     $('#br').click(swipe(oi, oe, 1));
-
-    $(svgi)
-        .find('svg')
-        .on('touchstart', start(oi))
-        .on('touchmove', move(oi, oe))
-        .on('touchend', end(oi, oe))
-        .mousewheel(scroll(oi, oe));
-    $(svge)
-        .find('svg')
-        .on('touchstart', start(oe))
-        .on('touchmove', move(oe, oi))
-        .on('touchend', end(oe, oi))
-        .mousewheel(scroll(oe, oi));
 
 
 });
