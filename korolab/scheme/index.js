@@ -80,8 +80,8 @@ $(function () {
         },
         hallLighting : {
             style: HALL_LIGHTING,
-            title: '',
-            text:''
+            title: 'Торшер',
+            text:'Автоматически регулирует яркость света в светлое и темное время суток'
         }
     };
 
