@@ -160,6 +160,14 @@
                 height="400%"
                 filterUnits="userSpaceOnUse"
                 color-interpolation-filters="sRGB">
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.6"/>
+            </feComponentTransfer>
+            <feOffset
+                    dx="0"
+                    dy="0"
+                    result="s5"
+                    id="feOffset31"/>
             <feComponentTransfer
                     in="SourceAlpha"
                     id="feComponentTransfer7">
@@ -223,8 +231,94 @@
                         in="s1"
                         id="feMergeNode39"/>
                 <feMergeNode
-                        in="SourceGraphic"
-                        id="feMergeNode41"/>
+                        in="s5"/>
+            </feMerge>
+        </filter>
+
+
+
+
+
+        <filter
+                id="bedroom-lighting"
+                x="-200%"
+                y="-200%"
+                width="400%"
+                height="400%"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.6"/>
+            </feComponentTransfer>
+            <feOffset
+                    dx="0"
+                    dy="0"
+                    result="s5"
+                    id="feOffset31"/>
+            <feComponentTransfer
+                    in="SourceAlpha"
+                    id="feComponentTransfer7">
+                <feFuncR
+                        type="discrete"
+                        tableValues="1"
+                        id="feFuncR9"/>
+                <feFuncG
+                        type="discrete"
+                        tableValues="1"
+                        id="feFuncG11"/>
+                <feFuncB
+                        type="discrete"
+                        tableValues="0.8"
+                        id="feFuncB13"/>
+            </feComponentTransfer>
+            <feGaussianBlur
+                    stdDeviation="64"
+                    id="feGaussianBlur15"/>
+            <feOffset
+                    dx="0"
+                    dy="0"
+                    result="s1"
+                    id="feOffset17"/>
+            <feGaussianBlur
+                    stdDeviation="32"
+                    id="feGaussianBlur19"/>
+            <feOffset
+                    dx="0"
+                    dy="0"
+                    result="s2"
+                    id="feOffset21"/>
+            <feGaussianBlur
+                    stdDeviation="16"
+                    id="feGaussianBlur23"/>
+            <feOffset
+                    dx="0"
+                    dy="0"
+                    result="s3"
+                    id="feOffset25"/>
+            <feGaussianBlur
+                    stdDeviation="8"
+                    id="feGaussianBlur27"/>
+            <feOffset
+                    dx="0"
+                    dy="0"
+                    result="s4"
+                    id="feOffset29"/>
+            <feMerge
+                    id="feMerge31">
+                <feMergeNode
+                        in="s4"
+                        id="feMergeNode33"/>
+                <feMergeNode
+                        in="s3"
+                        id="feMergeNode35"/>
+                <feMergeNode
+                        in="s2"
+                        id="feMergeNode37"/>
+                <feMergeNode
+                        in="s1"
+                        id="feMergeNode39"/>
+                <feMergeNode
+                        in="s5"/>
             </feMerge>
         </filter>
 

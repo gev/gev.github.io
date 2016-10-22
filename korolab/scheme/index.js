@@ -1,5 +1,6 @@
 $(function () {
 
+    var BEDROOM_LIGHTING = 'bedroom-lighting';
     var HALL_LIGHTING = 'hall-lighting';
     var GREEN_GLOW = 'green-glow';
     var SCALE = 'scale';
@@ -83,6 +84,16 @@ $(function () {
         },
         hallLighting : {
             style: HALL_LIGHTING,
+            title: 'Торшер',
+            text:'Автоматически регулирует яркость света в светлое и темное время суток'
+        },
+        bedroomLeftLamp : {
+            style: BEDROOM_LIGHTING,
+            title: 'Торшер',
+            text:'Автоматически регулирует яркость света в светлое и темное время суток'
+        },
+        bedroomRightLamp : {
+            style: BEDROOM_LIGHTING,
             title: 'Торшер',
             text:'Автоматически регулирует яркость света в светлое и темное время суток'
         }
