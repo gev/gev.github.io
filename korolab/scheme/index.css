@@ -11,6 +11,10 @@ html, body {
 }
 
 object {
+    height: 100%;
+}
+
+#ce, #ci {
     top: 0;
     left: 0;
     height: 100%;

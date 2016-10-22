@@ -85,7 +85,7 @@ $(function () {
 
     function swipe(src, dst, d) {
         return function () {
-            shift(src, dst, d * dx(oi), 500)
+            shift(src, dst, d * dx(ci), 500)
         }
     }
 
@@ -137,7 +137,7 @@ $(function () {
         }
     }
 
-    function map(svg, m) {
+    function map(svg, m, conteiner) {
         for (var i in m) {
             var e = svg.getElementById(i);
             e.setAttribute('class', m[i].clazz);
@@ -148,7 +148,8 @@ $(function () {
                 position: {
                     my: 'top center',
                     at: 'center center',
-                    adjust: {x: 0, y: 10}
+                    adjust: {x: 0, y: 10},
+                    container: conteiner
                 },
                 style: {
                     classes: 'qtip-bootstrap qtip-shadow'
@@ -157,27 +158,28 @@ $(function () {
         }
     }
 
-    function init(src, dst, m) {
-        src.addEventListener('load', function() {
-            var svg = src.getSVGDocument();
+    function init(conteiner, src, dst, m) {
+        var o = conteiner.find('object')[0];
+        o.addEventListener('load', function() {
+            var svg = o.getSVGDocument();
             $(svg)
                 .find('svg')
                 .on('touchstart', start(src))
                 .on('touchmove', move(src, dst))
                 .on('touchend', end(src, dst))
                 .mousewheel(scroll(src, dst));
-            map(svg, m)
+            map(svg, m, conteiner)
         })
     }
 
-    var oe = $('#oe')[0];
-    var oi = $('#oi')[0];
+    var $ce = $('#ce'); var ce = $ce[0];
+    var $ci = $('#ci'); var ci = $ci[0];
 
-    init(oe, oi, mape);
-    init(oi, oe, mapi);
+    init($ce, ce, ci, mape);
+    init($ci, ci, ce, mapi);
 
-    $('#bl').click(swipe(oi, oe, -1));
-    $('#br').click(swipe(oi, oe, 1));
+    $('#bl').click(swipe(ci, ce, -1));
+    $('#br').click(swipe(ci, ce, 1));
 
 
 });
