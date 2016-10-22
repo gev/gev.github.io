@@ -9,13 +9,13 @@ $(function () {
             style: GREEN_GLOW,
             title: 'Камера наблюдения',
             text: 'Показывает, что проиходит в холле у лифтов',
-            adjust: {x: -30, y: 0}
+            adjust: {x: -50, y: 0}
         },
         basip: {
             style: GREEN_GLOW,
             title: 'Видеодомофон',
             text: 'Позволяет хозяину поговорить с гостями и открыть им дверь',
-            
+
         },
         finger: {
             style: GREEN_GLOW,
@@ -48,7 +48,7 @@ $(function () {
             text: 'Поддерживает комфортную температуру летом',
             my: 'top center',
             adjust: {x: -90, y: 30}
-            
+
         },
         bedroomCond: {
             style: GREEN_GLOW,
@@ -77,6 +77,11 @@ $(function () {
             title: 'Встраваемые колонки',
             text: 'Проигрывают музыку, интеренет радио и передают системые сообщения',
             my: 'top right'
+        },
+        hallLighting : {
+            style: HALL_LIGHTING,
+            title: '',
+            text:''
         }
     };
 
