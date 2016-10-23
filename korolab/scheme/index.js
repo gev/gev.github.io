@@ -174,7 +174,7 @@ $(function () {
             title: 'Сетевое хранилище',
             text: 'Хранить домашнюю медиатеку: фильмы, музыку, фотографии',
             my: 'top center',
-            adjust: {x: -130, y: 0}
+            adjust: {x: -40, y: 0}
         },
         nvr: {
             style: INDIGO_GLOW,
