@@ -126,7 +126,10 @@ $(function () {
         x: homeTheater({x: 0, y: 0}),
 
         bath: {
-            style: OPACITY
+            style: OPACITY,
+            title: 'Датчик наливания ванны',
+            text: 'Актоматически перекроет воду, когда ванна наполнится до нужного уровня',
+            adjust: {x: -360, y: 0}
         }
     };
 
