@@ -258,9 +258,8 @@ $(function () {
         }
     }
 
-    function end(src, dst, valid) {
-        return function (e) {
-            if (!valid(e)) return true;
+    function end(src, dst) {
+        return function () {
             if (!src.v) return true;
             var t0 = performance.now();
             var v0 = v = src.v.reduce(function (a, b) {
@@ -317,8 +316,8 @@ $(function () {
             .on('touchstart', start(src, validTouch, getTouch))
             .mousemove(move(src, dst, validMouse, getMouse))
             .on('touchmove', move(src, dst, validTouch, getTouch))
-            .mouseup(end(src, dst, validMouse))
-            .on('touchend', end(src, dst, validTouch))
+            .mouseup(end(src, dst))
+            .on('touchend', end(src, dst))
             .mousewheel(scroll(src, dst));
     }
 
