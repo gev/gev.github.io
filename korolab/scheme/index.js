@@ -4,6 +4,7 @@ $(function () {
     var HALL_LIGHTING = 'hall-lighting';
     var INDIGO_GLOW = 'indigo-glow';
     var GREEN_GLOW = 'green-glow';
+    var OPACITY = 'opacity';
 
 
     function homeTheater(adjust) {
@@ -114,6 +115,7 @@ $(function () {
             text: 'Создает приятную подсветку в спальне',
             adjust: {x: -360, y: 0}
         },
+
         a1: homeTheater({x: 0, y: 0}),
         a2: homeTheater({x: 0, y: 0}),
         a3: homeTheater({x: 0, y: 0}),
@@ -121,7 +123,11 @@ $(function () {
         a5: homeTheater({x: 0, y: 0}),
         a6: homeTheater({x: 0, y: 0}),
         a7: homeTheater({x: 0, y: 0}),
-        x: homeTheater({x: 0, y: 0})
+        x: homeTheater({x: 0, y: 0}),
+
+        bath: {
+            style: OPACITY
+        }
     };
 
     var mape = {
