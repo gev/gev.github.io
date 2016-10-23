@@ -18,6 +18,28 @@ object {
     background: transparent;
 }
 
+video {
+    top: 37.9%;
+    left: 57%;
+    width: 4.58%;
+    height: 23.05%;
+    position: absolute;
+    opacity: 0;
+    will-change: opacity;
+    transition-property: opacity;
+    transition-duration: 3s;
+}
+
+#cinema {
+    bottom: 0;
+    left: 51.45%;
+    width: 15.57%;
+    height: 83.5%;
+    position: absolute;
+    background: black;
+    opacity: 0.75;
+}
+
 #oe {
     height: 50%;
 }

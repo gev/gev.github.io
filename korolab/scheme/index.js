@@ -2,8 +2,8 @@ $(function () {
 
     var BEDROOM_LIGHTING = 'bedroom-lighting';
     var HALL_LIGHTING = 'hall-lighting';
+    var INDIGO_GLOW = 'indigo-glow';
     var GREEN_GLOW = 'green-glow';
-    var SCALE = 'scale';
 
     var mapi = {
         cam: {
@@ -106,35 +106,35 @@ $(function () {
 
     var mape = {
         iphone: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'iPhone',
             text: 'Позволяет управлять всеми функциями умного дома, просматривать камеры и получать голосовые сообщения',
             my: 'top center',
             adjust: {x: -30, y: 0}
     },
         mikrotik: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'Роутер',
             text: 'Подключает умный дом к интернету и обеспечивает удаленное защищенное управление по VPN',
             my: 'top center',
             adjust: {x: -50, y: 0}
         },
         plc: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'Контроллер управления',
             text: 'Сердце системы - собирает информацию с датчиков, управляет светом, климатом и сигнализацией',
             my: 'top center',
             adjust: {x: -50, y: 0}
         },
         zotac: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'Медиаплеер',
             text: 'Показывает фильмы из домашней медиатеки и интернет телевидение',
             my: 'top center',
             adjust: {x: -50, y: 0}
         },
         appletv: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'Apple TV',
             text: 'Показывает контент из App store и вопроизводит потоки AirPlay',
             my: 'top center',
@@ -142,28 +142,28 @@ $(function () {
         },
        
         trendent: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'Коммутатор',
             text: 'Объединяет все IP устройства в единую сеть',
             my: 'top center',
             adjust: {x: -110, y: 0}
         },
         gsm: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'GSM модем',
             text: 'В экстеренных ситуациях звонит хозяину на мобильный телефон и сообщает о проишествиях',
             my: 'top center',
             adjust: {x: -80, y: 0}
         },
         server: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'Сервер',
             text: 'Передает данные с контроллера на панели управления, управляет мультирумом, кинотеатром и системой информирования',
             my: 'top center',
             adjust: {x: -110, y: 0}
         },
         pioneer: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'AV ресивер',
             text: 'Выдает многоканальный звук на колонки домашего кинотеатра',
             my: 'top center',
@@ -220,7 +220,7 @@ $(function () {
     }
 
     function validTouch(e) {
-        return e.originalEvent.targetTouches === 1
+        return e.originalEvent.targetTouches.length === 1
     }
 
     function getMouse(e) {
@@ -237,7 +237,7 @@ $(function () {
             src.touch = get(e);
             src.t = e.timeStamp;
             src.v = [0];
-            return false;
+            return true;
         }
     }
 
@@ -254,7 +254,7 @@ $(function () {
             src.touch = touch;
             if (dy * dy > dx * dx) return true;
             shift(src, dst, dx, 0);
-            return false;
+            return true;
         }
     }
 
@@ -285,11 +285,11 @@ $(function () {
             delete src.v;
             delete src.t;
 
-            return false;
+            return true;
         }
     }
 
-    function map(svg, m, conteiner) {
+    function map(svg, m, container) {
         for (var i in m) {
             var e = svg.getElementById(i);
             e.setAttribute('class', m[i].style);
@@ -302,7 +302,7 @@ $(function () {
                     my: m[i].my || 'top left',
                     at: m[i].at || 'center center',
                     adjust: m[i].adjust || {x: 0, y: 5},
-                    container: conteiner
+                    container: container
                 },
                 style: {
                     classes: 'qtip-bootstrap qtip-shadow'
@@ -311,21 +311,30 @@ $(function () {
         }
     }
 
-    function init(conteiner, src, dst, m) {
-        var o = conteiner.find('object')[0];
-        o.addEventListener('load', function () {
-            var svg = o.getSVGDocument();
-            $(svg)
-                .find('svg')
-                .mousedown(start(src, validMouse, getMouse))
-                .on('touchstart', start(src, validTouch, getTouch))
-                .mousemove(move(src, dst, validMouse, getMouse))
-                .on('touchmove', move(src, dst, validTouch, getTouch))
-                .mouseup(end(src, dst, validMouse))
-                .on('touchend', end(src, validTouch, dst))
-                .mousewheel(scroll(src, dst));
-            map(svg, m, conteiner)
-        })
+    function handle(handler, src, dst) {
+        handler
+            .mousedown(start(src, validMouse, getMouse))
+            .on('touchstart', start(src, validTouch, getTouch))
+            .mousemove(move(src, dst, validMouse, getMouse))
+            .on('touchmove', move(src, dst, validTouch, getTouch))
+            .mouseup(end(src, dst, validMouse))
+            .on('touchend', end(src, dst, validTouch))
+            .mousewheel(scroll(src, dst));
+    }
+
+    function init(container, src, dst, m) {
+        var o = container.find('object')[0];
+        var svg = o.getSVGDocument();
+        var f = function(svg) {
+            handle($(svg).find('svg'), src, dst);
+            map(svg, m, container)
+        };
+        if (svg)
+            f(svg);
+        else
+            o.addEventListener('load', function() {
+                f(o.getSVGDocument())
+            });
     }
 
     var $ce = $('#ce');
@@ -338,6 +347,24 @@ $(function () {
 
     $('#bl').click(swipe(ci, ce, -1));
     $('#br').click(swipe(ci, ce, 1));
+
+    var cinema = $('#cinema');
+    var video = $('video');
+
+    handle(cinema, ci, ce);
+    handle(video, ci, ce);
+
+    cinema.hide();
+
+    video
+        .mouseenter(function(){
+            video.css('opacity', 1)[0].play();
+            cinema.fadeIn({duration: 1000});
+        })
+        .mouseout(function(){
+            video.css('opacity', 0)[0].pause();
+            cinema.fadeOut({duration: 1000});
+        })
 
 
 });

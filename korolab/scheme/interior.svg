@@ -161,7 +161,7 @@
          id="feComponentTransfer26">
         <feFuncA
            type="linear"
-           slope="0.9"
+           slope="0.5"
            id="feFuncA28" />
       </feComponentTransfer>
       <feOffset
@@ -232,8 +232,11 @@
            in="s1"
            id="feMergeNode63" />
         <feMergeNode
-           in="s5"
-           id="feMergeNode65" />
+                in="SourceGraphic"
+                id="feMergeNode65" />
+        <feMergeNode
+                in="s5"
+                id="feMergeNode65" />
       </feMerge>
     </filter>
     <filter
@@ -248,7 +251,7 @@
          id="feComponentTransfer68">
         <feFuncA
            type="linear"
-           slope="0.9"
+           slope="1"
            id="feFuncA70" />
       </feComponentTransfer>
       <feOffset
@@ -265,15 +268,15 @@
            id="feFuncR76" />
         <feFuncG
            type="discrete"
-           tableValues="1"
+           tableValues="0.4"
            id="feFuncG78" />
         <feFuncB
            type="discrete"
-           tableValues="0.8"
+           tableValues="0.4"
            id="feFuncB80" />
       </feComponentTransfer>
       <feGaussianBlur
-         stdDeviation="128"
+         stdDeviation="50"
          id="feGaussianBlur82" />
       <feOffset
          dx="0"
@@ -281,7 +284,7 @@
          result="s1"
          id="feOffset84" />
       <feGaussianBlur
-         stdDeviation="64"
+         stdDeviation="35"
          id="feGaussianBlur86" />
       <feOffset
          dx="0"
@@ -289,7 +292,7 @@
          result="s2"
          id="feOffset88" />
       <feGaussianBlur
-         stdDeviation="32"
+         stdDeviation="20"
          id="feGaussianBlur90" />
       <feOffset
          dx="0"
@@ -297,7 +300,7 @@
          result="s3"
          id="feOffset92" />
       <feGaussianBlur
-         stdDeviation="16"
+         stdDeviation="5"
          id="feGaussianBlur94" />
       <feOffset
          dx="0"
@@ -307,16 +310,16 @@
       <feMerge
          id="feMerge98">
         <feMergeNode
-           in="s4"
+           in="s1"
            id="feMergeNode100" />
         <feMergeNode
-           in="s3"
+           in="s2"
            id="feMergeNode102" />
         <feMergeNode
-           in="s2"
+           in="s3"
            id="feMergeNode104" />
         <feMergeNode
-           in="s1"
+           in="s4"
            id="feMergeNode106" />
         <feMergeNode
            in="s5"
