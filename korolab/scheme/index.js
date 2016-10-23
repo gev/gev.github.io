@@ -356,12 +356,16 @@ $(function () {
     cinema.hide();
 
     video
-        .mouseenter(function(){
+        .mouseenter(function() {
             video.css('opacity', 1)[0].play();
             cinema.fadeIn({duration: 1000});
         })
-        .mouseout(function(){
+        .mouseout(function() {
             video.css('opacity', 0)[0].pause();
+            cinema.fadeOut({duration: 1000});
+        })
+        .on('ended', function() {
+            video.css('opacity', 0);
             cinema.fadeOut({duration: 1000});
         })
 
