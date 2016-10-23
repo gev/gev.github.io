@@ -6,7 +6,6 @@ $(function () {
     var GREEN_GLOW = 'green-glow';
     var OPACITY = 'opacity';
 
-
     function homeTheater(adjust) {
         return {
             style: GREEN_GLOW,
@@ -148,16 +147,12 @@ $(function () {
             adjust: {x: -50, y: 0}
         },
         x: homeTheater({x: 0, y: 0}),
-
         bath: {
             style: OPACITY,
             title: 'Датчик наливания ванны',
             text: 'Автоматически перекроет воду при наполнении ванны',
             adjust: {x: -330, y: -250}
-            text: 'Автоматически перекроет воду при наполнении ванны до нужного уровня',
-            adjust: {x: 100, y: 0}
         },
-
         kitchenFloor : {
             style: OPACITY,
             title: 'Датчик наливания ванны',
@@ -165,13 +160,17 @@ $(function () {
             adjust: {x: 100, y: 0}
 
         },
-
         bathroomFloor : {
             style: OPACITY,
             title: 'Датчик наливания ванны',
             text: 'Автоматически перекроет воду при наполнении ванны до нужного уровня',
             adjust: {x: 100, y: 0}
-
+        },
+        reed : {
+            style: GREEN_GLOW,
+            title: 'Датчик наливания ванны',
+            text: 'Автоматически перекроет воду при наполнении ванны до нужного уровня',
+            adjust: {x: 100, y: 0}
         }
     };
 
