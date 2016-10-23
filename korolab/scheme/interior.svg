@@ -384,7 +384,7 @@
      width="1670"
      height="923"
      preserveAspectRatio="none"
-     id="kitchenFloor"
+     id="bathroom"
      x="8979.9834"
      y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
@@ -775,7 +775,7 @@
      width="1819"
      height="209"
      preserveAspectRatio="none"
-     id="image4277"
+     id="kitchenFloor"
      x="3611.4824"
      y="893.47284" />
   <g
@@ -804,8 +804,8 @@
        y="329.1265" />
   </g>
   <image
-     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\kitchenPuddle.png"
-     xlink:href="kitchenPuddle.png"
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\kitchen-puddle.png"
+     xlink:href="kitchen-puddle.png"
      transform="matrix(0.99994922,-0.01007756,0.01007756,0.99994922,0,0)"
      inkscape:label="#image4314"
      width="481.25"
@@ -815,8 +815,8 @@
      x="4628.2988"
      y="987.76544" />
   <image
-     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroomPuddle.png"
-     xlink:href="bathroomPuddle.png"
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroom-puddle.png"
+     xlink:href="bathroom-puddle.png"
      inkscape:label="#image4327"
      width="608.40192"
      height="117.27021"
