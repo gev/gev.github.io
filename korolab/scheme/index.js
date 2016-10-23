@@ -87,12 +87,12 @@ $(function () {
         },
         kitchenAcoustics: {
             style: GREEN_GLOW,
-            title: 'Встраиваемые колонки',
+            title: 'Встраиваемые колонки мультирума',
             text: 'Проигрывают музыку, интернет радио, потоки AirPlay и передают системые сообщения'
         },
         bathroomAcoustics: {
             style: GREEN_GLOW,
-            title: 'Встраиваемые колонки',
+            title: 'Встраиваемые колонки мультирума',
             text: 'Проигрывают музыку, интернет радио, потоки AirPlay и передают системые сообщения',
             my: 'top right',
             adjust: {x: -50, y: 0}
@@ -121,13 +121,27 @@ $(function () {
         a3: homeTheater({x: 0, y: 0}),
         a4: homeTheater({x: 0, y: 0}),
         a5: homeTheater({x: 0, y: 0}),
-        a6: homeTheater({x: 0, y: 0}),
-        a7: homeTheater({x: 0, y: 0}),
+        a6: {
+            style: GREEN_GLOW,
+            title: 'Наполные колонки мультирума',
+            text: 'Проигрывают музыку, интернет радио, потоки AirPlay',
+            my: 'top right',
+            adjust: {x: -50, y: 0}
+        },
+        a7: {
+            style: GREEN_GLOW,
+            title: 'Наполные колонки мультирума',
+            text: 'Проигрывают музыку, интернет радио, потоки AirPlay',
+            my: 'top right',
+            adjust: {x: -50, y: 0}
+        },
         x: homeTheater({x: 0, y: 0}),
 
         bath: {
             style: OPACITY,
             title: 'Датчик наливания ванны',
+            text: 'Автоматически перекроет воду при наполнении ванны',
+            adjust: {x: -330, y: -250}
             text: 'Автоматически перекроет воду при наполнении ванны до нужного уровня',
             adjust: {x: 100, y: 0}
         },
