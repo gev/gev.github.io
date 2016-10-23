@@ -48,9 +48,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.86267028"
-     inkscape:cx="3408.871"
-     inkscape:cy="807.30506"
+     inkscape:zoom="0.61000001"
+     inkscape:cx="3315.3743"
+     inkscape:cy="613.70549"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -328,6 +328,16 @@
     </filter>
   </defs>
   <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\hall.jpg"
+     xlink:href="hall.jpg"
+     style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+     y="193.56633"
+     x="1658.9825"
+     id="image3366"
+     preserveAspectRatio="none"
+     height="923"
+     width="1874" />
+  <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bedroom.jpg"
      xlink:href="bedroom.jpg"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
@@ -346,16 +356,6 @@
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
      x="7862.9619"
      y="202.92683" />
-  <image
-     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\hall.jpg"
-     xlink:href="hall.jpg"
-     style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="193.56633"
-     x="1658.9825"
-     id="image3366"
-     preserveAspectRatio="none"
-     height="923"
-     width="1874" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\shadow1.png"
      xlink:href="shadow1.png"
@@ -628,16 +628,6 @@
      x="2563.5706"
      y="253.56633" />
   <image
-     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\hall-lighting.png"
-     xlink:href="hall-lighting.png"
-     y="435.95236"
-     x="3263.9141"
-     id="hallLighting"
-     preserveAspectRatio="none"
-     height="109.11201"
-     width="163.66805"
-     style="opacity:0;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
-  <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bedroomLeftLamp.png"
      xlink:href="bedroomLeftLamp.png"
      width="180.78381"
@@ -646,7 +636,7 @@
      id="bedroomLeftLamp"
      x="7471.8091"
      y="492.61227"
-     style="opacity:0;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
+     style="opacity:1;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bedroomRightLamp.png"
      xlink:href="bedroomRightLamp.png"
@@ -656,7 +646,7 @@
      id="bedroomRightLamp"
      x="8538.8359"
      y="492.87823"
-     style="opacity:0;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
+     style="opacity:1;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
      style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
      d="M 10560.096 48.597656 L 3737.5957 48.675781 A 2.50025 2.50025 0 0 0 3735.0977 51.175781 L 3735.0977 222.25 A 2.50025 2.50025 0 1 0 3740.0977 222.25 L 3740.0977 53.675781 L 6348.5059 53.646484 L 6348.5059 252.96875 A 2.50025 2.50025 0 1 0 6353.5059 252.96875 L 6353.5059 53.646484 L 7093.8262 53.636719 L 7093.8262 612.53516 L 7064.9863 612.53516 A 2.50025 2.50025 0 1 0 7064.9863 617.53516 L 7096.3262 617.53516 A 2.50025 2.50025 0 0 0 7098.8262 615.03516 L 7098.8262 53.636719 L 10557.596 53.597656 L 10557.566 224.76367 A 2.50025 2.50025 0 1 0 10562.566 224.76367 L 10562.596 51.097656 A 2.50025 2.50025 0 0 0 10560.096 48.597656 z "
@@ -669,4 +659,14 @@
      style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
      d="M 9388.4707 82.974609 A 2.50025 2.50025 0 0 0 9387.4727 83.199219 L 1966.2168 83.259766 A 2.50025 2.50025 0 0 0 1965.4395 83.146484 A 2.50025 2.50025 0 0 0 1964.7383 83.259766 L 1729.5156 83.261719 A 2.50025 2.50025 0 0 0 1727.0156 85.761719 L 1727.0957 558.37109 A 2.50025 2.50025 0 1 0 1732.0957 558.36914 L 1732.0156 88.261719 L 1962.9785 88.259766 L 1962.9785 317.96484 A 2.50025 2.50025 0 1 0 1967.9785 317.96484 L 1967.9785 88.259766 L 3189.0234 88.25 L 3189.0234 499 A 2.50025 2.50025 0 0 0 3191.5234 501.5 L 3246.5918 501.5 A 2.50025 2.50025 0 1 0 3246.5918 496.5 L 3194.0234 496.5 L 3194.0234 88.25 L 3420.3008 88.248047 L 3420.3008 281.07227 A 2.50025 2.50025 0 1 0 3425.3008 281.07227 L 3425.3008 88.248047 L 4716.0137 88.238281 L 4716.0137 635.07617 A 2.50025 2.50025 0 0 0 4718.5137 637.57617 L 4882.9688 637.57617 A 2.50025 2.50025 0 1 0 4882.9688 632.57617 L 4721.0137 632.57617 L 4721.0137 88.238281 L 7613.3359 88.214844 L 7613.3359 457.2207 L 7581.0234 457.2207 A 2.50025 2.50025 0 1 0 7581.0234 462.2207 L 7615.8359 462.2207 A 2.50025 2.50025 0 0 0 7618.3359 459.7207 L 7618.3359 88.214844 L 8566.8906 88.207031 L 8566.8906 459.7207 A 2.50025 2.50025 0 0 0 8569.3906 462.2207 L 8604.2051 462.2207 A 2.50025 2.50025 0 1 0 8604.2051 457.2207 L 8571.8906 457.2207 L 8571.8906 88.207031 L 8814.8281 88.205078 L 8814.8281 798.53516 A 2.50025 2.50025 0 1 0 8819.8281 798.53516 L 8819.8281 88.205078 L 9016.8281 88.203125 L 9016.8281 942.79688 A 2.50025 2.50025 0 1 0 9021.8281 942.79688 L 9021.8281 88.203125 L 9386.0078 88.199219 L 9386.0078 559.34766 A 2.50025 2.50025 0 1 0 9391.0078 559.34766 L 9391.0078 88.199219 L 9731.168 88.197266 L 9731.168 929.88672 A 2.50025 2.50025 0 0 0 9733.668 932.38672 L 9768.2969 932.38672 A 2.50025 2.50025 0 1 0 9768.2969 927.38672 L 9736.168 927.38672 L 9736.168 88.195312 L 10309.195 88.191406 L 10309.195 762.60938 A 2.50025 2.50025 0 1 0 10314.195 762.60938 L 10314.195 85.691406 A 2.50025 2.50025 0 0 0 10311.695 83.191406 L 9389.5371 83.199219 A 2.50025 2.50025 0 0 0 9388.4707 82.974609 z "
      id="path17441" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\hall-lighting.png"
+     xlink:href="hall-lighting.png"
+     y="435.95236"
+     x="3263.9141"
+     id="hallLighting"
+     preserveAspectRatio="none"
+     height="109.11201"
+     width="163.66805"
+     style="opacity:1" />
 </svg>
