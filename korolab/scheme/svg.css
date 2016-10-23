@@ -1,4 +1,18 @@
 
+.opacity {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+
+.opacity:hover {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+
+
+
 .hall-lighting {
     opacity: 0;
 }
