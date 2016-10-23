@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="10708.482"
-   height="1116.5671"
-   viewBox="0 0 10708.482 1116.5671"
+   height="1102.4736"
+   viewBox="0 0 10708.482 1102.4736"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -44,13 +44,13 @@
      id="namedview17"
      showgrid="false"
      inkscape:snap-global="false"
-     fit-margin-top="10"
+     fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.43133514"
-     inkscape:cx="670.64959"
-     inkscape:cy="469.01918"
+     inkscape:zoom="0.61"
+     inkscape:cx="5011.0603"
+     inkscape:cy="657.8844"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -336,7 +336,7 @@
      preserveAspectRatio="none"
      id="image3388"
      x="58.500031"
-     y="193.56718" />
+     y="179.47369" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\hall.jpg"
      xlink:href="hall.jpg"
@@ -345,7 +345,7 @@
      preserveAspectRatio="none"
      id="image3366"
      x="1658.9825"
-     y="193.56633"
+     y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bedroom.jpg"
@@ -355,7 +355,7 @@
      preserveAspectRatio="none"
      id="image3355"
      x="7256.4829"
-     y="193.56633"
+     y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\kitchen.jpg"
@@ -365,7 +365,7 @@
      preserveAspectRatio="none"
      id="image3377"
      x="3611.4824"
-     y="193.56633"
+     y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\living-room.jpg"
@@ -375,7 +375,7 @@
      preserveAspectRatio="none"
      id="image3399"
      x="5508.9829"
-     y="193.56633"
+     y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroom.jpg"
@@ -385,7 +385,7 @@
      preserveAspectRatio="none"
      id="image3344"
      x="8979.9834"
-     y="193.56633"
+     y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\right.png"
@@ -396,7 +396,7 @@
      preserveAspectRatio="none"
      id="image5064"
      x="10605.357"
-     y="153.2968" />
+     y="139.20331" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
@@ -405,12 +405,12 @@
      preserveAspectRatio="none"
      id="image5075"
      x="8856.5186"
-     y="153.2968"
+     y="139.20331"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
-     y="153.2968"
+     y="139.20331"
      x="7133.0181"
      id="image5073"
      preserveAspectRatio="none"
@@ -425,12 +425,12 @@
      preserveAspectRatio="none"
      id="image5071"
      x="5385.5181"
-     y="153.2968"
+     y="139.20331"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
-     y="153.2968"
+     y="139.20331"
      x="3488.6348"
      id="image5067"
      preserveAspectRatio="none"
@@ -445,34 +445,19 @@
      preserveAspectRatio="none"
      id="image5053"
      x="1535.8263"
-     y="153.2968"
+     y="139.20331"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
-  <g
-     id="g46913"
-     transform="translate(-12,-9.179893)"
-     style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none">
-    <circle
-       r="111.28238"
-       cy="566.33429"
-       cx="1585.4714"
-       id="path46821"
-       style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <image
-       sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\basip.png"
-       xlink:href="basip.png"
-       style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-       width="68.233696"
-       height="113.31229"
-       preserveAspectRatio="none"
-       id="basip"
-       x="1593.6682"
-       y="509.67816" />
-    <path
-       id="path46821-3"
-       d="m 1564.1248,459.36666 a 107.08493,108.84942 0 0 0 -87.9377,107.04869 107.08493,108.84942 0 0 0 87.9377,107.00667 l 0,-214.05536 z"
-       style="opacity:1;fill:#803300;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;shape-rendering:crispEdges"
-       inkscape:connector-curvature="0" />
-  </g>
+  <circle
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path46821"
+     cx="1573.4714"
+     cy="543.06091"
+     r="111.28238" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:1;fill:#803300;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;shape-rendering:crispEdges"
+     d="m 1553.3542,439.388 a 103.59142,105.29835 0 0 0 -85.0688,103.55636 103.59142,105.29835 0 0 0 85.0688,103.51572 l 0,-207.07208 z"
+     id="path46821-3" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\left.png"
      xlink:href="left.png"
@@ -482,23 +467,29 @@
      preserveAspectRatio="none"
      id="image5042"
      x="0"
-     y="153.75468" />
+     y="139.66119" />
   <path
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.229;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     d="M 10560.096 48.597656 L 3737.5957 48.675781 A 2.50025 2.50025 0 0 0 3735.0977 51.175781 L 3735.0977 222.25 A 2.50025 2.50025 0 1 0 3740.0977 222.25 L 3740.0977 53.675781 L 6348.5059 53.646484 L 6348.5059 252.96875 A 2.50025 2.50025 0 1 0 6353.5059 252.96875 L 6353.5059 53.646484 L 7093.8262 53.636719 L 7093.8262 612.53516 L 7064.9863 612.53516 A 2.50025 2.50025 0 1 0 7064.9863 617.53516 L 7096.3262 617.53516 A 2.50025 2.50025 0 0 0 7098.8262 615.03516 L 7098.8262 53.636719 L 10557.596 53.597656 L 10557.566 224.76367 A 2.50025 2.50025 0 1 0 10562.566 224.76367 L 10562.596 51.097656 A 2.50025 2.50025 0 0 0 10560.096 48.597656 z "
-     id="path74665" />
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.3;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     d="m 10560.096,34.504164 -6822.5003,0.07813 c -1.3799,0.0012 -2.4979,1.120126 -2.498,2.5 l 0,211.074216 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-208.574216 2608.4082,-0.0293 0,221.322266 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-221.322266 740.3203,-0.0098 0,558.898446 -55.2497,0 c -3.3808,-0.0478 -3.3808,5.04781 0,5 l 57.7497,0 c 1.3807,-1.4e-4 2.4999,-1.11935 2.5,-2.5 l 0,-561.398446 3458.7698,-0.03906 -0.03,191.166016 c -0.05,3.38081 5.048,3.38081 5,0 l 0.03,-193.666016 c 0,-1.380655 -1.119,-2.499862 -2.5,-2.5 z"
+     id="path74665"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccccccccccc" />
   <path
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.229;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     d="M 7410.7832 14.09375 A 2.50025 2.50025 0 0 0 7409.2266 14.669922 L 218.39453 14.275391 A 2.50025 2.50025 0 0 0 215.89453 16.773438 L 215.53125 279.45508 L 179.0625 279.45508 A 2.50025 2.50025 0 1 0 179.0625 284.45508 L 218.02734 284.45508 A 2.50025 2.50025 0 0 0 220.52734 281.95703 L 220.89062 19.275391 L 1611.3906 19.351562 L 1611.3906 467.61914 A 2.50025 2.50025 0 1 0 1616.3906 467.61914 L 1616.3906 19.351562 L 2351.7539 19.392578 L 2351.7539 566.59961 L 2302.3652 566.59961 A 2.50025 2.50025 0 1 0 2302.3652 571.59961 L 2354.2539 571.59961 A 2.50025 2.50025 0 0 0 2356.7539 569.09961 L 2356.7539 19.392578 L 2963.3906 19.425781 L 2963.3906 278.55469 L 2910.7227 278.55469 A 2.50025 2.50025 0 1 0 2910.7227 283.55469 L 2965.8906 283.55469 A 2.50025 2.50025 0 0 0 2968.3906 281.05469 L 2968.3906 19.425781 L 5665.5332 19.574219 L 5665.5332 258.04492 A 2.50025 2.50025 0 1 0 5670.5332 258.04492 L 5670.5332 19.574219 L 6673.3184 19.628906 L 6673.3184 515.98242 L 6634.7324 515.98242 A 2.50025 2.50025 0 1 0 6634.7324 520.98242 L 6675.8184 520.98242 A 2.50025 2.50025 0 0 0 6678.3184 518.48242 L 6678.3184 19.630859 L 7408.3203 19.669922 L 7408.3418 258.27344 A 2.50025 2.50025 0 1 0 7413.3418 258.27344 L 7413.3203 19.669922 L 8329.3281 19.720703 L 8329.3906 278.55469 L 8276.7246 278.55469 A 2.50025 2.50025 0 1 0 8276.7246 283.55469 L 8331.8906 283.55469 A 2.50025 2.50025 0 0 0 8334.3906 281.05469 L 8334.3281 17.21875 A 2.50025 2.50025 0 0 0 8331.8281 14.720703 L 7412.416 14.669922 A 2.50025 2.50025 0 0 0 7410.7832 14.09375 z "
-     id="path17422" />
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.3;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     d="M 7410.7832,2.5762618e-4 C 7410.2139,0.00945763 7409.6647,0.21272363 7409.2266,0.57642963 L 218.39453,0.18189863 c -1.37989,1.37e-4 -2.49878,1.11815497 -2.5,2.49804697 l -0.36328,262.6816444 -86.46875,0 c -3.38081,-0.0478 -3.38081,5.04781 0,5 l 88.96484,0 c 1.37989,-1.4e-4 2.49879,-1.11816 2.5,-2.49805 l 0.36328,-262.6816414 1390.49998,0.07617 0,484.2675814 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-484.2675814 735.3633,0.04102 0,547.2070314 -103.3887,0 c -3.3808,-0.0478 -3.3808,5.04781 0,5 l 105.8887,0 c 1.3807,-1.4e-4 2.4999,-1.11935 2.5,-2.5 l 0,-549.7070314 606.6367,0.0332 0,259.1289114 -86.6679,0 c -3.3808,-0.0478 -3.3808,5.04781 0,5 l 89.1679,0 c 1.3807,-1.4e-4 2.4999,-1.11935 2.5,-2.5 l 0,-261.6289114 2697.1426,0.148438 0,258.4707034 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-258.4707034 1002.7852,0.05469 0,496.3535134 -67.484,0 c -3.3808,-0.0478 -3.3808,5.04781 0,5 l 69.984,0 c 1.3807,-1.4e-4 2.4999,-1.11935 2.5,-2.5 l 0,-498.8515604 730.0019,0.03906 0.021,238.6035204 c -0.048,3.38081 5.0478,3.38081 5,0 l -0.021,-238.6035204 916.0078,0.05078 0.062,258.8339904 -92.666,0 c -3.3808,-0.0478 -3.3808,5.04781 0,5 l 95.166,0 c 1.3807,-1.4e-4 2.4999,-1.11935 2.5,-2.5 l -0.062,-263.8359434 c 0,-1.379892 -1.1201,-2.49790997 -2.5,-2.49804697 l -919.4121,-0.05078 c -0.4583,-0.380401 -1.0373,-0.584718 -1.6328,-0.57617200382 z"
+     id="path17422"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
   <path
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.229;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
-     d="M 9388.4707 82.974609 A 2.50025 2.50025 0 0 0 9387.4727 83.199219 L 1966.2168 83.259766 A 2.50025 2.50025 0 0 0 1965.4395 83.146484 A 2.50025 2.50025 0 0 0 1964.7383 83.259766 L 1729.5156 83.261719 A 2.50025 2.50025 0 0 0 1727.0156 85.761719 L 1727.0957 558.37109 A 2.50025 2.50025 0 1 0 1732.0957 558.36914 L 1732.0156 88.261719 L 1962.9785 88.259766 L 1962.9785 317.96484 A 2.50025 2.50025 0 1 0 1967.9785 317.96484 L 1967.9785 88.259766 L 3189.0234 88.25 L 3189.0234 499 A 2.50025 2.50025 0 0 0 3191.5234 501.5 L 3246.5918 501.5 A 2.50025 2.50025 0 1 0 3246.5918 496.5 L 3194.0234 496.5 L 3194.0234 88.25 L 3420.3008 88.248047 L 3420.3008 281.07227 A 2.50025 2.50025 0 1 0 3425.3008 281.07227 L 3425.3008 88.248047 L 4716.0137 88.238281 L 4716.0137 635.07617 A 2.50025 2.50025 0 0 0 4718.5137 637.57617 L 4882.9688 637.57617 A 2.50025 2.50025 0 1 0 4882.9688 632.57617 L 4721.0137 632.57617 L 4721.0137 88.238281 L 7613.3359 88.214844 L 7613.3359 457.2207 L 7581.0234 457.2207 A 2.50025 2.50025 0 1 0 7581.0234 462.2207 L 7615.8359 462.2207 A 2.50025 2.50025 0 0 0 7618.3359 459.7207 L 7618.3359 88.214844 L 8566.8906 88.207031 L 8566.8906 459.7207 A 2.50025 2.50025 0 0 0 8569.3906 462.2207 L 8604.2051 462.2207 A 2.50025 2.50025 0 1 0 8604.2051 457.2207 L 8571.8906 457.2207 L 8571.8906 88.207031 L 8814.8281 88.205078 L 8814.8281 798.53516 A 2.50025 2.50025 0 1 0 8819.8281 798.53516 L 8819.8281 88.205078 L 9016.8281 88.203125 L 9016.8281 942.79688 A 2.50025 2.50025 0 1 0 9021.8281 942.79688 L 9021.8281 88.203125 L 9386.0078 88.199219 L 9386.0078 559.34766 A 2.50025 2.50025 0 1 0 9391.0078 559.34766 L 9391.0078 88.199219 L 9731.168 88.197266 L 9731.168 929.88672 A 2.50025 2.50025 0 0 0 9733.668 932.38672 L 9768.2969 932.38672 A 2.50025 2.50025 0 1 0 9768.2969 927.38672 L 9736.168 927.38672 L 9736.168 88.195312 L 10309.195 88.191406 L 10309.195 762.60938 A 2.50025 2.50025 0 1 0 10314.195 762.60938 L 10314.195 85.691406 A 2.50025 2.50025 0 0 0 10311.695 83.191406 L 9389.5371 83.199219 A 2.50025 2.50025 0 0 0 9388.4707 82.974609 z "
-     id="path17441" />
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.3;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
+     d="m 9388.4707,68.881117 c -0.3446,0.0053 -0.6844,0.08176 -0.998,0.22461 l -7421.2559,0.06055 c -0.2515,-0.07848 -0.5138,-0.116713 -0.7773,-0.113282 -0.2379,0.0042 -0.474,0.04234 -0.7012,0.113282 l -235.2227,0.002 c -1.3807,1.38e-4 -2.4999,1.119345 -2.5,2.5 l 0.08,496.609373 c -0.047,3.38081 5.0491,3.37887 5,-0.002 l -0.08,-494.107423 230.9629,-0.002 0,263.705073 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-263.705073 1221.0449,-0.0098 0,410.750003 c 10e-5,1.38065 1.1193,2.49986 2.5,2.5 l 71.9375,0 c 3.3808,0.0478 3.3808,-5.04781 0,-5 l -69.4375,0 0,-408.250003 226.2774,-0.002 0,192.824223 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-192.824223 1290.7129,-0.0098 0,546.837893 c 10e-5,1.38065 1.1193,2.49986 2.5,2.5 l 164.4551,0 c 3.3807,0.0478 3.3807,-5.04781 0,-5 l -161.9551,0 0,-544.337893 642.084,-0.0059 0,828.992193 c -0.082,3.41135 5.0777,3.41135 4.9961,0 l 0,-828.992193 2245.2421,-0.01758 0,369.005863 -44.3125,0 c -3.3808,-0.0478 -3.3808,5.04781 0,5 l 46.8125,0 c 1.3807,-1.4e-4 2.4999,-1.11935 2.5,-2.5 l 0,-371.505863 948.5547,-0.0078 0,371.513673 c 10e-5,1.38065 1.1193,2.49986 2.5,2.5 l 54.8145,0 c 3.3808,0.0478 3.3808,-5.04781 0,-5 l -52.3145,0 0,-369.013673 242.9375,-0.002 0,732.330083 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-732.330083 197,-0.002 0,828.593753 c -0.048,3.3808 5.0478,3.3808 5,0 l 0,-828.593753 364.1797,-0.0039 0,497.148443 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-497.148443 340.1602,-0.002 0,851.689453 c 1e-4,1.38065 1.1193,2.49986 2.5,2.5 l 34.6289,0 c 3.3808,0.0478 3.3808,-5.04781 0,-5 l -32.1289,0 0,-849.191407 573.027,-0.0039 0,636.417977 c -0.05,3.3808 5.048,3.3808 5,0 l 0,-638.917977 c 0,-1.380655 -1.119,-2.499862 -2.5,-2.5 l -922.1579,0.0078 c -0.3346,-0.152371 -0.6987,-0.229063 -1.0664,-0.22461 z"
+     id="path17441"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccc" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\shadow2.png"
      xlink:href="shadow2.png"
-     y="202.92683"
+     y="188.83334"
      x="7862.9619"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
      id="image95560"
@@ -507,21 +498,16 @@
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\shadow1.png"
      xlink:href="shadow1.png"
-     y="216.75066"
+     y="202.65717"
      x="2524.9697"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
      id="image95558"
      height="187.6692"
      width="389.79855" />
-  <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17503);marker-end:url(#marker17653)"
-     d="m 5365.596,85.833425 0,857.388625"
-     id="path17447"
-     inkscape:connector-curvature="0" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\finger.png"
      xlink:href="finger.png"
-     y="572.01099"
+     y="557.91748"
      x="1713.6538"
      id="finger"
      preserveAspectRatio="none"
@@ -532,7 +518,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\cam.png"
      xlink:href="cam.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="249.14827"
+     y="235.05478"
      x="-149.5"
      id="cam"
      preserveAspectRatio="none"
@@ -543,7 +529,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\ipad.png"
      xlink:href="ipad.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="535.71637"
+     y="521.62286"
      x="2150.8813"
      id="ipad"
      preserveAspectRatio="none"
@@ -553,8 +539,8 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\motion-sensor.png"
      xlink:href="motion-sensor.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="254.04366"
-     x="3427.6804"
+     y="239.95016"
+     x="3397.6804"
      id="motionSensor"
      preserveAspectRatio="none"
      height="50"
@@ -562,7 +548,7 @@
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\cond1.png"
      xlink:href="cond1.png"
-     y="253.56633"
+     y="239.47284"
      x="2563.5706"
      id="hallCond"
      preserveAspectRatio="none"
@@ -578,11 +564,11 @@
      preserveAspectRatio="none"
      id="kitchenAcoustics"
      x="3681.1035"
-     y="237.45592" />
+     y="223.36243" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\unifi1.png"
      xlink:href="unifi1.png"
-     y="270.22293"
+     y="256.12943"
      x="5624.3623"
      id="livingUnifi"
      preserveAspectRatio="none"
@@ -597,12 +583,12 @@
      preserveAspectRatio="none"
      id="bedroomUnifi"
      x="7362.5586"
-     y="270.22293"
+     y="256.12943"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\cond2.png"
      xlink:href="cond2.png"
-     y="253.56633"
+     y="239.47284"
      x="7933.6831"
      id="bedroomCond"
      preserveAspectRatio="none"
@@ -613,7 +599,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\socket.jpg"
      xlink:href="socket.jpg"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="819.46875"
+     y="805.37524"
      x="8753.4502"
      id="socket"
      preserveAspectRatio="none"
@@ -623,7 +609,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\button.png"
      xlink:href="button.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="584.4165"
+     y="570.323"
      x="9363.7139"
      id="button"
      preserveAspectRatio="none"
@@ -633,7 +619,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\acoustics.png"
      xlink:href="acoustics.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="237.45592"
+     y="223.36243"
      x="10507.104"
      id="bathroomAcoustics"
      preserveAspectRatio="none"
@@ -642,7 +628,7 @@
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bedroomLeftLamp.png"
      xlink:href="bedroomLeftLamp.png"
-     y="492.61227"
+     y="478.51877"
      x="7471.8091"
      id="bedroomLeftLamp"
      preserveAspectRatio="none"
@@ -651,7 +637,7 @@
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bedroomRightLamp.png"
      xlink:href="bedroomRightLamp.png"
-     y="492.87823"
+     y="478.78473"
      x="8538.8359"
      id="bedroomRightLamp"
      preserveAspectRatio="none"
@@ -665,5 +651,15 @@
      preserveAspectRatio="none"
      id="hallLighting"
      x="3263.9141"
-     y="435.95236" />
+     y="421.85886" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\basip.png"
+     xlink:href="basip.png"
+     y="486.40475"
+     x="1581.6682"
+     id="basip"
+     preserveAspectRatio="none"
+     height="113.31229"
+     width="68.233696"
+     style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
 </svg>
