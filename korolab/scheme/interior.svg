@@ -43,14 +43,14 @@
      inkscape:window-height="877"
      id="namedview17"
      showgrid="false"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.61"
-     inkscape:cx="10151.471"
-     inkscape:cy="489.76657"
+     inkscape:zoom="0.305"
+     inkscape:cx="4661.7728"
+     inkscape:cy="-120.11498"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -380,10 +380,11 @@
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroom.jpg"
      xlink:href="bathroom.jpg"
+     inkscape:label="#image3344"
      width="1670"
      height="923"
      preserveAspectRatio="none"
-     id="image3344"
+     id="kitchenFloor"
      x="8979.9834"
      y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
@@ -768,4 +769,23 @@
      id="bath"
      x="9767.1602"
      y="694.12756" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroom-floor.png"
+     xlink:href="bathroom-floor.png"
+     inkscape:label="#image4266"
+     width="1670"
+     height="219"
+     preserveAspectRatio="none"
+     id="bathroomFloor"
+     x="8979.9834"
+     y="883.47284" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\kitchen-floor.png"
+     xlink:href="kitchen-floor.png"
+     width="1819"
+     height="209"
+     preserveAspectRatio="none"
+     id="image4277"
+     x="3611.4824"
+     y="893.47284" />
 </svg>
