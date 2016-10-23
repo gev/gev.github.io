@@ -170,14 +170,14 @@ $(function () {
             adjust: {x: -130, y: 0}
         },
         nas: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'Сетевое хранилище',
             text: 'Хранить домашнюю медиатеку: фильмы, музыку, фотографии',
             my: 'top center',
             adjust: {x: -130, y: 0}
         },
         nvr: {
-            style: SCALE,
+            style: INDIGO_GLOW,
             title: 'Видеорегистратор',
             text: 'Записывает данные с камер наблюдения и предоставляет доступ к архиву',
             my: 'top center',
