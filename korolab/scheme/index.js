@@ -105,6 +105,9 @@ $(function () {
     };
 
     var tv = {
+        my: 'top center',
+        at: 'bottom center',
+        adjust: {x:0, y: 30},
         title: '',
         text: '',
     };
