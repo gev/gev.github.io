@@ -5,6 +5,18 @@ $(function () {
     var INDIGO_GLOW = 'indigo-glow';
     var GREEN_GLOW = 'green-glow';
 
+
+    function homeTheater(adjust) {
+        return {
+            style: GREEN_GLOW,
+            title: 'Домашний кинотеатр',
+            text: 'Воспроизводит различные виды контента: тв передачи, фильмы, музыку, радио и создает объемный звук',
+            my: 'top center',
+            at: 'bottom center',
+            adjust : adjust
+        }
+    }
+
     var mapi = {
         cam: {
             style: GREEN_GLOW,
@@ -101,16 +113,18 @@ $(function () {
             title: 'Люстра',
             text:'Создает приятную подсветку в спальне',
             adjust: {x: -360, y: 0}
-        }
+        },
+        a1: homeTheater({x: 0, y: 0}),
+        a2: homeTheater({x: 0, y: 0}),
+        a3: homeTheater({x: 0, y: 0}),
+        a4: homeTheater({x: 0, y: 0}),
+        a5: homeTheater({x: 0, y: 0}),
+        a6: homeTheater({x: 0, y: 0}),
+        a7: homeTheater({x: 0, y: 0}),
+        x : homeTheater({x: 0, y: 0})
     };
 
-    var tv = {
-        my: 'top center',
-        at: 'bottom center',
-        adjust: {x:0, y: 30},
-        title: 'Домашний кинотеатр',
-        text: 'Воспроизводит различные виды контента: тв передачи, фильмы, музыку, радио и создает объемный звук',
-    };
+    var tv = homeTheater({x: 0, y: 30});
 
     var mape = {
         iphone: {
