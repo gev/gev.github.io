@@ -254,7 +254,7 @@ $(function () {
             src.touch = touch;
             if (dy * dy > dx * dx) return true;
             shift(src, dst, dx, 0);
-            return true;
+            return false;
         }
     }
 
