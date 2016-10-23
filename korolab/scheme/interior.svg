@@ -384,7 +384,7 @@
      width="1670"
      height="923"
      preserveAspectRatio="none"
-     id="kitchenFloor"
+     id="bathroom"
      x="8979.9834"
      y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
@@ -785,7 +785,7 @@
      width="1819"
      height="209"
      preserveAspectRatio="none"
-     id="image4277"
+     id="kitchenFloor"
      x="3611.4824"
      y="893.47284" />
 </svg>
