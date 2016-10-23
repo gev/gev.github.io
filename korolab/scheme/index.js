@@ -347,26 +347,26 @@ $(function () {
     $('#bl').click(swipe(ci, ce, -1));
     $('#br').click(swipe(ci, ce, 1));
 
-    var cinema = $('#cinema');
+    var living = $('#living');
     var video = $('video');
 
-    handle(cinema, ci, ce);
+    handle(living, ci, ce);
     handle(video, ci, ce);
 
-    cinema.hide();
+    living.hide();
 
     video
         .mouseenter(function() {
             video.css('opacity', 1)[0].play();
-            cinema.fadeIn({duration: 1000});
+            living.fadeIn({duration: 1000});
         })
         .mouseout(function() {
             video.css('opacity', 0)[0].pause();
-            cinema.fadeOut({duration: 1000});
+            living.fadeOut({duration: 1000});
         })
         .on('ended', function() {
             video.css('opacity', 0);
-            cinema.fadeOut({duration: 1000});
+            living.fadeOut({duration: 1000});
         })
 
 
