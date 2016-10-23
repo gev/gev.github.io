@@ -13,7 +13,7 @@ $(function () {
             text: 'Воспроизводит различные виды контента: тв передачи, фильмы, музыку, радио и создает объемный звук',
             my: 'top center',
             at: 'bottom center',
-            adjust : adjust
+            adjust: adjust
         }
     }
 
@@ -96,22 +96,22 @@ $(function () {
             my: 'top right',
             adjust: {x: -50, y: 0}
         },
-        hallLighting : {
+        hallLighting: {
             style: HALL_LIGHTING,
             title: 'Торшер',
-            text:'Автоматически регулирует яркость света в светлое и темное время суток',
+            text: 'Автоматически регулирует яркость света в светлое и темное время суток',
             my: 'top right',
             adjust: {x: -80, y: 0}
         },
-        bedroomLeftLamp : {
+        bedroomLeftLamp: {
             style: BEDROOM_LIGHTING,
             title: 'Люстра',
-            text:'Создает приятную подсветку в спальне'
+            text: 'Создает приятную подсветку в спальне'
         },
-        bedroomRightLamp : {
+        bedroomRightLamp: {
             style: BEDROOM_LIGHTING,
             title: 'Люстра',
-            text:'Создает приятную подсветку в спальне',
+            text: 'Создает приятную подсветку в спальне',
             adjust: {x: -360, y: 0}
         },
         a1: homeTheater({x: 0, y: 0}),
@@ -121,10 +121,8 @@ $(function () {
         a5: homeTheater({x: 0, y: 0}),
         a6: homeTheater({x: 0, y: 0}),
         a7: homeTheater({x: 0, y: 0}),
-        x : homeTheater({x: 0, y: 0})
+        x: homeTheater({x: 0, y: 0})
     };
-
-    var tv = homeTheater({x: 0, y: 30});
 
     var mape = {
         iphone: {
@@ -133,7 +131,7 @@ $(function () {
             text: 'Позволяет управлять всеми функциями умного дома, просматривать камеры и получать голосовые сообщения',
             my: 'top center',
             adjust: {x: -30, y: 0}
-    },
+        },
         mikrotik: {
             style: INDIGO_GLOW,
             title: 'Роутер',
@@ -162,7 +160,7 @@ $(function () {
             my: 'top center',
             adjust: {x: -50, y: 0}
         },
-       
+
         trendent: {
             style: INDIGO_GLOW,
             title: 'Коммутатор',
@@ -365,14 +363,14 @@ $(function () {
     function init(container, src, dst, m) {
         var o = container.find('object')[0];
         var svg = o.getSVGDocument();
-        var f = function(svg) {
+        var f = function (svg) {
             handle($(svg).find('svg'), src, dst);
             map(svg, m, container)
         };
         if (svg)
             f(svg);
         else
-            o.addEventListener('load', function() {
+            o.addEventListener('load', function () {
                 f(o.getSVGDocument())
             });
     }
@@ -397,24 +395,20 @@ $(function () {
     living.hide();
 
     video
-        .mouseenter(function() {
+        .mouseenter(function () {
             video.css('opacity', 1)[0].play();
             living.fadeIn({duration: 1000});
             return true;
         })
-        .mouseout(function() {
+        .mouseout(function () {
             video.css('opacity', 0)[0].pause();
             living.fadeOut({duration: 1000});
             return true;
         })
-        .on('ended', function() {
+        .on('ended', function () {
             video.css('opacity', 0);
             living.fadeOut({duration: 1000});
             return true;
         });
-
-    tip(video, tv, $ci)
-
-
 
 });
