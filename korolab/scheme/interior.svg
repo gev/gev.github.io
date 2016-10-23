@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="10708.482"
-   height="1106.5671"
-   viewBox="0 0 10708.482 1106.5671"
+   height="1116.5671"
+   viewBox="0 0 10708.482 1116.5671"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -44,13 +44,13 @@
      id="namedview17"
      showgrid="false"
      inkscape:snap-global="false"
-     fit-margin-top="0"
+     fit-margin-top="10"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.305"
-     inkscape:cx="9029.4087"
-     inkscape:cy="131.74637"
+     inkscape:zoom="0.86267028"
+     inkscape:cx="6698.0937"
+     inkscape:cy="772.07026"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -2384,12 +2384,12 @@
      preserveAspectRatio="none"
      id="image3355"
      x="7256.4829"
-     y="183.56633"
+     y="193.56633"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\shadow2.png"
      xlink:href="shadow2.png"
-     y="192.92683"
+     y="202.92683"
      x="7862.9619"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
      id="image95560"
@@ -2403,12 +2403,12 @@
      preserveAspectRatio="none"
      id="image3366"
      x="1658.9825"
-     y="183.56633"
+     y="193.56633"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\shadow1.png"
      xlink:href="shadow1.png"
-     y="206.75066"
+     y="216.75066"
      x="2524.9697"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
      id="image95558"
@@ -2423,7 +2423,7 @@
      preserveAspectRatio="none"
      id="image5042"
      x="0"
-     y="143.75468" />
+     y="153.75468" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\lift.jpg"
      xlink:href="lift.jpg"
@@ -2433,7 +2433,7 @@
      preserveAspectRatio="none"
      id="image3388"
      x="58.500031"
-     y="183.56718" />
+     y="193.56718" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
@@ -2442,12 +2442,12 @@
      preserveAspectRatio="none"
      id="image5075"
      x="8856.5186"
-     y="143.2968"
+     y="153.2968"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
-     y="143.2968"
+     y="153.2968"
      x="7133.0181"
      id="image5073"
      preserveAspectRatio="none"
@@ -2462,7 +2462,7 @@
      preserveAspectRatio="none"
      id="image3377"
      x="3611.4824"
-     y="183.56633"
+     y="193.56633"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
@@ -2472,7 +2472,7 @@
      preserveAspectRatio="none"
      id="image5071"
      x="5385.5181"
-     y="143.2968"
+     y="153.2968"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\living-room.jpg"
@@ -2482,12 +2482,12 @@
      preserveAspectRatio="none"
      id="image3399"
      x="5508.9829"
-     y="183.56633"
+     y="193.56633"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\middle.png"
      xlink:href="middle.png"
-     y="143.2968"
+     y="153.2968"
      x="3488.6348"
      id="image5067"
      preserveAspectRatio="none"
@@ -2502,7 +2502,7 @@
      preserveAspectRatio="none"
      id="image5053"
      x="1535.8263"
-     y="143.2968"
+     y="153.2968"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroom.jpg"
@@ -2512,7 +2512,7 @@
      preserveAspectRatio="none"
      id="image3344"
      x="8979.9834"
-     y="183.56633"
+     y="193.56633"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\right.png"
@@ -2523,11 +2523,11 @@
      preserveAspectRatio="none"
      id="image5064"
      x="10605.357"
-     y="143.2968" />
+     y="153.2968" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\cond2.png"
      xlink:href="cond2.png"
-     y="243.56633"
+     y="253.56633"
      x="7933.6831"
      id="bedroomCond"
      preserveAspectRatio="none"
@@ -2537,7 +2537,7 @@
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\finger.png"
      xlink:href="finger.png"
-     y="562.01099"
+     y="572.01099"
      x="1713.6538"
      id="finger"
      preserveAspectRatio="none"
@@ -2547,7 +2547,7 @@
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\unifi1.png"
      xlink:href="unifi1.png"
-     y="260.22293"
+     y="270.22293"
      x="5624.3623"
      id="livingUnifi"
      preserveAspectRatio="none"
@@ -2562,87 +2562,87 @@
      preserveAspectRatio="none"
      id="bedroomUnifi"
      x="7362.5586"
-     y="260.22293"
+     y="270.22293"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17471);marker-end:url(#marker17621)"
-     d="m 5668.0329,7.7701362 0,240.2748538"
+     d="m 5668.0329,17.770136 0,240.274854"
      id="path17422"
      inkscape:connector-curvature="0" />
   <path
      id="path17426"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17475);marker-end:url(#marker17625)"
-     d="m 6675.8178,7.7499985 0,500.7326215 -41.0856,0"
+     d="m 6675.8178,17.749999 0,500.732621 -41.0856,0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
      id="path17439"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17491);marker-end:url(#marker17641)"
-     d="m 2965.8907,7.8097453 0,263.2455347 -55.1671,0"
+     d="m 2965.8907,17.809745 0,263.245535 -55.1671,0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
      sodipodi:nodetypes="ccc"
      inkscape:connector-curvature="0"
-     d="m 3191.5227,76.671918 0,412.328202 55.0694,0"
+     d="m 3191.5227,86.671918 0,412.328202 55.0694,0"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17495);marker-end:url(#marker17645)"
      id="path17441" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17503);marker-end:url(#marker17653)"
-     d="m 5365.596,75.833425 0,857.388625"
+     d="m 5365.596,85.833425 0,857.388625"
      id="path17447"
      inkscape:connector-curvature="0" />
   <path
      id="path17449"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17507);marker-end:url(#marker17657)"
-     d="m 4718.5142,76.767179 0,548.309851 164.4555,0"
+     d="m 4718.5142,86.767179 0,548.309851 164.4555,0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
      id="path17451"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17511);marker-end:url(#marker17661)"
-     d="m 7615.8357,76.617012 0,373.102768 -34.813,0"
+     d="m 7615.8357,86.617012 0,373.102768 -34.813,0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
      sodipodi:nodetypes="ccc"
      inkscape:connector-curvature="0"
-     d="m 8569.3915,76.617012 0,373.102768 34.813,0"
+     d="m 8569.3915,86.617012 0,373.102768 34.813,0"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17515);marker-end:url(#marker17665)"
      id="path17453" />
   <path
      id="path17455"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17519);marker-end:url(#marker17669)"
-     d="m 9733.668,76.476679 0,843.410341 34.629,0"
+     d="m 9733.668,86.476679 0,843.410341 34.629,0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
      id="path17459"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker17673)"
-     d="m 1729.596,548.37049 -0.081,-472.608396 8582.181,-0.07133 0,676.919446"
+     d="m 1729.596,558.37049 -0.081,-472.608396 8582.181,-0.07133 0,676.919446"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
      inkscape:connector-curvature="0"
      id="path17461"
-     d="m 9019.328,75.833425 0,856.963295"
+     d="m 9019.328,85.833425 0,856.963295"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17527);marker-end:url(#marker17677)" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker76575);marker-end:url(#marker17685)"
-     d="m 7064.9866,605.03446 31.3394,0 0,-563.833409"
+     d="m 7064.9866,615.03446 31.3394,0 0,-563.833409"
      id="path74665"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17539);marker-end:url(#marker17689)"
-     d="m 6351.0059,41.351736 0,201.617854"
+     d="m 6351.0059,51.351736 0,201.617854"
      id="path17467"
      inkscape:connector-curvature="0" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\cam.png"
      xlink:href="cam.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="239.14827"
+     y="249.14827"
      x="-149.5"
      id="cam"
      preserveAspectRatio="none"
@@ -2651,18 +2651,18 @@
      transform="scale(-1,1)" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker37841);marker-end:url(#marker37699)"
-     d="M 7410.8413,248.27413 7410.8203,6.63"
+     d="M 7410.8413,258.27413 7410.8203,16.63"
      id="path95367"
      inkscape:connector-curvature="0" />
   <path
      id="path36589"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker95369);marker-end:url(#marker95373)"
-     d="m 179.06265,271.95431 38.96505,0 0.3669,-265.1781836 8113.4332,0.4437463 0.063,263.8354073 -55.1671,0"
+     d="m 179.06265,281.95431 38.96505,0 0.3669,-265.178184 8113.4332,0.443747 0.063,263.835407 -55.1671,0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccccc" />
   <g
      id="g46913"
-     transform="translate(-12,-19.179893)"
+     transform="translate(-12,-9.179893)"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none">
     <circle
        r="111.28238"
@@ -2689,20 +2689,20 @@
   <path
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
-     d="m 1613.8907,7.281925 0,450.336515"
+     d="m 1613.8907,17.281925 0,450.336515"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker48614);marker-end:url(#marker48436)"
      id="path47038" />
   <path
      id="path50904"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker52746);marker-end:url(#marker52558)"
-     d="m 1965.4778,75.682702 0,232.282138"
+     d="m 1965.4778,85.682702 0,232.282138"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\button.png"
      xlink:href="button.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="574.4165"
+     y="584.4165"
      x="9363.7139"
      id="button"
      preserveAspectRatio="none"
@@ -2712,7 +2712,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\ipad.png"
      xlink:href="ipad.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="525.71637"
+     y="535.71637"
      x="2150.8813"
      id="ipad"
      preserveAspectRatio="none"
@@ -2722,7 +2722,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\motion-sensor.png"
      xlink:href="motion-sensor.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="244.04366"
+     y="254.04366"
      x="3427.6804"
      id="motionSensor"
      preserveAspectRatio="none"
@@ -2730,26 +2730,26 @@
      width="50" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker56459);marker-end:url(#marker56261)"
-     d="m 9388.5084,75.510904 0,473.836596"
+     d="m 9388.5084,85.510904 0,473.836596"
      id="path54703"
      inkscape:connector-curvature="0" />
   <path
      sodipodi:nodetypes="ccc"
      inkscape:connector-curvature="0"
-     d="m 2354.2531,7.0918591 0,552.0071309 -51.8876,0"
+     d="m 2354.2531,17.091859 0,552.007131 -51.8876,0"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker59783);marker-end:url(#marker59575)"
      id="path57741" />
   <path
      id="path61743"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker63885);marker-end:url(#marker63667)"
-     d="m 3422.8013,76.671918 0,194.400212"
+     d="m 3422.8013,86.671918 0,194.400212"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\socket.jpg"
      xlink:href="socket.jpg"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="809.46875"
+     y="819.46875"
      x="8753.4502"
      id="socket"
      preserveAspectRatio="none"
@@ -2757,7 +2757,7 @@
      width="122.60602" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker68072);marker-end:url(#marker67844)"
-     d="m 8817.328,75.833425 0,712.700995"
+     d="m 8817.328,85.833425 0,712.700995"
      id="path66046"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
@@ -2765,7 +2765,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\acoustics.png"
      xlink:href="acoustics.png"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="227.45592"
+     y="237.45592"
      x="10507.104"
      id="bathroomAcoustics"
      preserveAspectRatio="none"
@@ -2774,7 +2774,7 @@
   <path
      id="path81157"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 10560.066,214.76384 0.03,-173.666641 -6822.4993,0.07953 0,171.074191"
+     d="m 10560.066,224.76384 0.03,-173.666641 -6822.4993,0.07953 0,171.074191"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <image
@@ -2786,11 +2786,11 @@
      preserveAspectRatio="none"
      id="kitchenAcoustics"
      x="3681.1035"
-     y="227.45592" />
+     y="237.45592" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\cond1.png"
      xlink:href="cond1.png"
-     y="243.56633"
+     y="253.56633"
      x="2563.5706"
      id="hallCond"
      preserveAspectRatio="none"
@@ -2806,12 +2806,12 @@
      preserveAspectRatio="none"
      id="hallLighting"
      x="3263.9141"
-     y="425.95236" />
+     y="435.95236" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bedroomLeftLamp.png"
      xlink:href="bedroomLeftLamp.png"
      style="opacity:0;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="482.61227"
+     y="492.61227"
      x="7471.8091"
      id="bedroomLeftLamp"
      preserveAspectRatio="none"
@@ -2821,7 +2821,7 @@
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bedroomRightLamp.png"
      xlink:href="bedroomRightLamp.png"
      style="opacity:0;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     y="482.87823"
+     y="492.87823"
      x="8538.8359"
      id="bedroomRightLamp"
      preserveAspectRatio="none"
