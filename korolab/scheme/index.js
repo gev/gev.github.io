@@ -104,6 +104,11 @@ $(function () {
         }
     };
 
+    var tv = {
+        title: '',
+        text: '',
+    };
+
     var mape = {
         iphone: {
             style: INDIGO_GLOW,
@@ -262,6 +267,7 @@ $(function () {
             var touch = get(e);
             var dx = src.touch.screenX - touch.screenX;
             var dy = src.touch.screenY - touch.screenY;
+            if (dy * dy > dx * dx) return true;
             src.v.push(dx / (e.timeStamp - src.t));
             if (src.v.length > 3) src.v.shift();
             src.t = e.timeStamp;
@@ -302,25 +308,29 @@ $(function () {
         }
     }
 
+    function tip(e, t, container) {
+        e.qtip({
+            content: {
+                title: t.title,
+                text: t.text
+            },
+            position: {
+                my: t.my || 'top left',
+                at: t.at || 'center center',
+                adjust: t.adjust || {x: 0, y: 5},
+                container: container
+            },
+            style: {
+                classes: 'qtip-bootstrap qtip-shadow'
+            }
+        })
+    }
+
     function map(svg, m, container) {
         for (var i in m) {
             var e = svg.getElementById(i);
             e.setAttribute('class', m[i].style);
-            $(e).qtip({
-                content: {
-                    title: m[i].title,
-                    text: m[i].text
-                },
-                position: {
-                    my: m[i].my || 'top left',
-                    at: m[i].at || 'center center',
-                    adjust: m[i].adjust || {x: 0, y: 5},
-                    container: container
-                },
-                style: {
-                    classes: 'qtip-bootstrap qtip-shadow'
-                }
-            })
+            tip($(e), m[i], container);
         }
     }
 
@@ -373,15 +383,21 @@ $(function () {
         .mouseenter(function() {
             video.css('opacity', 1)[0].play();
             living.fadeIn({duration: 1000});
+            return true;
         })
         .mouseout(function() {
             video.css('opacity', 0)[0].pause();
             living.fadeOut({duration: 1000});
+            return true;
         })
         .on('ended', function() {
             video.css('opacity', 0);
             living.fadeOut({duration: 1000});
-        })
+            return true;
+        });
+
+    tip(video, tv, $ci)
+
 
 
 });
