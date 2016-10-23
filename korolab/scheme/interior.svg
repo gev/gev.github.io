@@ -48,9 +48,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.43133514"
-     inkscape:cx="2431.7862"
-     inkscape:cy="450.37051"
+     inkscape:zoom="0.305"
+     inkscape:cx="9627.2939"
+     inkscape:cy="-226.91236"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -384,7 +384,7 @@
      width="1670"
      height="923"
      preserveAspectRatio="none"
-     id="bathroom"
+     id="kitchenFloor"
      x="8979.9834"
      y="179.47284"
      style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
@@ -481,10 +481,10 @@
      sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
   <path
      style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.3;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:crispEdges;text-rendering:auto;enable-background:accumulate"
-     d="m 9388.4707,68.881117 c -0.3446,0.0053 -0.6844,0.08176 -0.998,0.22461 l -7421.2559,0.06055 c -0.2515,-0.07848 -0.5138,-0.116713 -0.7773,-0.113282 -0.2379,0.0042 -0.474,0.04234 -0.7012,0.113282 l -235.2227,0.002 c -1.3807,1.38e-4 -2.4999,1.119345 -2.5,2.5 l 0.08,496.609373 c -0.047,3.38081 5.0491,3.37887 5,-0.002 l -0.08,-494.107423 230.9629,-0.002 0,263.705073 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-263.705073 1221.0449,-0.0098 0,410.750003 c 10e-5,1.38065 1.1193,2.49986 2.5,2.5 l 71.9375,0 c 3.3808,0.0478 3.3808,-5.04781 0,-5 l -69.4375,0 0,-408.250003 226.2774,-0.002 0,192.824223 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-192.824223 1290.7129,-0.0098 0,546.837893 c 10e-5,1.38065 1.1193,2.49986 2.5,2.5 l 164.4551,0 c 3.3807,0.0478 3.3807,-5.04781 0,-5 l -161.9551,0 0,-544.337893 642.084,-0.0059 0,828.992193 c -0.082,3.41135 5.0777,3.41135 4.9961,0 l 0,-828.992193 2245.2421,-0.01758 0,369.005863 -44.3125,0 c -3.3808,-0.0478 -3.3808,5.04781 0,5 l 46.8125,0 c 1.3807,-1.4e-4 2.4999,-1.11935 2.5,-2.5 l 0,-371.505863 948.5547,-0.0078 0,371.513673 c 10e-5,1.38065 1.1193,2.49986 2.5,2.5 l 54.8145,0 c 3.3808,0.0478 3.3808,-5.04781 0,-5 l -52.3145,0 0,-369.013673 242.9375,-0.002 0,732.330083 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-732.330083 197,-0.002 0,828.593753 c -0.048,3.3808 5.0478,3.3808 5,0 l 0,-828.593753 364.1797,-0.0039 0,497.148443 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-497.148443 340.1602,-0.002 0,851.689453 c 1e-4,1.38065 1.1193,2.49986 2.5,2.5 l 34.6289,0 c 3.3808,0.0478 3.3808,-5.04781 0,-5 l -32.1289,0 0,-849.191407 573.027,-0.0039 0,636.417977 c -0.05,3.3808 5.048,3.3808 5,0 l 0,-638.917977 c 0,-1.380655 -1.119,-2.499862 -2.5,-2.5 l -922.1579,0.0078 c -0.3346,-0.152371 -0.6987,-0.229063 -1.0664,-0.22461 z"
+     d="m 9388.4707,68.881117 c -0.3446,0.0053 -0.6844,0.08176 -0.998,0.22461 l -7421.2559,0.06055 c -0.2515,-0.07848 -0.5138,-0.116713 -0.7773,-0.113282 -0.2379,0.0042 -0.474,0.04234 -0.7012,0.113282 l -235.2227,0.002 c -1.3807,1.38e-4 -2.4999,1.119345 -2.5,2.5 l 0.08,496.609373 c -0.047,3.38081 5.0491,3.37887 5,-0.002 l -0.08,-494.107423 230.9629,-0.002 0,263.705073 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-263.705073 1221.0449,-0.0098 0,410.750003 c 10e-5,1.38065 1.1193,2.49986 2.5,2.5 l 71.9375,0 c 3.3808,0.0478 3.3808,-5.04781 0,-5 l -69.4375,0 0,-408.250003 226.2774,-0.002 0,192.824223 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-192.534425 1290.7129,-0.0098 0,866.837895 5,-0.041 0,-866.796915 642.084,-0.0059 0,828.702395 c -0.082,3.41135 5.0777,3.41135 4.9961,0 l 0,-828.992193 2245.2421,-0.01758 0,369.005863 -44.3125,0 c -3.3808,-0.0478 -3.3808,5.04781 0,5 l 46.8125,0 c 1.3807,-1.4e-4 2.4999,-1.11935 2.5,-2.5 l 0,-371.505863 948.5547,-0.0078 0,371.513673 c 10e-5,1.38065 1.1193,2.49986 2.5,2.5 l 54.8145,0 c 3.3808,0.0478 3.3808,-5.04781 0,-5 l -52.3145,0 0,-369.013673 242.9375,-0.002 0,732.330083 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-732.330083 197,-0.002 0,828.593753 c -0.048,3.3808 5.0478,3.3808 5,0 l 0,-828.593753 364.1797,-0.0039 0,497.148443 c -0.048,3.38081 5.0478,3.38081 5,0 l 0,-497.148443 340.1602,-0.002 0,833.689453 5,-0.0729 0,-833.618467 573.027,-0.0039 0,636.417977 c -0.05,3.3808 5.048,3.3808 5,0 l 0,-638.917977 c 0,-1.380655 -1.119,-2.499862 -2.5,-2.5 l -922.1579,0.0078 c -0.3346,-0.152371 -0.6987,-0.229063 -1.0664,-0.22461 z"
      id="path17441"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccc" />
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccscccc" />
   <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\shadow2.png"
      xlink:href="shadow2.png"
@@ -760,16 +760,6 @@
      width="78.786003"
      inkscape:label="#image3539" />
   <image
-     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bath.png"
-     xlink:href="bath.png"
-     inkscape:label="#image4255"
-     width="639.55383"
-     height="244.35785"
-     preserveAspectRatio="none"
-     id="bath"
-     x="9767.1602"
-     y="694.12756" />
-  <image
      sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroom-floor.png"
      xlink:href="bathroom-floor.png"
      inkscape:label="#image4266"
@@ -785,7 +775,7 @@
      width="1819"
      height="209"
      preserveAspectRatio="none"
-     id="kitchenFloor"
+     id="image4277"
      x="3611.4824"
      y="893.47284" />
   <g
@@ -813,4 +803,35 @@
        x="1967.9785"
        y="329.1265" />
   </g>
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\kitchenPuddle.png"
+     xlink:href="kitchenPuddle.png"
+     transform="matrix(0.99994922,-0.01007756,0.01007756,0.99994922,0,0)"
+     inkscape:label="#image4314"
+     width="481.25"
+     height="62.5"
+     preserveAspectRatio="none"
+     id="kitchenPuddle"
+     x="4628.2988"
+     y="987.76544" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bathroomPuddle.png"
+     xlink:href="bathroomPuddle.png"
+     inkscape:label="#image4327"
+     width="608.40192"
+     height="117.27021"
+     preserveAspectRatio="none"
+     id="bathroomPuddle"
+     x="9297.4727"
+     y="901.31512" />
+  <image
+     sodipodi:absref="C:\Users\gazdo\workspace\gev.github.io\korolab\scheme\bath.png"
+     xlink:href="bath.png"
+     inkscape:label="#image4255"
+     width="639.55383"
+     height="244.35785"
+     preserveAspectRatio="none"
+     id="bath"
+     x="9767.1602"
+     y="694.12756" />
 </svg>
