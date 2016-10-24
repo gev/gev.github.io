@@ -26,8 +26,9 @@ html, body {
 
 
     opacity: 0.8;
-    will-change: opacity;
-    transition-property: opacity;
+    filter: grayscale(100%);
+    will-change: filter, opacity;
+    transition-property: filtert, opacity;
     transition-duration: 1s;
     animation-timing-function: ease-in-out;
 }
