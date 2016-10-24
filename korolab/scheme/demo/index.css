@@ -41,6 +41,7 @@ html, body {
     padding: 30px 60px;
     background-color: white;
     text-decoration: none;
+    border: solid black 1px;
 }
 
 
