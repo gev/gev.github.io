@@ -50,7 +50,7 @@ video {
 
 #ce, #ci {
     top: 0;
-    left: 0;
+    left: -50%;
     height: 100%;
     position: absolute;
     overflow-clip: none;
