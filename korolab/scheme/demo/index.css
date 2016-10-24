@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    font-family: Helvetica, "Helvetica Neue", Sans;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background: white;
+}
+
+.gray {
+    height: 100%;
+    width: 100%;
+
+    background: url('scheme.png') no-repeat center;
+    background-size: auto 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0.5;
+    filter: grayscale(100%);
+    will-change: filter, opacity;
+    transition-property: filter, opacity;
+    transition-duration: 1s;
+    animation-timing-function: ease-in-out
+}
+
+.gray a {
+    font-size: 120px;
+    font-weight: 600;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.gray:hover {
+    filter: none;
+    opacity: 1;
+}
+
