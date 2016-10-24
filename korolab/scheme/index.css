@@ -105,3 +105,15 @@ video {
 #br {
     right: 0;
 }
+
+.qtip-title {
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.qtip-content {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
