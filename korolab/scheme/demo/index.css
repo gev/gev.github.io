@@ -24,7 +24,7 @@ html, body {
     align-items: center;
     justify-content: center;
 
-    opacity: 0.5;
+    opacity: 0.8;
     filter: grayscale(100%);
     will-change: filter, opacity;
     transition-property: filter, opacity;
