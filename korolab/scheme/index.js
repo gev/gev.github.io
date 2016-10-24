@@ -1,5 +1,6 @@
 $(function () {
 
+
     var BEDROOM_LIGHTING = 'bedroom-lighting';
     var HALL_LIGHTING = 'hall-lighting';
     var INDIGO_GLOW = 'indigo-glow';
@@ -11,7 +12,7 @@ $(function () {
             style: GREEN_GLOW,
             title: 'Домашний кинотеатр',
             text: 'Воспроизводит различные виды контента: тв передачи, фильмы, музыку, радио и создает объемный звук',
-            adjust: {x: 20, y: -100}
+            adjust: adjust || {x: 20, y: -100}
         }
     }
 
@@ -113,9 +114,9 @@ $(function () {
             adjust: {x: -360, y: 0}
         },
 
-        a1: homeTheater({x: 0, y: 0}),
-        a2: homeTheater({x: 0, y: 0}),
-        a3: homeTheater({x: 0, y: 0}),
+        a1: homeTheater(),
+        a2: homeTheater(),
+        a3: homeTheater(),
         a4: {
             style: GREEN_GLOW,
             title: 'Колонки домашнего кинотеатра',
@@ -144,7 +145,7 @@ $(function () {
             my: 'top right',
             adjust: {x: -80, y: -30}
         },
-        x: homeTheater({x: 0, y: 0}),
+        x: homeTheater(),
         bath: {
             style: OPACITY,
             title: 'Датчик наливания ванны',
@@ -434,6 +435,9 @@ $(function () {
                 f(o.getSVGDocument())
             });
     }
+
+    var c = $('#c')[0];
+        c.style.height = c.offsetHeight + 'px';
 
     var $ce = $('#ce');
     var ce = $ce[0];
