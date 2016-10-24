@@ -279,9 +279,9 @@ $(function () {
         dt += 'ms';
         src.style.transitionDuration = dt;
         dst.style.transitionDuration = dt;
-        var l = document.body.clientWidth - src.offsetWidth + 100;
+        var l = document.body.clientWidth - src.offsetWidth;
         var x = src.offsetLeft - dx;
-        x = x > 100 ? 0 : x < l ? l : x;
+        x = x > 0 ? 0 : x < l ? l : x;
         src.style.left = Math.round(x) + 'px';
         sync(src, dst, x)
     }
