@@ -25,16 +25,14 @@ html, body {
     justify-content: center;
 
 
-    /*opacity: 0.8;*/
-    filter: grayscale(100%);
-    will-change: filter, opacity;
-    transition-property: filter, opacity;
+    opacity: 0.8;
+    will-change: opacity;
+    transition-property: opacity;
     transition-duration: 1s;
     animation-timing-function: ease-in-out;
 }
 
 .gray a {
-    font-family: Ubuntu;
     font-size: 36px;
     font-weight: 400;
     color: black;
@@ -46,7 +44,6 @@ html, body {
 
 
 .gray:hover {
-    filter: none;
-    /*opacity: 1;*/
+    opacity: 1;
 }
 
