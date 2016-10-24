@@ -3,7 +3,7 @@
     padding: 0;
     overflow: hidden;
     user-select: none;
-    font-family: Ubuntu, Helvetica, "Helvetica Neue", Sans;
+    font-family: Ubuntu, sans-serif;
 }
 
 html, body {
