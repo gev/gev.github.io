@@ -33,13 +33,13 @@ html, body {
 }
 
 .gray a {
-    font-size: 120px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 500;
     color: white;
     padding: 30px 60px;
-    border : solid white 3px;
-    border-radius: 30px;
     background-color: green;
+    text-decoration: none;
+    cursor: default;
 }
 
 
