@@ -25,7 +25,7 @@ html, body {
     justify-content: center;
 
 
-    opacity: 0.8;
+    /*opacity: 0.8;*/
     filter: grayscale(100%);
     will-change: filter, opacity;
     transition-property: filter, opacity;
@@ -47,6 +47,6 @@ html, body {
 
 .gray:hover {
     filter: none;
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
