@@ -45,5 +45,6 @@ html, body {
 
 .gray:hover {
     opacity: 1;
+    filter: none;
 }
 
