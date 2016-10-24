@@ -3,7 +3,7 @@
     padding: 0;
     overflow: hidden;
     user-select: none;
-    font-family: Ubuntu, sans-serif;
+    font-family: Ubuntu;
 }
 
 html, body, #c {

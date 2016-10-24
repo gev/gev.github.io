@@ -1,29 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    position: fixed;
     overflow: hidden;
-    user-select: none;
-    font-family: Ubuntu, sans-serif;
+    font-family: Ubuntu;
 }
 
-html, body {
+html, body, div {
     width: 100%;
     height: 100%;
     font-size: 20px;
     background: white;
-}
-
-.gray {
-    height: 100%;
-    width: 100%;
-
-    background: url('scheme.jpg') no-repeat center;
-    background-size: auto 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+#gray {
+
+    background: url('scheme.jpg') no-repeat center;
+    background-size: auto 100%;
 
     opacity: 0.8;
     filter: grayscale(100%);
@@ -33,7 +29,7 @@ html, body {
     animation-timing-function: ease-in-out;
 }
 
-.gray a {
+a {
     font-size: 36px;
     font-weight: 400;
     color: black;
@@ -41,10 +37,11 @@ html, body {
     background-color: white;
     text-decoration: none;
     border: solid black 1px;
+    z-index: 9999;
 }
 
 
-.gray:hover {
+.color {
     opacity: 1;
     filter: none;
 }
