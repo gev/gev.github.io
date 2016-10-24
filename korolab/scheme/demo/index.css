@@ -36,9 +36,10 @@ html, body {
     font-size: 120px;
     font-weight: 600;
     color: white;
-    padding: 30px;
+    padding: 30px 60px;
+    border : solid white 3px;
     border-radius: 30px;
-    background-color: rgba(0, 150, 0, 0.8);
+    background-color: green;
 }
 
 
