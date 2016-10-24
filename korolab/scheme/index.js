@@ -279,9 +279,9 @@ $(function () {
         dt += 'ms';
         src.style.transitionDuration = dt;
         dst.style.transitionDuration = dt;
-        var l = document.body.clientWidth - src.offsetWidth;
+        var l = document.body.clientWidth - src.offsetWidth + 100;
         var x = src.offsetLeft - dx;
-        x = x > 0 ? 0 : x < l ? l : x;
+        x = x > 100 ? 0 : x < l ? l : x;
         src.style.left = Math.round(x) + 'px';
         sync(src, dst, x)
     }
@@ -343,7 +343,6 @@ $(function () {
             var touch = get(e);
             var dx = src.touch.screenX - touch.screenX;
             var dy = src.touch.screenY - touch.screenY;
-            if (dy * dy > dx * dx) return true;
             src.v.push(dx / (e.timeStamp - src.t));
             if (src.v.length > 3) src.v.shift();
             src.t = e.timeStamp;
