@@ -3,7 +3,7 @@
     padding: 0;
     overflow: hidden;
     user-select: none;
-    font-family: Helvetica, "Helvetica Neue", Sans;
+    font-family: Ubuntu, Helvetica, "Helvetica Neue", Sans;
 }
 
 html, body {
@@ -24,20 +24,21 @@ html, body {
     align-items: center;
     justify-content: center;
 
+
     opacity: 0.8;
     filter: grayscale(100%);
     will-change: filter, opacity;
     transition-property: filter, opacity;
     transition-duration: 1s;
-    animation-timing-function: ease-in-out
+    animation-timing-function: ease-in-out;
 }
 
 .gray a {
     font-size: 50px;
     font-weight: 500;
-    color: white;
+    color: black;
     padding: 30px 60px;
-    background-color: orangered;
+    background-color: white;
     text-decoration: none;
 }
 
