@@ -154,7 +154,7 @@ $(function () {
         },
         kitchenFloor : {
             style: OPACITY,
-            title: 'Телый пол',
+            title: 'Теплый пол',
             text: 'Создает кофортную температуру зимой и в межсезонье',
             adjust: {x: -550, y: -180}
 
