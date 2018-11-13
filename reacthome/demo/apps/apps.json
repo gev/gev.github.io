@@ -1,0 +1,12 @@
+{
+  "title": "Reacthome demo apps",
+  "description": "",
+  "app": [
+    {
+      "id": "reacthome-mobile-demo",
+      "title": "Reacthome demo",
+      "description": "Smart home control demo application",
+      "platform": ["ios", "android"]
+    }
+  ]
+}
