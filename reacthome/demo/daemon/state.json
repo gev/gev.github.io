@@ -7448,9 +7448,9 @@
       "modified": 1541716597646
     },
     "root": {
-      "project": [
-        "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-        "dec37f69-889c-413c-9632-3d7a09a89eaa"
+      "daemon": [
+        "b8:27:eb:c1:db:99",
+        "00:0b:ab:d5:dd:d0"
       ]
     }
   }
