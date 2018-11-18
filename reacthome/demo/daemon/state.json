@@ -92,7 +92,7 @@
         "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453",
         "9a25079f-0e21-439d-997d-bbdfe626617c"
       ],
-      "modified": 1541719713047,
+      "modified": 1542557265556,
       "light_on": -2
     },
     "b8:27:eb:c1:db:99": {
@@ -107,11 +107,11 @@
         "0e:e2:da:98:fe:fd",
         "2a:3a:4b:d3:49:d8"
       ],
-      "project": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "project": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
       "title": "test server",
       "multicast": true,
       "code": "",
-      "modified": 1542557142462
+      "modified": 1542557265557
     },
     "aa:e0:98:45:d7:ab": {
       "type": 17,
@@ -141,6 +141,21 @@
       "updating": false,
       "length": 277,
       "code": "DI 1",
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd": {
+      "type": 15,
+      "version": "21.160",
+      "ip": "192.168.18.100",
+      "online": true,
+      "ready": true,
+      "initialized": true,
+      "finding": false,
+      "pendingFirmware": "dim8",
+      "pending": false,
+      "updating": false,
+      "length": 1,
+      "code": "DIM 1",
       "modified": 1541719544023
     },
     "2a:3a:4b:d3:49:d8": {
@@ -595,21 +610,6 @@
       "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
       "code": "AC 1",
       "modified": 1541934107308
-    },
-    "0e:e2:da:98:fe:fd": {
-      "type": 15,
-      "version": "21.160",
-      "ip": "192.168.18.100",
-      "online": true,
-      "ready": true,
-      "initialized": true,
-      "finding": false,
-      "pendingFirmware": "dim8",
-      "pending": false,
-      "updating": false,
-      "length": 1,
-      "code": "DIM 1",
-      "modified": 1541719544023
     },
     "20483d68-1ee3-4dec-a942-d8d9db9878c7": {
       "type": "script",
