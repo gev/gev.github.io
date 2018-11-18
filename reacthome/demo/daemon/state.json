@@ -21,7 +21,16 @@
     "cb72787b-befc-4f68-bb7c-312b0dd16354.JPG",
     "d12a2843-70e4-495c-b901-85f188b7af2c.JPG",
     "e46d8a82-c81e-457f-b742-2d516f05ecd4.JPG",
-    "ef3418ed-9192-4b36-b913-82d4c4548521.JPG"
+    "ef3418ed-9192-4b36-b913-82d4c4548521.JPG",
+    "0316b991-6242-4aec-8644-4822c3c0ee25.png",
+    "1c62a4cb-6846-486a-8b12-cdb95275f223.jpg",
+    "3449bf09-eebe-4a21-a350-e13363e2d8f3.png",
+    "4fc7a292-ca97-4d10-8bdc-7526166c01c2.jpg",
+    "d296cb0c-22b7-49f8-a73c-1ce29299c374.png",
+    "d31e6421-3ae9-4a2b-a5fc-736840077e29.png",
+    "efcfb10e-ec80-4247-a0b2-04cd59167aac.png",
+    "f04da6cf-bf7e-4b5d-904d-13bd5eb905c6.png",
+    "f6abc177-17a1-4b95-ba89-fa190af4843e.png"
   ],
   "state": {
     "dce82723-b07a-48fc-9b85-fd2a0c94df12": {
@@ -7446,6 +7455,674 @@
     "02:00:00:00:02:01/di/31": {
       "value": 0,
       "modified": 1541716597646
+    },
+    "c01d515a-daab-4ffe-970e-7a0519930fca": {
+      "type": "project",
+      "title": "Моя квартира",
+      "modified": 1542141668774,
+      "site": [
+        "350f2f91-9739-4163-906f-d3e6d4fcab02",
+        "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+        "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed",
+        "98b49127-d33d-483a-b27c-9ece027df39e",
+        "6521d4f5-4dd1-482a-88f7-34f084aa7926",
+        "d20c414f-b667-47d3-9cf9-bfd076117266",
+        "c8d50d6c-81bd-433c-8e08-884cc929731c",
+        "00aa2511-ce26-4674-8b59-dfecf783f009",
+        "783fb62f-ef50-4e0a-8021-3c0d201c047a",
+        "bc74457f-3739-4294-90ce-0ec3d9cf71f9"
+      ],
+      "script": [
+        "2a913f75-cc26-472d-b175-0d8a0e3fc294",
+        "305255b4-0ec8-45e3-98ad-9686028582c5",
+        "4de9210e-4e20-4b57-b0cb-982ad643c2a1",
+        "7c8c8871-2062-48e6-86e6-34f1735e46e4",
+        "c8805f39-ed95-45de-98b8-bb5ffef25e9d",
+        "c7fcaeef-ad3a-4541-959b-f3d7cebe9b85",
+        "691a4f7e-6a81-4a6b-a67b-14b0db73662f",
+        "175ff388-0a18-495f-8fff-9d66b9b1452f",
+        "664937c7-4bc8-40fc-92fb-277a2d32e17a",
+        "98535fc6-58b4-4e84-bd48-ddf78df50782",
+        "2eef9054-b7cc-4414-ac5a-80b73787f46e",
+        "181dea66-c26a-4e0c-8fd6-a55b7f817522",
+        "10527316-f6e7-4c8b-8fcb-bc9645dc17e7",
+        "72d9c286-b5b9-4381-a874-88d8f3d85629"
+      ]
+    },
+    "350f2f91-9739-4163-906f-d3e6d4fcab02": {
+      "type": "site",
+      "title": "Гостиная",
+      "modified": 1542143129505,
+      "image": "3449bf09-eebe-4a21-a350-e13363e2d8f3.png",
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "palette": {
+        "lightVibrant": "#ceb999",
+        "muted": "#9e735c",
+        "lightMuted": "#d6ccb9",
+        "darkMuted": "#525028"
+      },
+      "light_220": [
+        "8352b34d-346d-4106-af55-76a51b11ab7d",
+        "e56ec86f-422d-49d3-b1b2-6a704a29e7a9",
+        "a3fa05a8-874f-4953-822c-56b729377132",
+        "3020985e-6437-4f7c-b8f9-bc89caa58e1e",
+        "492ed4f8-9e32-4353-94cf-9c872a07dac6",
+        "e3097536-8a0f-402b-b8da-faa952d5c580"
+      ],
+      "TV": [
+        "a9c93c0f-0285-4a9f-b315-63b43d1907ac"
+      ],
+      "AC": [
+        "67e26b8e-4c7e-4c37-be06-35c0b0063c2a"
+      ],
+      "scene": [
+        "c8805f39-ed95-45de-98b8-bb5ffef25e9d",
+        "c7fcaeef-ad3a-4541-959b-f3d7cebe9b85",
+        "691a4f7e-6a81-4a6b-a67b-14b0db73662f",
+        "175ff388-0a18-495f-8fff-9d66b9b1452f"
+      ],
+      "light_LED": [
+        "942ab546-db82-411a-9744-d7571c2d37d4",
+        "e921bdc2-4b82-446a-b829-eb5849095e06",
+        "1ac069a8-fc4a-481d-bc8e-ca3c5d90e73e",
+        "2899c4aa-b110-492b-a2f2-a24b77ab4c69"
+      ]
+    },
+    "8352b34d-346d-4106-af55-76a51b11ab7d": {
+      "type": "light_220",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Основной",
+      "modified": 1542555552551
+    },
+    "e56ec86f-422d-49d3-b1b2-6a704a29e7a9": {
+      "type": "light_220",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Стол",
+      "modified": 1542555557847
+    },
+    "a3fa05a8-874f-4953-822c-56b729377132": {
+      "type": "light_220",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Бра",
+      "modified": 1542555564648
+    },
+    "3020985e-6437-4f7c-b8f9-bc89caa58e1e": {
+      "type": "light_220",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Споты",
+      "modified": 1542555574007
+    },
+    "492ed4f8-9e32-4353-94cf-9c872a07dac6": {
+      "type": "light_220",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Коридор",
+      "modified": 1542555580761
+    },
+    "e3097536-8a0f-402b-b8da-faa952d5c580": {
+      "type": "light_220",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Торшеры",
+      "modified": 1542555603081
+    },
+    "a9c93c0f-0285-4a9f-b315-63b43d1907ac": {
+      "type": "TV",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "TV",
+      "modified": 1542553867174
+    },
+    "67e26b8e-4c7e-4c37-be06-35c0b0063c2a": {
+      "type": "AC",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "AC",
+      "modified": 1542553888614
+    },
+    "c8805f39-ed95-45de-98b8-bb5ffef25e9d": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "гостиная 1",
+      "modified": 1542554687527,
+      "title": "Основной"
+    },
+    "c7fcaeef-ad3a-4541-959b-f3d7cebe9b85": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "гостиная 2",
+      "modified": 1542554693079,
+      "title": "Спокойно"
+    },
+    "691a4f7e-6a81-4a6b-a67b-14b0db73662f": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "гостиная 3",
+      "modified": 1542554706213,
+      "title": "Полсветка"
+    },
+    "175ff388-0a18-495f-8fff-9d66b9b1452f": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "гостиная 4",
+      "modified": 1542554725588,
+      "title": "Кино"
+    },
+    "942ab546-db82-411a-9744-d7571c2d37d4": {
+      "type": "light_LED",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Мебель",
+      "modified": 1542555656045
+    },
+    "e921bdc2-4b82-446a-b829-eb5849095e06": {
+      "type": "light_LED",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Ниша",
+      "modified": 1542555662788
+    },
+    "1ac069a8-fc4a-481d-bc8e-ca3c5d90e73e": {
+      "type": "light_LED",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Диван",
+      "modified": 1542555671301
+    },
+    "2899c4aa-b110-492b-a2f2-a24b77ab4c69": {
+      "type": "light_LED",
+      "site": "350f2f91-9739-4163-906f-d3e6d4fcab02",
+      "title": "Подстветка ТВ",
+      "modified": 1542555679772
+    },
+    "4de4890a-3ec3-4b81-babc-cdb98eece0f1": {
+      "type": "site",
+      "title": "Кухня",
+      "modified": 1542142280532,
+      "image": "d296cb0c-22b7-49f8-a73c-1ce29299c374.png",
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "palette": {
+        "vibrant": "#c28c74",
+        "lightVibrant": "#eee0c6",
+        "darkVibrant": "#5c3828",
+        "muted": "#92897d",
+        "lightMuted": "#c4bcb2",
+        "darkMuted": "#3c3932"
+      },
+      "TV": [
+        "c43e126c-7355-43bf-9087-712317c2761c"
+      ],
+      "AC": [
+        "2a56f67b-afba-4756-8bec-9c843c235396"
+      ],
+      "scene": [
+        "2a913f75-cc26-472d-b175-0d8a0e3fc294",
+        "305255b4-0ec8-45e3-98ad-9686028582c5",
+        "4de9210e-4e20-4b57-b0cb-982ad643c2a1",
+        "7c8c8871-2062-48e6-86e6-34f1735e46e4"
+      ],
+      "light_220": [
+        "a8d23737-aa4d-47d3-a2e1-307ba5c1f48a",
+        "e3789a35-628e-4d9a-b1d9-cd3dc32be330",
+        "5760ad3a-eca3-4adb-b115-79a3c84d6871"
+      ],
+      "light_LED": [
+        "320a48b3-c86d-4889-96f9-6a51f7a38457",
+        "6c7b921d-884f-4a9a-bc92-705eaf23916e",
+        "35d989c9-a0d7-4f14-a6be-a5dddfa61b9a"
+      ]
+    },
+    "c43e126c-7355-43bf-9087-712317c2761c": {
+      "type": "TV",
+      "site": "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+      "title": "TV",
+      "modified": 1542553879149
+    },
+    "2a56f67b-afba-4756-8bec-9c843c235396": {
+      "type": "AC",
+      "site": "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+      "title": "AC",
+      "modified": 1542553895829
+    },
+    "2a913f75-cc26-472d-b175-0d8a0e3fc294": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "title": "Основной",
+      "modified": 1542554561701,
+      "code": "кухня 1"
+    },
+    "305255b4-0ec8-45e3-98ad-9686028582c5": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "кухня 2",
+      "modified": 1542554586637,
+      "title": "Стол"
+    },
+    "4de9210e-4e20-4b57-b0cb-982ad643c2a1": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "кухня 3",
+      "modified": 1542554591315,
+      "title": "Ниша"
+    },
+    "7c8c8871-2062-48e6-86e6-34f1735e46e4": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "кухня 4",
+      "modified": 1542554604824,
+      "title": "Включить все"
+    },
+    "a8d23737-aa4d-47d3-a2e1-307ba5c1f48a": {
+      "type": "light_220",
+      "site": "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+      "title": "Основной",
+      "modified": 1542555412556
+    },
+    "e3789a35-628e-4d9a-b1d9-cd3dc32be330": {
+      "type": "light_220",
+      "site": "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+      "title": "Стол",
+      "modified": 1542555416496
+    },
+    "5760ad3a-eca3-4adb-b115-79a3c84d6871": {
+      "type": "light_220",
+      "site": "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+      "title": "Бра",
+      "modified": 1542555421142
+    },
+    "320a48b3-c86d-4889-96f9-6a51f7a38457": {
+      "type": "light_LED",
+      "site": "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+      "title": "Фартук",
+      "modified": 1542555482315
+    },
+    "6c7b921d-884f-4a9a-bc92-705eaf23916e": {
+      "type": "light_LED",
+      "site": "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+      "title": "Шкаф",
+      "modified": 1542555495426
+    },
+    "35d989c9-a0d7-4f14-a6be-a5dddfa61b9a": {
+      "type": "light_LED",
+      "site": "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
+      "title": "Полки",
+      "modified": 1542555500243
+    },
+    "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed": {
+      "type": "site",
+      "title": "Детская",
+      "modified": 1542143146682,
+      "image": "f04da6cf-bf7e-4b5d-904d-13bd5eb905c6.png",
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "palette": {
+        "muted": "#70847c",
+        "lightMuted": "#c5bfb3",
+        "darkMuted": "#504242"
+      },
+      "TV": [
+        "c4155eb5-3b80-466e-939c-b6ed415320ec"
+      ],
+      "AC": [
+        "0645b104-a856-47a8-9f2e-c9154138d0d8"
+      ],
+      "scene": [
+        "664937c7-4bc8-40fc-92fb-277a2d32e17a",
+        "98535fc6-58b4-4e84-bd48-ddf78df50782",
+        "2eef9054-b7cc-4414-ac5a-80b73787f46e"
+      ],
+      "light_LED": [
+        "88787757-42e8-41db-ac4b-e032d3fb3f77"
+      ],
+      "light_220": [
+        "e4e49e98-f02d-47e2-bcae-92bc07a69afe",
+        "c222b38d-0fe9-47be-9a7b-a40ddf794173",
+        "27c74e1c-6c42-4ebc-b954-82e720a9a0a8",
+        "5fbd2ca8-a338-480a-8ace-aca5b81eef06"
+      ]
+    },
+    "c4155eb5-3b80-466e-939c-b6ed415320ec": {
+      "type": "TV",
+      "site": "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed",
+      "title": "TV",
+      "modified": 1542553903101
+    },
+    "0645b104-a856-47a8-9f2e-c9154138d0d8": {
+      "type": "AC",
+      "site": "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed",
+      "title": "AC",
+      "modified": 1542553910373
+    },
+    "664937c7-4bc8-40fc-92fb-277a2d32e17a": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "детская 1",
+      "modified": 1542554774481,
+      "title": "Основной"
+    },
+    "98535fc6-58b4-4e84-bd48-ddf78df50782": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "детская 2",
+      "modified": 1542554779353,
+      "title": "Балкон"
+    },
+    "2eef9054-b7cc-4414-ac5a-80b73787f46e": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "детская 3",
+      "modified": 1542554835934,
+      "title": "Подсветка"
+    },
+    "88787757-42e8-41db-ac4b-e032d3fb3f77": {
+      "type": "light_LED",
+      "site": "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed",
+      "title": "Полки",
+      "modified": 1542555722432
+    },
+    "e4e49e98-f02d-47e2-bcae-92bc07a69afe": {
+      "type": "light_220",
+      "site": "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed",
+      "title": "Основной",
+      "modified": 1542555733617
+    },
+    "c222b38d-0fe9-47be-9a7b-a40ddf794173": {
+      "type": "light_220",
+      "site": "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed",
+      "title": "Люстра",
+      "modified": 1542555739490
+    },
+    "27c74e1c-6c42-4ebc-b954-82e720a9a0a8": {
+      "type": "light_220",
+      "site": "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed",
+      "title": "Ночник",
+      "modified": 1542555748557
+    },
+    "5fbd2ca8-a338-480a-8ace-aca5b81eef06": {
+      "type": "light_220",
+      "site": "97759d1e-9e5b-4fd0-a6ce-6bdb72fa24ed",
+      "title": "Споты",
+      "modified": 1542555755790
+    },
+    "98b49127-d33d-483a-b27c-9ece027df39e": {
+      "type": "site",
+      "title": "Балкон",
+      "modified": 1542143158527,
+      "image": "1c62a4cb-6846-486a-8b12-cdb95275f223.jpg",
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "palette": {
+        "vibrant": "#0682a4",
+        "lightVibrant": "#fabd8c",
+        "darkVibrant": "#047c9c",
+        "muted": "#5898ae",
+        "lightMuted": "#d0baab",
+        "darkMuted": "#44383a"
+      },
+      "light_220": [
+        "a1354f6a-1303-4edf-852a-5267e5d2b9b7"
+      ]
+    },
+    "a1354f6a-1303-4edf-852a-5267e5d2b9b7": {
+      "type": "light_220",
+      "site": "98b49127-d33d-483a-b27c-9ece027df39e",
+      "title": "Балкон",
+      "modified": 1542555970375
+    },
+    "6521d4f5-4dd1-482a-88f7-34f084aa7926": {
+      "type": "site",
+      "title": "Спальня",
+      "modified": 1542143182282,
+      "image": "d31e6421-3ae9-4a2b-a5fc-736840077e29.png",
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "palette": {
+        "lightVibrant": "#dfc8aa",
+        "muted": "#688196",
+        "lightMuted": "#c5bfb6",
+        "darkMuted": "#43392e"
+      },
+      "TV": [
+        "d10dd6ca-35fd-4be5-9ed4-1ac43616d496"
+      ],
+      "AC": [
+        "4aa20ffb-fb60-44ee-81f4-57c77c50fe25"
+      ],
+      "scene": [
+        "181dea66-c26a-4e0c-8fd6-a55b7f817522",
+        "10527316-f6e7-4c8b-8fcb-bc9645dc17e7",
+        "72d9c286-b5b9-4381-a874-88d8f3d85629"
+      ],
+      "light_220": [
+        "33d7e240-062e-49de-b23d-4f6184050c0a",
+        "ff865d82-bb06-4483-a9dd-1554128b151f",
+        "14dcb201-124d-4147-9696-69345a9cd11e"
+      ],
+      "light_LED": [
+        "6c9e9d02-59cd-4555-bcc6-41acdba8df45"
+      ]
+    },
+    "d10dd6ca-35fd-4be5-9ed4-1ac43616d496": {
+      "type": "TV",
+      "site": "6521d4f5-4dd1-482a-88f7-34f084aa7926",
+      "title": "TV",
+      "modified": 1542553919589
+    },
+    "4aa20ffb-fb60-44ee-81f4-57c77c50fe25": {
+      "type": "AC",
+      "site": "6521d4f5-4dd1-482a-88f7-34f084aa7926",
+      "title": "AC",
+      "modified": 1542553930204
+    },
+    "181dea66-c26a-4e0c-8fd6-a55b7f817522": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "спальня 1",
+      "modified": 1542554840266,
+      "title": "Основной"
+    },
+    "10527316-f6e7-4c8b-8fcb-bc9645dc17e7": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "спальня 2",
+      "modified": 1542554847705,
+      "title": "Подсветка"
+    },
+    "72d9c286-b5b9-4381-a874-88d8f3d85629": {
+      "type": "script",
+      "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "code": "спальня 3",
+      "modified": 1542554852609,
+      "title": "Спокойно"
+    },
+    "33d7e240-062e-49de-b23d-4f6184050c0a": {
+      "type": "light_220",
+      "site": "6521d4f5-4dd1-482a-88f7-34f084aa7926",
+      "title": "Основной",
+      "modified": 1542555839526
+    },
+    "ff865d82-bb06-4483-a9dd-1554128b151f": {
+      "type": "light_220",
+      "site": "6521d4f5-4dd1-482a-88f7-34f084aa7926",
+      "title": "Кровать",
+      "modified": 1542555858039
+    },
+    "14dcb201-124d-4147-9696-69345a9cd11e": {
+      "type": "light_220",
+      "site": "6521d4f5-4dd1-482a-88f7-34f084aa7926",
+      "title": "Ночник",
+      "modified": 1542555866103
+    },
+    "6c9e9d02-59cd-4555-bcc6-41acdba8df45": {
+      "type": "light_LED",
+      "site": "6521d4f5-4dd1-482a-88f7-34f084aa7926",
+      "title": "Посветка ТВ",
+      "modified": 1542555947142
+    },
+    "d20c414f-b667-47d3-9cf9-bfd076117266": {
+      "type": "site",
+      "title": "Санузел",
+      "modified": 1542143200820,
+      "image": "efcfb10e-ec80-4247-a0b2-04cd59167aac.png",
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "palette": {
+        "lightVibrant": "#f5f0e2",
+        "muted": "#7e7566",
+        "lightMuted": "#cfc4ab",
+        "darkMuted": "#5a5347"
+      },
+      "fan": [
+        "b1338bec-32e4-48c0-a964-5a34055c5b0b"
+      ],
+      "light_220": [
+        "cf016b62-4de7-42c1-a200-4365694c30bd",
+        "62323545-f289-467f-acfb-2eab93fbd360"
+      ]
+    },
+    "b1338bec-32e4-48c0-a964-5a34055c5b0b": {
+      "type": "fan",
+      "site": "d20c414f-b667-47d3-9cf9-bfd076117266",
+      "title": "Вытяжка",
+      "modified": 1542556095133
+    },
+    "cf016b62-4de7-42c1-a200-4365694c30bd": {
+      "type": "light_220",
+      "site": "d20c414f-b667-47d3-9cf9-bfd076117266",
+      "title": "Основной",
+      "modified": 1542556208005
+    },
+    "62323545-f289-467f-acfb-2eab93fbd360": {
+      "type": "light_220",
+      "site": "d20c414f-b667-47d3-9cf9-bfd076117266",
+      "title": "Бра",
+      "modified": 1542556211139
+    },
+    "c8d50d6c-81bd-433c-8e08-884cc929731c": {
+      "type": "site",
+      "title": "Ванная",
+      "modified": 1542143218898,
+      "image": "4fc7a292-ca97-4d10-8bdc-7526166c01c2.jpg",
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "palette": {
+        "lightVibrant": "#f8f1e7",
+        "muted": "#908880",
+        "lightMuted": "#c6bdb2",
+        "darkMuted": "#625d57"
+      },
+      "light_220": [
+        "c53476f5-3315-45bd-96cd-469a7155a6b7",
+        "03bae800-54bf-4830-b7ea-fdc049e8962a"
+      ],
+      "fan": [
+        "4e05ab97-33fa-4d8a-b1b8-eff50a5f4045"
+      ],
+      "light_LED": [
+        "cd21b798-c964-41ae-97d6-a986fd36230c"
+      ]
+    },
+    "c53476f5-3315-45bd-96cd-469a7155a6b7": {
+      "type": "light_220",
+      "site": "c8d50d6c-81bd-433c-8e08-884cc929731c",
+      "title": "Основной",
+      "modified": 1542556004429
+    },
+    "03bae800-54bf-4830-b7ea-fdc049e8962a": {
+      "type": "light_220",
+      "site": "c8d50d6c-81bd-433c-8e08-884cc929731c",
+      "title": "Бра",
+      "modified": 1542556010985
+    },
+    "4e05ab97-33fa-4d8a-b1b8-eff50a5f4045": {
+      "type": "fan",
+      "site": "c8d50d6c-81bd-433c-8e08-884cc929731c",
+      "title": "Вытяжка",
+      "modified": 1542556041872
+    },
+    "cd21b798-c964-41ae-97d6-a986fd36230c": {
+      "type": "light_LED",
+      "site": "c8d50d6c-81bd-433c-8e08-884cc929731c",
+      "title": "Подсветка",
+      "modified": 1542556135830
+    },
+    "00aa2511-ce26-4674-8b59-dfecf783f009": {
+      "type": "site",
+      "title": "Бытовая комната",
+      "modified": 1542556237251,
+      "image": "0316b991-6242-4aec-8644-4822c3c0ee25.png",
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "palette": {
+        "lightVibrant": "#fcf4ec",
+        "muted": "#94836b",
+        "lightMuted": "#b4cc9c",
+        "darkMuted": "#544432"
+      },
+      "fan": [
+        "7a0385b6-19df-4936-9236-59ac6a28dffb"
+      ],
+      "light_220": [
+        "bfcb5d3f-7b01-4c7b-a5cb-0f420036fe52",
+        "5b14644d-f8c7-4ab6-9ead-f2fc04902088"
+      ]
+    },
+    "7a0385b6-19df-4936-9236-59ac6a28dffb": {
+      "type": "fan",
+      "site": "00aa2511-ce26-4674-8b59-dfecf783f009",
+      "title": "Вытяжка",
+      "modified": 1542556105364
+    },
+    "bfcb5d3f-7b01-4c7b-a5cb-0f420036fe52": {
+      "type": "light_220",
+      "site": "00aa2511-ce26-4674-8b59-dfecf783f009",
+      "title": "Санузел",
+      "modified": 1542556257931
+    },
+    "5b14644d-f8c7-4ab6-9ead-f2fc04902088": {
+      "type": "light_220",
+      "site": "00aa2511-ce26-4674-8b59-dfecf783f009",
+      "title": "Постирочная",
+      "modified": 1542556263307
+    },
+    "783fb62f-ef50-4e0a-8021-3c0d201c047a": {
+      "type": "site",
+      "title": "Гардероб",
+      "modified": 1542141873489,
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "light_220": [
+        "0cb3d8d6-4ae1-4855-8715-59458626abac"
+      ]
+    },
+    "0cb3d8d6-4ae1-4855-8715-59458626abac": {
+      "type": "light_220",
+      "site": "783fb62f-ef50-4e0a-8021-3c0d201c047a",
+      "title": "Основной",
+      "modified": 1542556296440
+    },
+    "bc74457f-3739-4294-90ce-0ec3d9cf71f9": {
+      "type": "site",
+      "title": "Холл",
+      "modified": 1542556457644,
+      "parent": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "light_220": [
+        "fabd67ae-65dd-42bc-a195-47c17ff8669b",
+        "c0219722-27df-4eef-9b25-d8c8b8ab590f",
+        "feb0c412-2b9d-456b-a078-42227c4be29a"
+      ],
+      "image": "f6abc177-17a1-4b95-ba89-fa190af4843e.png",
+      "palette": {
+        "vibrant": "#c8ae8a",
+        "darkVibrant": "#513c24",
+        "muted": "#8b765a",
+        "lightMuted": "#cac4bc",
+        "darkMuted": "#554533"
+      }
+    },
+    "fabd67ae-65dd-42bc-a195-47c17ff8669b": {
+      "type": "light_220",
+      "site": "bc74457f-3739-4294-90ce-0ec3d9cf71f9",
+      "title": "Прихожая",
+      "modified": 1542556347512
+    },
+    "c0219722-27df-4eef-9b25-d8c8b8ab590f": {
+      "type": "light_220",
+      "site": "bc74457f-3739-4294-90ce-0ec3d9cf71f9",
+      "title": "Коридор",
+      "modified": 1542556354510
+    },
+    "feb0c412-2b9d-456b-a078-42227c4be29a": {
+      "type": "light_220",
+      "site": "bc74457f-3739-4294-90ce-0ec3d9cf71f9",
+      "title": "Ниша",
+      "modified": 1542556361686
     },
     "root": {
       "daemon": [
