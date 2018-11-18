@@ -93,7 +93,7 @@
         "9a25079f-0e21-439d-997d-bbdfe626617c"
       ],
       "modified": 1542557265556,
-      "light_on": -2
+      "light_on": -1
     },
     "b8:27:eb:c1:db:99": {
       "type": "daemon",
@@ -164,8 +164,8 @@
       "ip": "192.168.18.109",
       "online": false,
       "ready": false,
-      "humidity": 32.83,
-      "temperature": 28.68,
+      "humidity": 13.49,
+      "temperature": 27.32,
       "finding": false,
       "code": "сенсор5",
       "pendingFirmware": "sensor4",
@@ -197,14 +197,14 @@
       "motion_sensor": [
         "89aba44f-0d6c-4e05-a118-6f8f604b6eb4"
       ],
-      "light_on": -2,
+      "light_on": -1,
       "leakage_sensor": [],
       "valve_heating": [],
       "sensor": [
         "2a:3a:4b:d3:49:d8"
       ],
-      "humidity": 32.83,
-      "temperature": 28.68,
+      "humidity": 13.49,
+      "temperature": 27.32,
       "valve_water": [],
       "doppler": [],
       "setpoint": 19,
@@ -381,7 +381,7 @@
       "modified": 1541719544023
     },
     "e6:93:90:8b:73:6f/di/1": {
-      "value": 0,
+      "value": 2,
       "bind": "89aba44f-0d6c-4e05-a118-6f8f604b6eb4",
       "onOff": "53e384c1-2d54-4002-9620-5e7fed098423",
       "onOn": "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
@@ -588,13 +588,13 @@
       "code": "led",
       "bind": "0e:e2:da:98:fe:fd/dim/3",
       "last": 86,
-      "on": true,
-      "value": 86,
+      "on": false,
+      "value": 0,
       "modified": 1541719544023
     },
     "0e:e2:da:98:fe:fd/dim/3": {
       "type": 3,
-      "value": 86,
+      "value": 0,
       "velocity": 128,
       "bind": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27",
       "modified": 1541719544023
@@ -973,8 +973,8 @@
       "type": "timer",
       "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
       "code": "timer big",
-      "state": true,
-      "timestamp": 1542557234927,
+      "state": false,
+      "timestamp": 1542569115766,
       "time": 60000,
       "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
       "tame": 0,
@@ -7652,8 +7652,8 @@
       "type": "script",
       "site": "c01d515a-daab-4ffe-970e-7a0519930fca",
       "code": "гостиная 3",
-      "modified": 1542554706213,
-      "title": "Полсветка"
+      "modified": 1542569135347,
+      "title": "Подсветка"
     },
     "175ff388-0a18-495f-8fff-9d66b9b1452f": {
       "type": "script",
@@ -8185,7 +8185,7 @@
     "20:c9:d0:7f:aa:29": {
       "online": false,
       "multicast": false,
-      "project": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "project": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
       "type": "daemon",
       "version": "5.1",
       "ip": "127.0.0.1",
@@ -8202,7 +8202,7 @@
       ],
       "title": "",
       "code": "my mac",
-      "modified": 1542557235819
+      "modified": 1542557263342
     },
     "16:0d:fc:49:60:ad": {
       "type": 1,
