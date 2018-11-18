@@ -23,11 +23,33 @@
     "e46d8a82-c81e-457f-b742-2d516f05ecd4.JPG",
     "ef3418ed-9192-4b36-b913-82d4c4548521.JPG",
     "0316b991-6242-4aec-8644-4822c3c0ee25.png",
+    "0bb1d11c-94df-4dae-89da-2fe281cb8221.JPG",
+    "10224fc6-d1f8-4630-b459-196b132afb73.JPG",
+    "155ee270-4c9b-4c3b-b352-cdfda03a94b4.svg",
+    "1967493f-a37b-4a2d-a87f-9e7dab7b469e.JPG",
     "1c62a4cb-6846-486a-8b12-cdb95275f223.jpg",
+    "20d3feb6-3f9e-44c6-8ff7-8783604739d6.JPG",
+    "29b671c6-a42c-4f77-ac90-683ee1d291b1.JPG",
+    "2e6a8668-4666-4c23-8147-7283ffaeea7c.JPG",
     "3449bf09-eebe-4a21-a350-e13363e2d8f3.png",
+    "3aaf9d4d-5a88-4bf3-8eb0-f5ae6020a319.svg",
+    "473467a7-a450-4180-943b-1547b7313b62.JPG",
+    "4b18513b-2c61-4ebf-8eb8-fe563c1aeca5.jpg",
     "4fc7a292-ca97-4d10-8bdc-7526166c01c2.jpg",
+    "5795d117-f1e5-4c17-a9e3-00471552e483.svg",
+    "609cff76-8474-4823-b10b-10321443ec39.JPG",
+    "771b1e0d-c3d7-434b-87a6-967acdd035d7.JPG",
+    "848f9a8b-4199-44b4-8da1-e1025c3ada52.JPG",
+    "9b854a5e-24e1-4d68-be74-d3addd258078.JPG",
+    "9d4e619a-5687-4c7d-a151-c1713bab852b.JPG",
+    "a817561f-2bac-499b-9664-1e58c2e09968.JPG",
+    "c9daef10-cd3a-4736-a47c-dab4bc244357.JPG",
+    "cb72787b-befc-4f68-bb7c-312b0dd16354.JPG",
+    "d12a2843-70e4-495c-b901-85f188b7af2c.JPG",
     "d296cb0c-22b7-49f8-a73c-1ce29299c374.png",
     "d31e6421-3ae9-4a2b-a5fc-736840077e29.png",
+    "e46d8a82-c81e-457f-b742-2d516f05ecd4.JPG",
+    "ef3418ed-9192-4b36-b913-82d4c4548521.JPG",
     "efcfb10e-ec80-4247-a0b2-04cd59167aac.png",
     "f04da6cf-bf7e-4b5d-904d-13bd5eb905c6.png",
     "f6abc177-17a1-4b95-ba89-fa190af4843e.png"
@@ -71,7 +93,7 @@
         "9a25079f-0e21-439d-997d-bbdfe626617c"
       ],
       "modified": 1541719713047,
-      "light_on": -1
+      "light_on": -2
     },
     "b8:27:eb:c1:db:99": {
       "type": "daemon",
@@ -82,14 +104,14 @@
       "device": [
         "aa:e0:98:45:d7:ab",
         "e6:93:90:8b:73:6f",
-        "2a:3a:4b:d3:49:d8",
-        "0e:e2:da:98:fe:fd"
+        "0e:e2:da:98:fe:fd",
+        "2a:3a:4b:d3:49:d8"
       ],
-      "project": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "project": "c01d515a-daab-4ffe-970e-7a0519930fca",
       "title": "test server",
       "multicast": true,
       "code": "",
-      "modified": 1541719726860
+      "modified": 1542557142462
     },
     "aa:e0:98:45:d7:ab": {
       "type": 17,
@@ -127,8 +149,8 @@
       "ip": "192.168.18.109",
       "online": false,
       "ready": false,
-      "humidity": 18.31,
-      "temperature": 66.06,
+      "humidity": 32.83,
+      "temperature": 28.68,
       "finding": false,
       "code": "сенсор5",
       "pendingFirmware": "sensor4",
@@ -160,17 +182,17 @@
       "motion_sensor": [
         "89aba44f-0d6c-4e05-a118-6f8f604b6eb4"
       ],
-      "light_on": -1,
+      "light_on": -2,
       "leakage_sensor": [],
       "valve_heating": [],
       "sensor": [
         "2a:3a:4b:d3:49:d8"
       ],
-      "humidity": 18.31,
-      "temperature": 66.06,
+      "humidity": 32.83,
+      "temperature": 28.68,
       "valve_water": [],
       "doppler": [],
-      "setpoint": 30,
+      "setpoint": 19,
       "scene": [
         "14dbf1be-ad87-4c1d-bc72-be524396b275"
       ],
@@ -242,7 +264,7 @@
     "ACTION_TIMER_START": {
       "type": "action",
       "code": "ACTION_TIMER_START",
-      "modified": 1542222233049
+      "modified": 1542555269830
     },
     "90fde3e0-3416-4b75-9343-0348e8a26e63": {
       "type": "light_220",
@@ -298,7 +320,7 @@
     "ACTION_TOGGLE": {
       "type": "action",
       "code": "ACTION_TOGGLE",
-      "modified": 1542222233057
+      "modified": 1542555269834
     },
     "089b619d-76d9-462e-a12f-0c0a8f495374": {
       "type": "button",
@@ -399,7 +421,7 @@
     "ACTION_LIGHT_ON": {
       "type": "action",
       "code": "ACTION_LIGHT_ON",
-      "modified": 1542222232986
+      "modified": 1542555269818
     },
     "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e": {
       "type": "script",
@@ -421,7 +443,7 @@
     "ACTION_TIMER_STOP": {
       "type": "action",
       "code": "ACTION_TIMER_STOP",
-      "modified": 1542222233052
+      "modified": 1542555269831
     },
     "4cbbe19b-5059-46d8-97ff-90a970cd817b": {
       "type": "script",
@@ -445,7 +467,7 @@
     "ACTION_LIGHT_OFF": {
       "type": "action",
       "code": "ACTION_LIGHT_OFF",
-      "modified": 1542222232982
+      "modified": 1542555269817
     },
     "69d8b232-8da8-4ec2-85e9-b8ef61690e78": {
       "type": "ACTION_TIMER_STOP",
@@ -478,7 +500,7 @@
     "ACTION_LIGHT_SET": {
       "type": "action",
       "code": "ACTION_LIGHT_SET",
-      "modified": 1542222232987
+      "modified": 1542555269823
     },
     "72ef13cf-f7fc-4f1c-b770-d0529df09eda": {
       "type": "ACTION_TIMER_STOP",
@@ -551,13 +573,13 @@
       "code": "led",
       "bind": "0e:e2:da:98:fe:fd/dim/3",
       "last": 86,
-      "on": false,
-      "value": 0,
+      "on": true,
+      "value": 86,
       "modified": 1541719544023
     },
     "0e:e2:da:98:fe:fd/dim/3": {
       "type": 3,
-      "value": 0,
+      "value": 86,
       "velocity": 128,
       "bind": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27",
       "modified": 1541719544023
@@ -629,7 +651,7 @@
     "ACTION_SITE_LIGHT_OFF": {
       "type": "action",
       "code": "ACTION_SITE_LIGHT_OFF",
-      "modified": 1542222233038
+      "modified": 1542555269827
     },
     "610720b6-2994-4c30-a666-ef0f1fedd867": {
       "type": "script",
@@ -737,7 +759,7 @@
     "ACTION_DOPPLER_HANDLE": {
       "type": "action",
       "code": "ACTION_DOPPLER_HANDLE",
-      "modified": 1542222233055
+      "modified": 1542555269833
     },
     "6693c5ff-f81a-42b7-a08f-d809a804628d": {
       "type": "script",
@@ -829,7 +851,7 @@
     "ACTION_SCRIPT_RUN": {
       "type": "action",
       "code": "ACTION_SCRIPT_RUN",
-      "modified": 1542222233058
+      "modified": 1542555269835
     },
     "ac86d204-25d7-4dfe-8381-f8c944f48464": {
       "type": "script",
@@ -854,7 +876,7 @@
     "ACTION_SITE_LIGHT_SET_RELATIVE": {
       "type": "action",
       "code": "ACTION_SITE_LIGHT_SET_RELATIVE",
-      "modified": 1542222233036
+      "modified": 1542555269826
     },
     "6b6ac314-ac4b-4be8-8fdb-ccc00485cbfd": {
       "type": "ACTION_TIMER_START",
@@ -952,7 +974,7 @@
       "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
       "code": "timer big",
       "state": true,
-      "timestamp": 1542222262561,
+      "timestamp": 1542557234927,
       "time": 60000,
       "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
       "tame": 0,
@@ -965,8 +987,9 @@
       "state": false,
       "time": 0,
       "script": "37edf114-b47a-49a1-8468-fb276c9434d4",
-      "timestamp": 1542212057696,
-      "modified": 1541719544023
+      "timestamp": 1542552276897,
+      "modified": 1541719544023,
+      "tame": 0
     },
     "9a25079f-0e21-439d-997d-bbdfe626617c": {
       "type": "timer",
@@ -996,8 +1019,8 @@
     },
     "2a:3a:4b:d3:49:d8/di/1": {
       "value": 0,
-      "onOn": null,
-      "modified": 1542129854665
+      "onOn": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
+      "modified": 1542226808357
     },
     "2a:3a:4b:d3:49:d8/di/2": {
       "value": 0,
@@ -1011,8 +1034,8 @@
     },
     "2a:3a:4b:d3:49:d8/di/4": {
       "value": 0,
-      "onOn": null,
-      "modified": 1542129858922
+      "onOn": "418ae32f-9452-4d58-99e3-c905f12bde88",
+      "modified": 1542226814440
     },
     "aa:e0:98:45:d7:ab/do/1": {
       "value": 0,
@@ -1247,7 +1270,7 @@
         "0cd43ece-02c7-47a5-a07f-4913f6618e35",
         "9f524962-72e9-4255-9895-78c559cd5787"
       ],
-      "light_on": -10,
+      "light_on": -18,
       "script": [
         "1429d05e-3c98-46ff-b43c-502171a4db04",
         "6c28c2a3-384e-4dca-99a3-5d22b0c23dbf",
@@ -1430,7 +1453,8 @@
         "ed320920-bce7-46b2-bf87-037ff16888ce",
         "e84461ec-de8a-4206-b391-f07cc7257c66"
       ],
-      "modified": 1541716597646
+      "modified": 1541716597646,
+      "TV": []
     },
     "c1230748-e65a-421f-920c-08576cee0a99": {
       "code": "вент4",
@@ -1495,7 +1519,7 @@
       "value": 0,
       "on": false,
       "bind": "26:3c:a7:80:50:48/dim/3",
-      "last": 120,
+      "last": 103.5,
       "type": "light_220",
       "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
       "modified": 1541716597646
@@ -1570,7 +1594,7 @@
         "lightMuted": "#dcdcdc",
         "darkMuted": null
       },
-      "light_on": 1,
+      "light_on": -3,
       "scene": [
         "4d6f16ca-4239-4ae0-b5a1-b6a3cc04e352",
         "99f625ab-78ba-46eb-a572-a7be86fb6dfb"
@@ -1599,7 +1623,7 @@
         "lightMuted": "#cec1ad",
         "darkMuted": "#443628"
       },
-      "light_on": 1,
+      "light_on": 0,
       "undefined": [
         null
       ],
@@ -1780,9 +1804,9 @@
     },
     "b2e7bd6c-29ca-4c0c-8c55-5c9a08d37526": {
       "code": "D8",
-      "on": false,
+      "on": true,
       "bind": "6a:0a:05:7a:90:25/dim/1",
-      "value": 0,
+      "value": 228,
       "last": 228,
       "type": "light_220",
       "site": "a84c4d61-8f6d-47ec-82a5-9679387cc72f",
@@ -1790,7 +1814,7 @@
     },
     "6a:0a:05:7a:90:25/dim/1": {
       "type": 2,
-      "value": 0,
+      "value": 228,
       "bind": "b2e7bd6c-29ca-4c0c-8c55-5c9a08d37526",
       "velocity": 200,
       "onOn": "9d45e4b3-1db0-49c8-b3f7-e039fa8f3b80",
@@ -1933,7 +1957,7 @@
       "code": "D21",
       "bind": "26:3c:a7:80:50:48/dim/2",
       "on": true,
-      "value": 112,
+      "value": 105,
       "last": 105,
       "type": "light_220",
       "site": "47269bb1-9877-4a99-a888-80f27bad23d4",
@@ -1941,8 +1965,8 @@
     },
     "26:3c:a7:80:50:48/dim/2": {
       "type": 2,
-      "value": 112,
-      "velocity": 0,
+      "value": 105,
+      "velocity": 200,
       "bind": "5fa82b7d-24bc-4452-967e-eeb7e125f315",
       "onOn": "0f2857f8-98ee-46de-88d7-1b35884d75de",
       "modified": 1541716597646
@@ -2080,7 +2104,7 @@
       },
       "humidity": 649.36,
       "temperature": 27.47,
-      "light_on": 0,
+      "light_on": -2,
       "setpoint": 26,
       "valve_heating": [
         "d7ee46f4-7b84-42c7-b8d3-c69eac9acf05"
@@ -2093,7 +2117,13 @@
         "8aa47268-1228-40ea-b6fe-b883ffe3cfc5",
         "e0b74779-628a-423a-bc01-759c1dfc4e1c"
       ],
-      "modified": 1541716597646
+      "modified": 1541716597646,
+      "TV": [
+        "d57abfdd-b27d-434b-819a-a7b947c08eda"
+      ],
+      "AC": [
+        "b599c7d8-8bc3-4d3d-bc5c-13d58715514e"
+      ]
     },
     "45f66986-d082-4459-99b0-24f0e8ee4072": {
       "code": "ac3",
@@ -2340,18 +2370,18 @@
     },
     "8e0de50c-6aa2-4a63-9d47-ffb511533dbf": {
       "code": "D9",
-      "on": false,
-      "value": 0,
+      "on": true,
+      "value": 255,
       "bind": "6a:0a:05:7a:90:25/dim/2",
       "title": "Основной",
-      "last": 176,
+      "last": 255,
       "type": "light_220",
       "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
       "modified": 1541716597646
     },
     "6a:0a:05:7a:90:25/dim/2": {
       "type": 2,
-      "value": 0,
+      "value": 255,
       "velocity": 200,
       "bind": "8e0de50c-6aa2-4a63-9d47-ffb511533dbf",
       "modified": 1541716597646
@@ -2427,17 +2457,17 @@
     },
     "91a77151-02b3-43ff-9c4e-5877990e6233": {
       "code": "D10",
-      "on": false,
-      "value": 0,
+      "on": true,
+      "value": 255,
       "bind": "f6:e7:c3:b6:e2:26/dim/3",
-      "last": 140,
+      "last": 255,
       "type": "light_220",
       "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
       "modified": 1541716597646
     },
     "f6:e7:c3:b6:e2:26/dim/3": {
       "type": 2,
-      "value": 0,
+      "value": 255,
       "bind": "91a77151-02b3-43ff-9c4e-5877990e6233",
       "velocity": 200,
       "modified": 1541716597646
@@ -2474,7 +2504,7 @@
         "lightMuted": "#b8b6b0",
         "darkMuted": "#513f2b"
       },
-      "light_on": 0,
+      "light_on": -1,
       "scene": [
         "e0a9c05b-357f-497a-b5d6-c89c2f220135",
         "db53face-092f-480e-914e-69aed29a02e9"
@@ -2596,8 +2626,8 @@
     "813ea014-2a5d-4d5d-beda-56083fb9065a": {
       "code": "D12",
       "bind": "ee:ae:07:0e:7f:b2/dim/1",
-      "on": false,
-      "value": 0,
+      "on": true,
+      "value": 255,
       "last": 255,
       "type": "light_220",
       "site": "3a068146-cde3-493f-a491-a80890ea9745",
@@ -2605,7 +2635,7 @@
     },
     "ee:ae:07:0e:7f:b2/dim/1": {
       "type": 4,
-      "value": 0,
+      "value": 255,
       "velocity": 0,
       "bind": "813ea014-2a5d-4d5d-beda-56083fb9065a",
       "onOn": "e58f6e9f-ade7-48c9-8ebc-8e4294e01b1c",
@@ -2820,7 +2850,10 @@
         "6cf5b362-4187-4a1a-aa9a-57c3edf537d7",
         "de425a8c-06e8-4395-aa48-fc460a198b0a"
       ],
-      "modified": 1541716597646
+      "modified": 1541716597646,
+      "TV": [
+        "f73a3a3f-668e-41a9-9a84-a9ffa3ae2b93"
+      ]
     },
     "42e2016d-7603-4eca-afd0-32984a64f3bc": {
       "code": "tv4",
@@ -2948,7 +2981,13 @@
       "valve_heating": [
         "d06d2885-a100-46b9-8f14-af4d99ef66be"
       ],
-      "modified": 1541716597646
+      "modified": 1541716597646,
+      "TV": [
+        "460b8381-91a4-43d8-bc5e-5f1691044e25"
+      ],
+      "AC": [
+        "d4d252e8-3ca0-4928-bdbb-20bb2f94c641"
+      ]
     },
     "98922ff1-dd87-4811-bd65-d7a54775aee0": {
       "code": "аc4",
@@ -3429,7 +3468,7 @@
         "lightMuted": "#dcdcdc",
         "darkMuted": null
       },
-      "light_on": -7,
+      "light_on": -9,
       "modified": 1541716597646
     },
     "b5f797d5-7931-4b95-90ab-e74f3acee0a7": {
@@ -3597,7 +3636,7 @@
       "on": false,
       "value": 0,
       "bind": "c6:5e:6c:fc:e7:a9/dim/4",
-      "last": 229,
+      "last": 255,
       "type": "light_220",
       "site": "cc424f23-fba2-4728-8cfa-2bd00c18f704",
       "modified": 1541716597646
@@ -3756,7 +3795,7 @@
     },
     "02:00:00:00:02:01/di/28": {
       "bind": "f5a3111e-1a8f-4f43-81e8-9d32e788f6b1",
-      "value": 2,
+      "value": 0,
       "onOff": "91eeabb3-0f3d-4ffa-87cd-5b9f1e7e80f3",
       "onOn": "b04da530-4a52-4270-8a2a-122ceaab9f00",
       "onHold": "8b1571d4-02ad-47a2-84ab-65387426e135",
@@ -4367,7 +4406,7 @@
       },
       "humidity": 46.2,
       "temperature": 30.69,
-      "light_on": 0,
+      "light_on": -2,
       "setpoint": 22,
       "valve_heating": [
         "fc8e8a6b-9eb3-471d-8008-3363bf7d2fe3",
@@ -4379,7 +4418,13 @@
         "690c3bad-71b1-4221-9405-31e1f048942a"
       ],
       "undefined": null,
-      "modified": 1541716597646
+      "modified": 1541716597646,
+      "TV": [
+        "a51bd688-02e0-464b-bd23-08f212a759de"
+      ],
+      "AC": [
+        "a907e415-fdcc-4d80-9977-c6d3e92fabe2"
+      ]
     },
     "a194b542-4096-47fe-aa38-a485ccc7da07": {
       "code": "вент0",
@@ -4604,8 +4649,8 @@
     },
     "d1b91fb4-84d1-4ef8-9f5a-b3e8f9b6e160": {
       "code": "led2",
-      "on": false,
-      "value": 0,
+      "on": true,
+      "value": 255,
       "bind": "ba:20:01:07:b4:16/dim/4",
       "last": 255,
       "type": "light_LED",
@@ -4615,7 +4660,7 @@
     },
     "ba:20:01:07:b4:16/dim/4": {
       "type": 3,
-      "value": 0,
+      "value": 255,
       "velocity": 200,
       "bind": "d1b91fb4-84d1-4ef8-9f5a-b3e8f9b6e160",
       "modified": 1541716597646
@@ -4694,9 +4739,9 @@
     },
     "4a60bd22-b9a2-47b4-9128-82c44bbeaf1a": {
       "code": "D4a",
-      "on": false,
-      "value": 0,
-      "last": 133,
+      "on": true,
+      "value": 255,
+      "last": 255,
       "bind": "d2:6e:5a:f7:f1:2e/dim/1",
       "type": "light_220",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
@@ -4705,7 +4750,7 @@
     },
     "d2:6e:5a:f7:f1:2e/dim/1": {
       "type": 2,
-      "value": 0,
+      "value": 255,
       "bind": "4a60bd22-b9a2-47b4-9128-82c44bbeaf1a",
       "velocity": 200,
       "modified": 1541716597646
@@ -4827,7 +4872,13 @@
         "6ce92453-b345-4f76-9344-c230e1c78730",
         "fcc3aadf-c388-403d-a19f-0f9da1810f70"
       ],
-      "modified": 1541716597646
+      "modified": 1541716597646,
+      "TV": [
+        "43f48184-b9bd-487a-b97c-80803e0cdcd3"
+      ],
+      "AC": [
+        "502aa9ee-e7ac-4141-8c6d-9068d956884a"
+      ]
     },
     "002f9b33-c829-43cf-8a3a-1acd9298efd6": {
       "code": "ac2",
@@ -5100,7 +5151,7 @@
         "lightMuted": "#dcdcdc",
         "darkMuted": null
       },
-      "light_on": -4,
+      "light_on": -6,
       "button": [
         "25fdadc4-fb8c-4bd6-97c5-3807ae7b9ccf"
       ],
@@ -5132,12 +5183,18 @@
       "parent": "9f524962-72e9-4255-9895-78c559cd5787",
       "humidity": 45.08,
       "temperature": 26.72,
-      "light_on": 0,
+      "light_on": -1,
       "setpoint": 26,
       "valve_heating": [
         "cb96e59c-82dd-4b3a-990f-139afa6d7db8"
       ],
-      "modified": 1541716597646
+      "modified": 1541716597646,
+      "TV": [
+        "2ce223d9-09b3-43f7-8c2c-cd8192283c05"
+      ],
+      "AC": [
+        "454e4de5-19d1-49f0-8a0c-c22e096c8e0a"
+      ]
     },
     "847cda40-6866-4866-82fd-b797edc26a85": {
       "code": "ас5",
@@ -5178,8 +5235,8 @@
     "14a3e181-a397-44d1-82d0-5a88ab6da2d1": {
       "code": "D27",
       "bind": "76:29:43:d2:f2:e3/dim/2",
-      "on": false,
-      "value": 0,
+      "on": true,
+      "value": 255,
       "last": 255,
       "type": "light_220",
       "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
@@ -5187,7 +5244,7 @@
     },
     "76:29:43:d2:f2:e3/dim/2": {
       "type": 2,
-      "value": 0,
+      "value": 255,
       "velocity": 200,
       "bind": "14a3e181-a397-44d1-82d0-5a88ab6da2d1",
       "modified": 1541716597646
@@ -5214,7 +5271,7 @@
         "e78f9687-6dcd-45f1-ba9d-3f8906e1d090"
       ],
       "parent": "9f524962-72e9-4255-9895-78c559cd5787",
-      "light_on": 0,
+      "light_on": -1,
       "valve_heating": [
         "730930cc-9664-4b47-a49b-81e91cf6f826"
       ],
@@ -5306,8 +5363,8 @@
     "e78f9687-6dcd-45f1-ba9d-3f8906e1d090": {
       "code": "D27",
       "bind": "76:29:43:d2:f2:e3/dim/3",
-      "on": false,
-      "value": 0,
+      "on": true,
+      "value": 255,
       "last": 255,
       "type": "light_220",
       "site": "5ac6646f-3a72-4dca-b4d6-704d476fa2ac",
@@ -5315,7 +5372,7 @@
     },
     "76:29:43:d2:f2:e3/dim/3": {
       "type": 2,
-      "value": 0,
+      "value": 255,
       "velocity": 200,
       "bind": "e78f9687-6dcd-45f1-ba9d-3f8906e1d090",
       "modified": 1541716597646
@@ -6746,7 +6803,7 @@
       "time": 0,
       "script": "5f58b619-63d1-4794-ae96-24f57e75b285",
       "state": false,
-      "timestamp": 1540810746368,
+      "timestamp": 1542532394359,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6757,7 +6814,7 @@
       "time": 0,
       "script": "e5e46d3c-f479-49c3-a892-815065e2d1cf",
       "state": false,
-      "timestamp": 1540810601411,
+      "timestamp": 1542531939209,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6768,7 +6825,7 @@
       "time": 0,
       "script": "e0c77155-90c1-4930-9e7f-8f1fc9146ef9",
       "state": false,
-      "timestamp": 1542221291230,
+      "timestamp": 1542532351766,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6780,7 +6837,7 @@
       "time": 0,
       "script": "77c7606e-32a9-4a42-9ea4-429a292a395d",
       "state": false,
-      "timestamp": 1542221861844,
+      "timestamp": 1542532225074,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6791,7 +6848,7 @@
       "time": 0,
       "script": "2c61e595-8a93-491a-9108-9cdbb1606dcb",
       "state": false,
-      "timestamp": 1540810749002,
+      "timestamp": 1542532203332,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6799,10 +6856,10 @@
       "type": "timer",
       "site": "dec37f69-889c-413c-9632-3d7a09a89eaa",
       "code": "2bm t",
-      "time": 60000,
-      "script": "d9f594aa-a809-4ba6-899b-092c88167361",
-      "state": true,
-      "timestamp": 1541716699335,
+      "time": 0,
+      "script": "adc5792d-947b-4330-af3e-30332c03cc5c",
+      "state": false,
+      "timestamp": 1542532419104,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6810,10 +6867,10 @@
       "type": "timer",
       "site": "dec37f69-889c-413c-9632-3d7a09a89eaa",
       "code": "2h t",
-      "time": 0,
+      "time": 30000,
       "script": "0b17f997-e1e6-43c7-99b1-5ea24d4fd17b",
-      "state": false,
-      "timestamp": 1541716368919,
+      "state": true,
+      "timestamp": 1542532555632,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6823,8 +6880,8 @@
       "code": "2bs t",
       "state": true,
       "time": 60000,
-      "script": "7cdc7db8-162f-43f0-afe9-a0e1bf8f24c8",
-      "timestamp": 1540811227009,
+      "script": "afd860ca-7000-4f38-a460-c34e5638b016",
+      "timestamp": 1542532540126,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6832,10 +6889,10 @@
       "type": "timer",
       "site": "dec37f69-889c-413c-9632-3d7a09a89eaa",
       "code": "2wm t",
-      "state": false,
-      "time": 0,
+      "state": true,
+      "time": 60000,
       "script": "118b2538-61aa-437e-9350-1e9a8e9b456b",
-      "timestamp": 1540806048092,
+      "timestamp": 1542532554170,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -6846,7 +6903,7 @@
       "state": false,
       "time": 0,
       "script": "1a4e7faf-47c7-4fc2-8318-2ca058e03f7b",
-      "timestamp": 1540801295108,
+      "timestamp": 1542532202856,
       "tame": 0,
       "modified": 1541716597646
     },
@@ -7459,7 +7516,7 @@
     "c01d515a-daab-4ffe-970e-7a0519930fca": {
       "type": "project",
       "title": "Моя квартира",
-      "modified": 1542141668774,
+      "modified": 1542557235818,
       "site": [
         "350f2f91-9739-4163-906f-d3e6d4fcab02",
         "4de4890a-3ec3-4b81-babc-cdb98eece0f1",
@@ -7487,7 +7544,8 @@
         "181dea66-c26a-4e0c-8fd6-a55b7f817522",
         "10527316-f6e7-4c8b-8fcb-bc9645dc17e7",
         "72d9c286-b5b9-4381-a874-88d8f3d85629"
-      ]
+      ],
+      "daemon": "20:c9:d0:7f:aa:29"
     },
     "350f2f91-9739-4163-906f-d3e6d4fcab02": {
       "type": "site",
@@ -8124,8 +8182,145 @@
       "title": "Ниша",
       "modified": 1542556361686
     },
+    "20:c9:d0:7f:aa:29": {
+      "online": false,
+      "multicast": false,
+      "project": "c01d515a-daab-4ffe-970e-7a0519930fca",
+      "type": "daemon",
+      "version": "5.1",
+      "ip": "127.0.0.1",
+      "port": 62568,
+      "device": [
+        "aa:e0:98:45:d7:ab",
+        "e6:93:90:8b:73:6f",
+        "16:0d:fc:49:60:ad",
+        "5e:0a:25:05:c1:48",
+        "36:23:b1:cf:a5:da",
+        "06:60:37:ba:94:a6",
+        "5a:c5:08:93:25:bd",
+        "0e:e2:da:98:fe:fd"
+      ],
+      "title": "",
+      "code": "my mac",
+      "modified": 1542557235819
+    },
+    "16:0d:fc:49:60:ad": {
+      "type": 1,
+      "version": "21.69",
+      "ip": "192.168.18.103",
+      "online": false,
+      "ready": false,
+      "initialized": false,
+      "pendingFirmware": "sensor4",
+      "pending": false,
+      "updating": false,
+      "length": 435,
+      "value": 255,
+      "temperature": 27.04,
+      "humidity": 37.37,
+      "code": "сенсор3",
+      "timestamp": 1532276984635,
+      "gain": 47,
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "onDoppler": "7cb06570-d9e5-40f6-8091-015ae1a8419c",
+      "onHumidity": null,
+      "onTemperature": null,
+      "active": true,
+      "modified": 1541715067162
+    },
+    "d57abfdd-b27d-434b-819a-a7b947c08eda": {
+      "type": "TV",
+      "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
+      "title": "TV",
+      "modified": 1542554079725
+    },
+    "b599c7d8-8bc3-4d3d-bc5c-13d58715514e": {
+      "type": "AC",
+      "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
+      "title": "AC",
+      "modified": 1542554087165
+    },
+    "f73a3a3f-668e-41a9-9a84-a9ffa3ae2b93": {
+      "type": "TV",
+      "site": "06b0562e-b888-4181-babe-9efef4ca2e74",
+      "title": "TV",
+      "modified": 1542553997234
+    },
+    "460b8381-91a4-43d8-bc5e-5f1691044e25": {
+      "type": "TV",
+      "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
+      "title": "TV",
+      "modified": 1542554023522
+    },
+    "d4d252e8-3ca0-4928-bdbb-20bb2f94c641": {
+      "type": "AC",
+      "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
+      "code": "AC",
+      "modified": 1542554055534
+    },
+    "a51bd688-02e0-464b-bd23-08f212a759de": {
+      "type": "TV",
+      "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
+      "title": "TV",
+      "modified": 1542553962068
+    },
+    "a907e415-fdcc-4d80-9977-c6d3e92fabe2": {
+      "type": "AC",
+      "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
+      "title": "AC",
+      "modified": 1542554108444
+    },
+    "43f48184-b9bd-487a-b97c-80803e0cdcd3": {
+      "type": "TV",
+      "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
+      "title": "TV",
+      "modified": 1542553971332
+    },
+    "502aa9ee-e7ac-4141-8c6d-9068d956884a": {
+      "type": "AC",
+      "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
+      "title": "AC",
+      "modified": 1542554098939
+    },
+    "2ce223d9-09b3-43f7-8c2c-cd8192283c05": {
+      "type": "TV",
+      "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
+      "title": "TV",
+      "modified": 1542554008122
+    },
+    "454e4de5-19d1-49f0-8a0c-c22e096c8e0a": {
+      "type": "AC",
+      "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
+      "title": "AC",
+      "modified": 1542554034233
+    },
+    "16:0d:fc:49:60:ad/di/4": {
+      "value": 0,
+      "onOn": "418ae32f-9452-4d58-99e3-c905f12bde88",
+      "scene": [
+        null,
+        "418ae32f-9452-4d58-99e3-c905f12bde88"
+      ],
+      "script": [
+        null,
+        "418ae32f-9452-4d58-99e3-c905f12bde88"
+      ]
+    },
+    "16:0d:fc:49:60:ad/di/3": {
+      "value": 0
+    },
+    "16:0d:fc:49:60:ad/di/2": {
+      "value": 0
+    },
+    "16:0d:fc:49:60:ad/di/1": {
+      "value": 0,
+      "onOn": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8"
+    },
     "root": {
       "daemon": [
+        "b8:27:eb:c1:db:99",
+        "00:0b:ab:d5:dd:d0",
+        "20:c9:d0:7f:aa:29",
         "b8:27:eb:c1:db:99",
         "00:0b:ab:d5:dd:d0"
       ]
