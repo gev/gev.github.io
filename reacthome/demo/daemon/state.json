@@ -1,6 +1,5 @@
 {
   "assets": [
-    "4b18513b-2c61-4ebf-8eb8-fe563c1aeca5.jpg",
     "0bb1d11c-94df-4dae-89da-2fe281cb8221.JPG",
     "10224fc6-d1f8-4630-b459-196b132afb73.JPG",
     "155ee270-4c9b-4c3b-b352-cdfda03a94b4.svg",
@@ -55,1205 +54,6 @@
     "f6abc177-17a1-4b95-ba89-fa190af4843e.png"
   ],
   "state": {
-    "dce82723-b07a-48fc-9b85-fd2a0c94df12": {
-      "type": "project",
-      "title": "Korolab",
-      "daemon": "b8:27:eb:c1:db:99",
-      "site": [
-        "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c"
-      ],
-      "script": [
-        "20483d68-1ee3-4dec-a942-d8d9db9878c7",
-        "418ae32f-9452-4d58-99e3-c905f12bde88",
-        "610720b6-2994-4c30-a666-ef0f1fedd867",
-        "37edf114-b47a-49a1-8468-fb276c9434d4",
-        "4cbbe19b-5059-46d8-97ff-90a970cd817b",
-        "53e384c1-2d54-4002-9620-5e7fed098423",
-        "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e",
-        "ed1d7f32-1828-4de6-be4c-6449e9a94ab0",
-        "8b92edf4-b87b-41ff-80a4-fb258b4b17c1",
-        "abb5337e-f9da-4205-9a49-5ec8f495fda6",
-        "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
-        "7cb06570-d9e5-40f6-8091-015ae1a8419c",
-        "6693c5ff-f81a-42b7-a08f-d809a804628d",
-        "74f6706b-42c3-4c3a-8108-353f6a6801b9",
-        "7744e4fe-15a2-443d-8564-2846631dd7c1",
-        "349214c3-4ab3-47f2-872c-738b65f99c6c",
-        "ac86d204-25d7-4dfe-8381-f8c944f48464",
-        "0fe692af-c2b8-4be4-865d-b61438351f15",
-        "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
-        "388877d1-f4f7-403c-b9cc-2336f5639a4c",
-        "deb1467c-a39a-454a-ba3f-1f957e8f0553",
-        "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
-        "14dbf1be-ad87-4c1d-bc72-be524396b275"
-      ],
-      "timer": [
-        "c7b10f39-3798-4170-bf5c-8cd6069fface",
-        "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453",
-        "9a25079f-0e21-439d-997d-bbdfe626617c"
-      ],
-      "modified": 1542557265556,
-      "light_on": 0
-    },
-    "b8:27:eb:c1:db:99": {
-      "type": "daemon",
-      "version": "5.1",
-      "ip": "192.168.88.204",
-      "port": 37296,
-      "online": true,
-      "device": [
-        "aa:e0:98:45:d7:ab",
-        "e6:93:90:8b:73:6f",
-        "0e:e2:da:98:fe:fd",
-        "2a:3a:4b:d3:49:d8"
-      ],
-      "project": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "title": "test server",
-      "multicast": true,
-      "code": "",
-      "modified": 1542557265557
-    },
-    "aa:e0:98:45:d7:ab": {
-      "type": 17,
-      "version": "21.7",
-      "ip": "192.168.18.102",
-      "online": false,
-      "ready": false,
-      "initialized": false,
-      "finding": false,
-      "pendingFirmware": "do12",
-      "pending": false,
-      "updating": false,
-      "length": 1,
-      "code": "DO 1",
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f": {
-      "type": 18,
-      "version": "21.7",
-      "ip": "192.168.18.101",
-      "online": true,
-      "ready": true,
-      "initialized": true,
-      "finding": false,
-      "pendingFirmware": "di24",
-      "pending": false,
-      "updating": false,
-      "length": 277,
-      "code": "DI 1",
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd": {
-      "type": 15,
-      "version": "21.160",
-      "ip": "192.168.18.100",
-      "online": true,
-      "ready": true,
-      "initialized": true,
-      "finding": false,
-      "pendingFirmware": "dim8",
-      "pending": false,
-      "updating": false,
-      "length": 1,
-      "code": "DIM 1",
-      "modified": 1541719544023
-    },
-    "2a:3a:4b:d3:49:d8": {
-      "type": 1,
-      "version": "20.67",
-      "ip": "192.168.18.109",
-      "online": false,
-      "ready": false,
-      "humidity": 20.41,
-      "temperature": 27.61,
-      "finding": false,
-      "code": "сенсор5",
-      "pendingFirmware": "sensor4",
-      "pending": false,
-      "updating": false,
-      "length": 1,
-      "initialized": false,
-      "value": 0,
-      "timestamp": 1532276988397,
-      "gain": 0,
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "modified": 1541719544023
-    },
-    "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c": {
-      "type": "site",
-      "code": "lab",
-      "title": "Супер-кухня",
-      "parent": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "light_220": [
-        "ae707fe6-9184-4454-b4fe-9ee0c1a22445",
-        "90fde3e0-3416-4b75-9343-0348e8a26e63"
-      ],
-      "button": [
-        "f6da2d19-67cb-44e6-b9d7-5492b04dc802",
-        "089b619d-76d9-462e-a12f-0c0a8f495374",
-        "d40ab1e1-07e4-46de-991d-daddd071dd7b",
-        "bd444da6-c9d2-47f0-80b6-615eed17e92f"
-      ],
-      "motion_sensor": [
-        "89aba44f-0d6c-4e05-a118-6f8f604b6eb4"
-      ],
-      "light_on": 0,
-      "leakage_sensor": [],
-      "valve_heating": [],
-      "sensor": [
-        "2a:3a:4b:d3:49:d8"
-      ],
-      "humidity": 20.41,
-      "temperature": 27.61,
-      "valve_water": [],
-      "doppler": [],
-      "setpoint": 19,
-      "scene": [
-        "14dbf1be-ad87-4c1d-bc72-be524396b275"
-      ],
-      "camera": [
-        "f670648a-f461-4309-ae4d-32b75d207921",
-        "5437494b-195b-4e27-a7b2-13c0a98f2189"
-      ],
-      "image": "4b18513b-2c61-4ebf-8eb8-fe563c1aeca5.jpg",
-      "palette": {
-        "vibrant": "#f8b309",
-        "lightVibrant": "#f9ec68",
-        "darkVibrant": "#803c04",
-        "muted": "#746c84",
-        "lightMuted": "#919cac",
-        "darkMuted": "#512c33"
-      },
-      "light_LED": [
-        "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
-      ],
-      "undefined": [
-        "14dbf1be-ad87-4c1d-bc72-be524396b275",
-        "b8:27:eb:c1:db:99"
-      ],
-      "modified": 1541719544023,
-      "TV": [
-        "5e994736-3351-4162-b155-b80be900343f"
-      ],
-      "AC": [
-        "e4d3df1e-75bf-449f-a3b6-07435fb4c90b"
-      ]
-    },
-    "ae707fe6-9184-4454-b4fe-9ee0c1a22445": {
-      "type": "light_220",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "led small",
-      "bind": "0e:e2:da:98:fe:fd/dim/2",
-      "last": 128,
-      "on": false,
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd/dim/2": {
-      "type": 2,
-      "value": 0,
-      "velocity": 128,
-      "bind": "ae707fe6-9184-4454-b4fe-9ee0c1a22445",
-      "onOn": "ed1d7f32-1828-4de6-be4c-6449e9a94ab0",
-      "modified": 1541719544023
-    },
-    "ed1d7f32-1828-4de6-be4c-6449e9a94ab0": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "start timer 2",
-      "action": [
-        "fc5b3304-d4be-4290-b041-06e139e0c643"
-      ],
-      "modified": 1541719544023
-    },
-    "fc5b3304-d4be-4290-b041-06e139e0c643": {
-      "type": "ACTION_TIMER_START",
-      "script": "ed1d7f32-1828-4de6-be4c-6449e9a94ab0",
-      "payload": {
-        "id": "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453",
-        "script": "37edf114-b47a-49a1-8468-fb276c9434d4",
-        "time": 60000
-      },
-      "modified": 1541719544023
-    },
-    "ACTION_TIMER_START": {
-      "type": "action",
-      "code": "ACTION_TIMER_START",
-      "modified": 1542555269830
-    },
-    "90fde3e0-3416-4b75-9343-0348e8a26e63": {
-      "type": "light_220",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "led big",
-      "bind": "0e:e2:da:98:fe:fd/dim/1",
-      "last": 218,
-      "on": false,
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd/dim/1": {
-      "type": 2,
-      "value": 0,
-      "velocity": 128,
-      "bind": "90fde3e0-3416-4b75-9343-0348e8a26e63",
-      "modified": 1541719544023
-    },
-    "f6da2d19-67cb-44e6-b9d7-5492b04dc802": {
-      "type": "button",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "b1",
-      "bind": "e6:93:90:8b:73:6f/di/2",
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/2": {
-      "value": 0,
-      "bind": "f6da2d19-67cb-44e6-b9d7-5492b04dc802",
-      "onOn": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
-      "modified": 1541719544023
-    },
-    "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "led toggle",
-      "action": [
-        "94d38e41-c9ee-45a5-ae82-74077b0165ed"
-      ],
-      "modified": 1541719544023
-    },
-    "94d38e41-c9ee-45a5-ae82-74077b0165ed": {
-      "type": "ACTION_TOGGLE",
-      "script": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
-      "payload": {
-        "test": [
-          "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
-        ],
-        "onOff": "deb1467c-a39a-454a-ba3f-1f957e8f0553",
-        "onOn": "388877d1-f4f7-403c-b9cc-2336f5639a4c"
-      },
-      "modified": 1541719544023
-    },
-    "ACTION_TOGGLE": {
-      "type": "action",
-      "code": "ACTION_TOGGLE",
-      "modified": 1542555269834
-    },
-    "089b619d-76d9-462e-a12f-0c0a8f495374": {
-      "type": "button",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "b2",
-      "bind": "e6:93:90:8b:73:6f/di/3",
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/3": {
-      "value": 0,
-      "bind": "089b619d-76d9-462e-a12f-0c0a8f495374",
-      "modified": 1541719544023
-    },
-    "d40ab1e1-07e4-46de-991d-daddd071dd7b": {
-      "type": "button",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "b3",
-      "bind": "e6:93:90:8b:73:6f/di/4",
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/4": {
-      "value": 0,
-      "bind": "d40ab1e1-07e4-46de-991d-daddd071dd7b",
-      "modified": 1541719544023
-    },
-    "bd444da6-c9d2-47f0-80b6-615eed17e92f": {
-      "type": "button",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "b4",
-      "bind": "e6:93:90:8b:73:6f/di/5",
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/5": {
-      "value": 0,
-      "bind": "bd444da6-c9d2-47f0-80b6-615eed17e92f",
-      "modified": 1541719544023
-    },
-    "89aba44f-0d6c-4e05-a118-6f8f604b6eb4": {
-      "type": "motion_sensor",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "bind": "e6:93:90:8b:73:6f/di/1",
-      "code": "motion sensor",
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/1": {
-      "value": 0,
-      "bind": "89aba44f-0d6c-4e05-a118-6f8f604b6eb4",
-      "onOff": "53e384c1-2d54-4002-9620-5e7fed098423",
-      "onOn": "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
-      "onHold": "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e",
-      "scene": [
-        "4cbbe19b-5059-46d8-97ff-90a970cd817b",
-        "a8542e3e-4859-45b7-9667-08ba4ec08c03"
-      ],
-      "script": [
-        "53e384c1-2d54-4002-9620-5e7fed098423",
-        "a8542e3e-4859-45b7-9667-08ba4ec08c03"
-      ],
-      "modified": 1541719544023
-    },
-    "53e384c1-2d54-4002-9620-5e7fed098423": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "start timer1",
-      "action": [
-        "138e5b60-ae03-4601-8589-d19202e702d6"
-      ],
-      "modified": 1541719544023
-    },
-    "138e5b60-ae03-4601-8589-d19202e702d6": {
-      "type": "ACTION_TIMER_START",
-      "script": "53e384c1-2d54-4002-9620-5e7fed098423",
-      "payload": {
-        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface",
-        "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
-        "time": 60000
-      },
-      "time": 10000,
-      "modified": 1541719544023
-    },
-    "075f8b87-ac28-4501-b5e1-6cba9dd87f22": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "led big on",
-      "action": [
-        "032b0089-1731-448d-8922-d01223a0356e"
-      ],
-      "modified": 1541719544023
-    },
-    "032b0089-1731-448d-8922-d01223a0356e": {
-      "type": "ACTION_LIGHT_ON",
-      "script": "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
-      "payload": {
-        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
-      },
-      "modified": 1542049134194
-    },
-    "ACTION_LIGHT_ON": {
-      "type": "action",
-      "code": "ACTION_LIGHT_ON",
-      "modified": 1542555269818
-    },
-    "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "stop timer1",
-      "action": [
-        "47d9cbf7-c248-4c52-a4f2-78bd0ee430a0"
-      ],
-      "modified": 1541719544023
-    },
-    "47d9cbf7-c248-4c52-a4f2-78bd0ee430a0": {
-      "type": "ACTION_TIMER_STOP",
-      "script": "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e",
-      "payload": {
-        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface"
-      },
-      "modified": 1541719544023
-    },
-    "ACTION_TIMER_STOP": {
-      "type": "action",
-      "code": "ACTION_TIMER_STOP",
-      "modified": 1542555269831
-    },
-    "4cbbe19b-5059-46d8-97ff-90a970cd817b": {
-      "type": "script",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "led big off",
-      "action": [
-        "3a6a4c4d-9c24-42c6-b959-bb6c25c9bd1e",
-        "69d8b232-8da8-4ec2-85e9-b8ef61690e78"
-      ],
-      "modified": 1541719544023
-    },
-    "3a6a4c4d-9c24-42c6-b959-bb6c25c9bd1e": {
-      "type": "ACTION_LIGHT_OFF",
-      "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
-      "payload": {
-        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
-      },
-      "scene": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
-      "modified": 1541719544023
-    },
-    "ACTION_LIGHT_OFF": {
-      "type": "action",
-      "code": "ACTION_LIGHT_OFF",
-      "modified": 1542555269817
-    },
-    "69d8b232-8da8-4ec2-85e9-b8ef61690e78": {
-      "type": "ACTION_TIMER_STOP",
-      "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
-      "payload": {
-        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface"
-      },
-      "modified": 1541719544023
-    },
-    "a8542e3e-4859-45b7-9667-08ba4ec08c03": {
-      "type": "script",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "led big on by motion",
-      "action": [
-        "a91e9ec0-1f8e-4099-8535-58970ffb1d06",
-        "72ef13cf-f7fc-4f1c-b770-d0529df09eda"
-      ],
-      "modified": 1541719544023
-    },
-    "a91e9ec0-1f8e-4099-8535-58970ffb1d06": {
-      "type": "ACTION_LIGHT_SET",
-      "script": "a8542e3e-4859-45b7-9667-08ba4ec08c03",
-      "payload": {
-        "value": 255,
-        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
-      },
-      "scene": "a8542e3e-4859-45b7-9667-08ba4ec08c03",
-      "modified": 1541719544023
-    },
-    "ACTION_LIGHT_SET": {
-      "type": "action",
-      "code": "ACTION_LIGHT_SET",
-      "modified": 1542555269823
-    },
-    "72ef13cf-f7fc-4f1c-b770-d0529df09eda": {
-      "type": "ACTION_TIMER_STOP",
-      "script": "a8542e3e-4859-45b7-9667-08ba4ec08c03",
-      "payload": {
-        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface"
-      },
-      "modified": 1541719544023
-    },
-    "14dbf1be-ad87-4c1d-bc72-be524396b275": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "title": "Моя сцена",
-      "action": [
-        "a48ccf7f-81ee-4bcd-afdb-e27c991e18f4",
-        "b5bd20e8-5c87-4e2f-b04c-db6a350c36cd",
-        "d4ee59ff-a16c-416c-b87c-25b4c50378fb"
-      ],
-      "code": "my scene",
-      "modified": 1541719544023
-    },
-    "a48ccf7f-81ee-4bcd-afdb-e27c991e18f4": {
-      "type": "ACTION_LIGHT_SET",
-      "script": "14dbf1be-ad87-4c1d-bc72-be524396b275",
-      "payload": {
-        "value": 128,
-        "id": "ae707fe6-9184-4454-b4fe-9ee0c1a22445"
-      },
-      "modified": 1541719544023
-    },
-    "b5bd20e8-5c87-4e2f-b04c-db6a350c36cd": {
-      "type": "ACTION_LIGHT_SET",
-      "script": "14dbf1be-ad87-4c1d-bc72-be524396b275",
-      "payload": {
-        "value": 218,
-        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
-      },
-      "modified": 1541719544023
-    },
-    "d4ee59ff-a16c-416c-b87c-25b4c50378fb": {
-      "type": "ACTION_LIGHT_SET",
-      "script": "14dbf1be-ad87-4c1d-bc72-be524396b275",
-      "payload": {
-        "value": 86,
-        "id": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
-      },
-      "modified": 1541719544023
-    },
-    "f670648a-f461-4309-ae4d-32b75d207921": {
-      "type": "camera",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "cam lab",
-      "title": "Кухня",
-      "main_URL": "rtsp://admin:koro4794@192.168.88.64:554/Streaming/Channels/101",
-      "preview_URL": "rtsp://admin:koro4794@192.168.88.64:554/Streaming/Channels/102",
-      "modified": 1541719544023
-    },
-    "5437494b-195b-4e27-a7b2-13c0a98f2189": {
-      "type": "camera",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "cam elevator",
-      "title": "Лифт",
-      "preview_URL": "rtsp://admin:koro4794@192.168.88.85:554/cam/realmonitor?channel=1&subtype=1",
-      "main_URL": "rtsp://admin:koro4794@192.168.88.85:554/cam/realmonitor?channel=1&subtype=0",
-      "modified": 1541719544023
-    },
-    "1e81fd48-21b4-458d-96d1-f28ef0cd0f27": {
-      "type": "light_LED",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "led",
-      "bind": "0e:e2:da:98:fe:fd/dim/3",
-      "last": 86,
-      "on": false,
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd/dim/3": {
-      "type": 3,
-      "value": 0,
-      "velocity": 128,
-      "bind": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27",
-      "modified": 1541719544023
-    },
-    "5e994736-3351-4162-b155-b80be900343f": {
-      "type": "TV",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "TV 1",
-      "modified": 1541934116186
-    },
-    "e4d3df1e-75bf-449f-a3b6-07435fb4c90b": {
-      "type": "AC",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "AC 1",
-      "modified": 1541934107308
-    },
-    "20483d68-1ee3-4dec-a942-d8d9db9878c7": {
-      "type": "script",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "bulb on",
-      "action": [
-        "048646f2-04f2-4b5b-9a1c-19f6035bcd09"
-      ],
-      "title": "",
-      "modified": 1541719544023
-    },
-    "048646f2-04f2-4b5b-9a1c-19f6035bcd09": {
-      "type": "ACTION_LIGHT_ON",
-      "script": "20483d68-1ee3-4dec-a942-d8d9db9878c7",
-      "payload": {
-        "id": "fbdcbd89-4a7e-41ad-b86c-4ac51767e748"
-      },
-      "scene": "20483d68-1ee3-4dec-a942-d8d9db9878c7",
-      "modified": 1541719544023
-    },
-    "418ae32f-9452-4d58-99e3-c905f12bde88": {
-      "type": "script",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "off all",
-      "action": [
-        "41c7dc05-f208-4fb5-8c53-09f39f54c631"
-      ],
-      "modified": 1541719544023
-    },
-    "41c7dc05-f208-4fb5-8c53-09f39f54c631": {
-      "type": "ACTION_SITE_LIGHT_OFF",
-      "script": "418ae32f-9452-4d58-99e3-c905f12bde88",
-      "payload": {
-        "id": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c"
-      },
-      "scene": "418ae32f-9452-4d58-99e3-c905f12bde88",
-      "modified": 1541719544023
-    },
-    "ACTION_SITE_LIGHT_OFF": {
-      "type": "action",
-      "code": "ACTION_SITE_LIGHT_OFF",
-      "modified": 1542555269827
-    },
-    "610720b6-2994-4c30-a666-ef0f1fedd867": {
-      "type": "script",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "bulb off",
-      "action": [
-        "28b7f784-560b-480e-94b2-0bd6318add2f"
-      ],
-      "modified": 1541719544023
-    },
-    "28b7f784-560b-480e-94b2-0bd6318add2f": {
-      "type": "ACTION_LIGHT_OFF",
-      "script": "610720b6-2994-4c30-a666-ef0f1fedd867",
-      "payload": {
-        "id": "fbdcbd89-4a7e-41ad-b86c-4ac51767e748"
-      },
-      "scene": "610720b6-2994-4c30-a666-ef0f1fedd867",
-      "modified": 1541719544023
-    },
-    "37edf114-b47a-49a1-8468-fb276c9434d4": {
-      "type": "script",
-      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-      "code": "led small off",
-      "action": [
-        "11838511-8b7a-4bb7-bd2b-51cf94dcde24"
-      ],
-      "modified": 1541719544023
-    },
-    "11838511-8b7a-4bb7-bd2b-51cf94dcde24": {
-      "type": "ACTION_LIGHT_OFF",
-      "script": "37edf114-b47a-49a1-8468-fb276c9434d4",
-      "payload": {
-        "id": "ae707fe6-9184-4454-b4fe-9ee0c1a22445"
-      },
-      "scene": "37edf114-b47a-49a1-8468-fb276c9434d4",
-      "modified": 1541719544023
-    },
-    "8b92edf4-b87b-41ff-80a4-fb258b4b17c1": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "stop timer 2",
-      "action": [
-        "05defc14-7ffd-467b-bad1-1d52a6e5bc6f"
-      ],
-      "modified": 1541719544023
-    },
-    "05defc14-7ffd-467b-bad1-1d52a6e5bc6f": {
-      "type": "ACTION_TIMER_STOP",
-      "script": "8b92edf4-b87b-41ff-80a4-fb258b4b17c1",
-      "payload": {
-        "id": "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453"
-      },
-      "modified": 1541719544023
-    },
-    "abb5337e-f9da-4205-9a49-5ec8f495fda6": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "stop timers",
-      "action": [
-        "421ee680-5440-4b17-8299-d834630694f6",
-        "a607575b-c5c7-4a9f-8009-fd36ca44be1c"
-      ],
-      "modified": 1541719544023
-    },
-    "421ee680-5440-4b17-8299-d834630694f6": {
-      "type": "ACTION_TIMER_STOP",
-      "script": "abb5337e-f9da-4205-9a49-5ec8f495fda6",
-      "payload": {
-        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface"
-      },
-      "modified": 1541719544023
-    },
-    "a607575b-c5c7-4a9f-8009-fd36ca44be1c": {
-      "type": "ACTION_TIMER_STOP",
-      "script": "abb5337e-f9da-4205-9a49-5ec8f495fda6",
-      "payload": {
-        "id": "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453"
-      },
-      "modified": 1541719544023
-    },
-    "7cb06570-d9e5-40f6-8091-015ae1a8419c": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "doppler",
-      "action": [
-        "d0cc5d35-60a1-4620-b23e-413344f52a6a"
-      ],
-      "title": "led small controll by motion sensor (doppler)",
-      "modified": 1541719544023
-    },
-    "d0cc5d35-60a1-4620-b23e-413344f52a6a": {
-      "type": "ACTION_DOPPLER_HANDLE",
-      "script": "7cb06570-d9e5-40f6-8091-015ae1a8419c",
-      "payload": {
-        "id": "16:0d:fc:49:60:ad",
-        "low": "1",
-        "onLowThreshold": "8b92edf4-b87b-41ff-80a4-fb258b4b17c1",
-        "high": "10",
-        "onHightThreshold": "604e4330-1742-435f-8c36-238380700338",
-        "onHighThreshold": "6693c5ff-f81a-42b7-a08f-d809a804628d",
-        "onQuiet": "ed1d7f32-1828-4de6-be4c-6449e9a94ab0"
-      },
-      "modified": 1541719544023
-    },
-    "ACTION_DOPPLER_HANDLE": {
-      "type": "action",
-      "code": "ACTION_DOPPLER_HANDLE",
-      "modified": 1542555269833
-    },
-    "6693c5ff-f81a-42b7-a08f-d809a804628d": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "led small on",
-      "action": [
-        "411d3153-67dd-4534-adc6-228a41d3aa98"
-      ],
-      "modified": 1541719544023
-    },
-    "411d3153-67dd-4534-adc6-228a41d3aa98": {
-      "type": "ACTION_LIGHT_ON",
-      "script": "6693c5ff-f81a-42b7-a08f-d809a804628d",
-      "payload": {
-        "id": "ae707fe6-9184-4454-b4fe-9ee0c1a22445"
-      },
-      "modified": 1541719544023
-    },
-    "74f6706b-42c3-4c3a-8108-353f6a6801b9": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "toggle",
-      "action": [
-        "068b80bd-283f-4ea4-88d2-c4c037309955"
-      ],
-      "modified": 1541719544023
-    },
-    "068b80bd-283f-4ea4-88d2-c4c037309955": {
-      "type": "ACTION_TOGGLE",
-      "script": "74f6706b-42c3-4c3a-8108-353f6a6801b9",
-      "payload": {
-        "onOn": "7744e4fe-15a2-443d-8564-2846631dd7c1",
-        "test": [
-          "ae707fe6-9184-4454-b4fe-9ee0c1a22445",
-          "90fde3e0-3416-4b75-9343-0348e8a26e63"
-        ],
-        "onOff": "418ae32f-9452-4d58-99e3-c905f12bde88"
-      },
-      "modified": 1541719544023
-    },
-    "7744e4fe-15a2-443d-8564-2846631dd7c1": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "on all",
-      "action": [
-        "d17977b4-fa47-42da-86ec-62207ee00058",
-        "5cad0cdc-8a2c-4416-a2ea-81009ce8b69b"
-      ],
-      "modified": 1541719544023
-    },
-    "d17977b4-fa47-42da-86ec-62207ee00058": {
-      "type": "ACTION_LIGHT_ON",
-      "script": "7744e4fe-15a2-443d-8564-2846631dd7c1",
-      "payload": {
-        "id": "ae707fe6-9184-4454-b4fe-9ee0c1a22445"
-      },
-      "modified": 1541719544023
-    },
-    "5cad0cdc-8a2c-4416-a2ea-81009ce8b69b": {
-      "type": "ACTION_LIGHT_ON",
-      "script": "7744e4fe-15a2-443d-8564-2846631dd7c1",
-      "payload": {
-        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
-      },
-      "modified": 1541719544023
-    },
-    "349214c3-4ab3-47f2-872c-738b65f99c6c": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "run script",
-      "action": [
-        "f9f8910f-349d-4916-b5bf-8cdaa9ee362e"
-      ],
-      "modified": 1541719544023
-    },
-    "f9f8910f-349d-4916-b5bf-8cdaa9ee362e": {
-      "type": "ACTION_SCRIPT_RUN",
-      "script": "349214c3-4ab3-47f2-872c-738b65f99c6c",
-      "payload": {
-        "script": "418ae32f-9452-4d58-99e3-c905f12bde88",
-        "id": "418ae32f-9452-4d58-99e3-c905f12bde88"
-      },
-      "paylad": {
-        "script": "418ae32f-9452-4d58-99e3-c905f12bde88",
-        "id": "418ae32f-9452-4d58-99e3-c905f12bde88"
-      },
-      "modified": 1541719544023
-    },
-    "ACTION_SCRIPT_RUN": {
-      "type": "action",
-      "code": "ACTION_SCRIPT_RUN",
-      "modified": 1542555269835
-    },
-    "ac86d204-25d7-4dfe-8381-f8c944f48464": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "set up",
-      "action": [
-        "f4531cd0-8c75-49e2-a59b-5852f9c18a9a",
-        "6b6ac314-ac4b-4be8-8fdb-ccc00485cbfd"
-      ],
-      "modified": 1541719544023
-    },
-    "f4531cd0-8c75-49e2-a59b-5852f9c18a9a": {
-      "type": "ACTION_SITE_LIGHT_SET_RELATIVE",
-      "script": "ac86d204-25d7-4dfe-8381-f8c944f48464",
-      "payload": {
-        "id": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-        "operator": "OPERATOR_PLUS",
-        "value": 3
-      },
-      "modified": 1541719544023
-    },
-    "ACTION_SITE_LIGHT_SET_RELATIVE": {
-      "type": "action",
-      "code": "ACTION_SITE_LIGHT_SET_RELATIVE",
-      "modified": 1542555269826
-    },
-    "6b6ac314-ac4b-4be8-8fdb-ccc00485cbfd": {
-      "type": "ACTION_TIMER_START",
-      "script": "ac86d204-25d7-4dfe-8381-f8c944f48464",
-      "payload": {
-        "id": "9a25079f-0e21-439d-997d-bbdfe626617c",
-        "script": "ac86d204-25d7-4dfe-8381-f8c944f48464",
-        "time": 100
-      },
-      "modified": 1541719544023
-    },
-    "0fe692af-c2b8-4be4-865d-b61438351f15": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "timer 4 stop",
-      "action": [
-        "7b8d2b6c-73aa-4988-820d-d7ec1ad5abbd"
-      ],
-      "modified": 1541719544023
-    },
-    "7b8d2b6c-73aa-4988-820d-d7ec1ad5abbd": {
-      "type": "ACTION_TIMER_STOP",
-      "script": "0fe692af-c2b8-4be4-865d-b61438351f15",
-      "payload": {
-        "id": "9a25079f-0e21-439d-997d-bbdfe626617c"
-      },
-      "modified": 1541719544023
-    },
-    "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "set down",
-      "action": [
-        "09fa5ef7-1f1a-47ef-bfa0-3837dcb445aa",
-        "4657bf5d-ccf9-4889-a5ba-dfc35473b371"
-      ],
-      "modified": 1541719544023
-    },
-    "09fa5ef7-1f1a-47ef-bfa0-3837dcb445aa": {
-      "type": "ACTION_SITE_LIGHT_SET_RELATIVE",
-      "script": "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
-      "payload": {
-        "id": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
-        "value": 3,
-        "operator": "OPERATOR_MINUS"
-      },
-      "modified": 1541719544023
-    },
-    "4657bf5d-ccf9-4889-a5ba-dfc35473b371": {
-      "type": "ACTION_TIMER_START",
-      "script": "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
-      "payload": {
-        "id": "9a25079f-0e21-439d-997d-bbdfe626617c",
-        "script": "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
-        "time": 100
-      },
-      "modified": 1541719544023
-    },
-    "388877d1-f4f7-403c-b9cc-2336f5639a4c": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "led on",
-      "action": [
-        "39a34760-ff75-4aeb-8f08-a7d175a0aad1"
-      ],
-      "modified": 1541719544023
-    },
-    "39a34760-ff75-4aeb-8f08-a7d175a0aad1": {
-      "type": "ACTION_LIGHT_ON",
-      "script": "388877d1-f4f7-403c-b9cc-2336f5639a4c",
-      "payload": {
-        "id": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
-      },
-      "modified": 1542049158823
-    },
-    "deb1467c-a39a-454a-ba3f-1f957e8f0553": {
-      "type": "script",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "led off",
-      "action": [
-        "79a9417a-8b71-482c-9eea-dd95e1f91a53"
-      ],
-      "modified": 1541719544023
-    },
-    "79a9417a-8b71-482c-9eea-dd95e1f91a53": {
-      "type": "ACTION_LIGHT_OFF",
-      "script": "deb1467c-a39a-454a-ba3f-1f957e8f0553",
-      "payload": {
-        "id": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
-      },
-      "modified": 1541719544023
-    },
-    "c7b10f39-3798-4170-bf5c-8cd6069fface": {
-      "type": "timer",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "timer big",
-      "state": true,
-      "timestamp": 1542570321151,
-      "time": 60000,
-      "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
-      "tame": 0,
-      "modified": 1541719544023
-    },
-    "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453": {
-      "type": "timer",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "timer small",
-      "state": false,
-      "time": 0,
-      "script": "37edf114-b47a-49a1-8468-fb276c9434d4",
-      "timestamp": 1542552276897,
-      "modified": 1541719544023,
-      "tame": 0
-    },
-    "9a25079f-0e21-439d-997d-bbdfe626617c": {
-      "type": "timer",
-      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
-      "code": "timer dim",
-      "script": "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
-      "state": false,
-      "timestamp": 1538600545837,
-      "time": 100,
-      "modified": 1541719544023
-    },
-    "2a:3a:4b:d3:49:d8/1": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "2a:3a:4b:d3:49:d8/2": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "2a:3a:4b:d3:49:d8/3": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "2a:3a:4b:d3:49:d8/4": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "2a:3a:4b:d3:49:d8/di/1": {
-      "value": 0,
-      "onOn": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
-      "modified": 1542226808357
-    },
-    "2a:3a:4b:d3:49:d8/di/2": {
-      "value": 0,
-      "modified": 1542129855789,
-      "onOn": null
-    },
-    "2a:3a:4b:d3:49:d8/di/3": {
-      "value": 0,
-      "modified": 1542129857034,
-      "onOn": null
-    },
-    "2a:3a:4b:d3:49:d8/di/4": {
-      "value": 0,
-      "onOn": "418ae32f-9452-4d58-99e3-c905f12bde88",
-      "modified": 1542226814440
-    },
-    "aa:e0:98:45:d7:ab/do/1": {
-      "value": 0,
-      "bind": "24cc372d-597b-4efa-b2f4-06081a82cdd3",
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/2": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/3": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/4": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/5": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/6": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/7": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/8": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/12": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/11": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/10": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "aa:e0:98:45:d7:ab/do/9": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd/dim/4": {
-      "type": 0,
-      "value": 0,
-      "velocity": 0,
-      "bind": null,
-      "onOff": null,
-      "onOn": "53e384c1-2d54-4002-9620-5e7fed098423",
-      "script": [
-        "abb5337e-f9da-4205-9a49-5ec8f495fda6",
-        "53e384c1-2d54-4002-9620-5e7fed098423"
-      ],
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd/dim/5": {
-      "type": 0,
-      "value": 0,
-      "velocity": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/10": {
-      "value": 0,
-      "bind": null,
-      "onOn": null,
-      "onOff": null,
-      "onHold": null,
-      "onClick": null,
-      "scene": [
-        null,
-        "418ae32f-9452-4d58-99e3-c905f12bde88"
-      ],
-      "script": [
-        null,
-        "418ae32f-9452-4d58-99e3-c905f12bde88"
-      ],
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/9": {
-      "value": 0,
-      "bind": null,
-      "onOn": null,
-      "onHold": null,
-      "scene": [
-        null,
-        "a8542e3e-4859-45b7-9667-08ba4ec08c03",
-        "4cbbe19b-5059-46d8-97ff-90a970cd817b"
-      ],
-      "script": [
-        null,
-        "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
-        "4cbbe19b-5059-46d8-97ff-90a970cd817b"
-      ],
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/11": {
-      "value": 0,
-      "bind": null,
-      "onOn": null,
-      "onOhold": "37edf114-b47a-49a1-8468-fb276c9434d4",
-      "scene": [
-        null,
-        "604e4330-1742-435f-8c36-238380700338",
-        "37edf114-b47a-49a1-8468-fb276c9434d4"
-      ],
-      "script": [
-        null,
-        "604e4330-1742-435f-8c36-238380700338",
-        "37edf114-b47a-49a1-8468-fb276c9434d4"
-      ],
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/12": {
-      "value": 0,
-      "bind": null,
-      "onOn": null,
-      "onHold": null,
-      "onOff": null,
-      "onClick": null,
-      "scene": [
-        null,
-        "20483d68-1ee3-4dec-a942-d8d9db9878c7",
-        "610720b6-2994-4c30-a666-ef0f1fedd867"
-      ],
-      "script": [
-        null,
-        "20483d68-1ee3-4dec-a942-d8d9db9878c7",
-        "610720b6-2994-4c30-a666-ef0f1fedd867"
-      ],
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/7": {
-      "value": 0,
-      "bind": "fd33ca79-525a-4dfc-8e58-9fe6d06da6de",
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/8": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/17": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/24": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/23": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/22": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/21": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/6": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/13": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/14": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/18": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/16": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/15": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/19": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "e6:93:90:8b:73:6f/di/20": {
-      "value": 0,
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd/dim/6": {
-      "type": 0,
-      "value": 0,
-      "velocity": 0,
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd/dim/7": {
-      "type": 0,
-      "value": 0,
-      "velocity": 0,
-      "modified": 1541719544023
-    },
-    "0e:e2:da:98:fe:fd/dim/8": {
-      "type": 0,
-      "value": 0,
-      "velocity": 0,
-      "modified": 1541719544023
-    },
     "dec37f69-889c-413c-9632-3d7a09a89eaa": {
       "title": "Мой дом",
       "type": "project",
@@ -1349,7 +149,7 @@
         "f557407e-49c3-48e0-9e7a-bb6da7c98f67",
         "a896ed5c-fe74-4e3f-a87b-49d2a0f31bf0"
       ],
-      "modified": 1541716597646
+      "modified": 1542710835888
     },
     "00:0b:ab:d5:dd:d0": {
       "type": "daemon",
@@ -1391,7 +191,7 @@
       "multicast": false,
       "port": 52037,
       "project": "dec37f69-889c-413c-9632-3d7a09a89eaa",
-      "modified": 1541718845066
+      "modified": 1542710835889
     },
     "5e:0a:25:05:c1:48": {
       "type": 4,
@@ -1461,7 +261,8 @@
       "type": "fan",
       "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
       "bind": "de:e6:99:3c:77:7d/do/2",
-      "modified": 1541716597646
+      "modified": 1542708265615,
+      "title": "Ванная"
     },
     "de:e6:99:3c:77:7d/do/2": {
       "value": 0,
@@ -1473,7 +274,8 @@
       "type": "fan",
       "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
       "bind": "de:e6:99:3c:77:7d/do/3",
-      "modified": 1541716597646
+      "modified": 1542708270622,
+      "title": "Душ"
     },
     "de:e6:99:3c:77:7d/do/3": {
       "bind": "275239c9-5715-4bb9-b4d9-5b028980fbfd",
@@ -1522,7 +324,8 @@
       "last": 103.5,
       "type": "light_220",
       "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
-      "modified": 1541716597646
+      "modified": 1542707538196,
+      "title": "Свет"
     },
     "26:3c:a7:80:50:48/dim/3": {
       "type": 2,
@@ -1551,6 +354,11 @@
       },
       "modified": 1541716597646
     },
+    "ACTION_TIMER_START": {
+      "type": "action",
+      "code": "ACTION_TIMER_START",
+      "modified": 1542710343877
+    },
     "0a5044bf-40a2-41d5-afa9-5dd9403bf99a": {
       "code": "D24",
       "value": 0,
@@ -1559,7 +367,8 @@
       "last": 135,
       "type": "light_220",
       "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
-      "modified": 1541716597646
+      "modified": 1542707530548,
+      "title": "Зеркало"
     },
     "26:3c:a7:80:50:48/dim/4": {
       "type": 2,
@@ -1694,6 +503,11 @@
       },
       "modified": 1541716597646
     },
+    "ACTION_LIGHT_SET": {
+      "type": "action",
+      "code": "ACTION_LIGHT_SET",
+      "modified": 1542710343839
+    },
     "098fa653-3ce2-415c-8951-17191ff38520": {
       "type": "script",
       "site": "dec37f69-889c-413c-9632-3d7a09a89eaa",
@@ -1710,6 +524,11 @@
         "id": "f25844fc-7598-4684-88dc-a0ef2fc6f510"
       },
       "modified": 1541716597646
+    },
+    "ACTION_TIMER_STOP": {
+      "type": "action",
+      "code": "ACTION_TIMER_STOP",
+      "modified": 1542710343881
     },
     "99f625ab-78ba-46eb-a572-a7be86fb6dfb": {
       "type": "script",
@@ -1729,6 +548,11 @@
       },
       "scene": "99f625ab-78ba-46eb-a572-a7be86fb6dfb",
       "modified": 1541716597646
+    },
+    "ACTION_SITE_LIGHT_OFF": {
+      "type": "action",
+      "code": "ACTION_SITE_LIGHT_OFF",
+      "modified": 1542710343845
     },
     "7cf2d3d6-c4a8-48c1-bfba-68cd524a6c4b": {
       "type": "ACTION_SITE_LIGHT_OFF",
@@ -1757,6 +581,11 @@
       },
       "scene": "4d6f16ca-4239-4ae0-b5a1-b6a3cc04e352",
       "modified": 1541716597646
+    },
+    "ACTION_LIGHT_ON": {
+      "type": "action",
+      "code": "ACTION_LIGHT_ON",
+      "modified": 1542710343837
     },
     "825bb586-7c51-42ac-8406-3d1ed8c34520": {
       "type": "ACTION_LIGHT_ON",
@@ -1810,7 +639,8 @@
       "last": 228,
       "type": "light_220",
       "site": "a84c4d61-8f6d-47ec-82a5-9679387cc72f",
-      "modified": 1541716597646
+      "modified": 1542707203262,
+      "title": "Свет"
     },
     "6a:0a:05:7a:90:25/dim/1": {
       "type": 2,
@@ -1850,7 +680,8 @@
       "value": 0,
       "type": "light_220",
       "site": "7c50c687-46fd-43b9-b369-f8bd335865b9",
-      "modified": 1541716597646
+      "modified": 1542707486790,
+      "title": "Споты"
     },
     "76:29:43:d2:f2:e3/dim/1": {
       "type": 1,
@@ -1934,7 +765,8 @@
       "type": "fan",
       "site": "47269bb1-9877-4a99-a888-80f27bad23d4",
       "bind": "de:e6:99:3c:77:7d/do/1",
-      "modified": 1541716597646
+      "modified": 1542708238091,
+      "title": "Вытяжка"
     },
     "de:e6:99:3c:77:7d/do/1": {
       "value": 0,
@@ -1961,7 +793,8 @@
       "last": 105,
       "type": "light_220",
       "site": "47269bb1-9877-4a99-a888-80f27bad23d4",
-      "modified": 1541716597646
+      "modified": 1542707192918,
+      "title": "Свет"
     },
     "26:3c:a7:80:50:48/dim/2": {
       "type": 2,
@@ -2025,41 +858,10 @@
       },
       "modified": 1541716597646
     },
-    "1c64fac7-5e27-4aae-b818-754124df6405": {
-      "type": "script",
-      "site": "47269bb1-9877-4a99-a888-80f27bad23d4",
-      "code": "Ванная общ on",
-      "action": [
-        "d5894f2d-e4f5-4b93-8adb-843cd5afa0c4"
-      ],
-      "modified": 1541716597646
-    },
-    "d5894f2d-e4f5-4b93-8adb-843cd5afa0c4": {
-      "type": "ACTION_LIGHT_ON",
-      "script": "1c64fac7-5e27-4aae-b818-754124df6405",
-      "payload": {
-        "id": "5fa82b7d-24bc-4452-967e-eeb7e125f315"
-      },
-      "scene": "1c64fac7-5e27-4aae-b818-754124df6405",
-      "modified": 1541716597646
-    },
-    "bd492231-beb8-4359-a832-dd8a0abece95": {
-      "type": "script",
-      "site": "47269bb1-9877-4a99-a888-80f27bad23d4",
-      "code": "Ванная общ off",
-      "action": [
-        "d60129a3-3265-4695-8e8d-a2acd98b9c7f"
-      ],
-      "modified": 1541716597646
-    },
-    "d60129a3-3265-4695-8e8d-a2acd98b9c7f": {
-      "type": "ACTION_SITE_LIGHT_OFF",
-      "script": "bd492231-beb8-4359-a832-dd8a0abece95",
-      "payload": {
-        "id": "47269bb1-9877-4a99-a888-80f27bad23d4"
-      },
-      "scene": "bd492231-beb8-4359-a832-dd8a0abece95",
-      "modified": 1541716597646
+    "ACTION_DOPPLER_HANDLE": {
+      "type": "action",
+      "code": "ACTION_DOPPLER_HANDLE",
+      "modified": 1542710343883
     },
     "9fed9e3f-8950-4c5e-abaa-335f607fd5a6": {
       "type": "site",
@@ -2359,7 +1161,8 @@
       "last": 92,
       "type": "light_LED",
       "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
-      "modified": 1541716597646
+      "modified": 1542707115065,
+      "title": "Шторы"
     },
     "52:18:e7:50:3c:c3/dim/1": {
       "type": 3,
@@ -2373,11 +1176,11 @@
       "on": true,
       "value": 255,
       "bind": "6a:0a:05:7a:90:25/dim/2",
-      "title": "Основной",
+      "title": "Споты",
       "last": 255,
       "type": "light_220",
       "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
-      "modified": 1541716597646
+      "modified": 1542707592164
     },
     "6a:0a:05:7a:90:25/dim/2": {
       "type": 2,
@@ -2412,7 +1215,8 @@
       "last": 158,
       "type": "light_220",
       "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
-      "modified": 1541716597646
+      "modified": 1542707624228,
+      "title": "Лампа"
     },
     "6a:0a:05:7a:90:25/dim/4": {
       "type": 2,
@@ -2429,7 +1233,8 @@
       "last": 136,
       "type": "light_220",
       "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
-      "modified": 1541716597646
+      "modified": 1542707627869,
+      "title": "Лампа"
     },
     "f6:e7:c3:b6:e2:26/dim/1": {
       "type": 2,
@@ -2446,7 +1251,8 @@
       "last": 67,
       "type": "light_220",
       "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
-      "modified": 1541716597646
+      "modified": 1542707610612,
+      "title": "Зеркало"
     },
     "f6:e7:c3:b6:e2:26/dim/2": {
       "type": 4,
@@ -2463,7 +1269,8 @@
       "last": 255,
       "type": "light_220",
       "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
-      "modified": 1541716597646
+      "modified": 1542707643364,
+      "title": "Споты"
     },
     "f6:e7:c3:b6:e2:26/dim/3": {
       "type": 2,
@@ -2483,6 +1290,18 @@
       "value": 0,
       "bind": "d7ee46f4-7b84-42c7-b8d3-c69eac9acf05",
       "modified": 1541716597646
+    },
+    "d57abfdd-b27d-434b-819a-a7b947c08eda": {
+      "type": "TV",
+      "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
+      "title": "TV",
+      "modified": 1542554079725
+    },
+    "b599c7d8-8bc3-4d3d-bc5c-13d58715514e": {
+      "type": "AC",
+      "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
+      "title": "AC",
+      "modified": 1542554087165
     },
     "3a068146-cde3-493f-a491-a80890ea9745": {
       "type": "site",
@@ -2631,7 +1450,8 @@
       "last": 255,
       "type": "light_220",
       "site": "3a068146-cde3-493f-a491-a80890ea9745",
-      "modified": 1541716597646
+      "modified": 1542707184302,
+      "title": "Свет"
     },
     "ee:ae:07:0e:7f:b2/dim/1": {
       "type": 4,
@@ -2808,7 +1628,8 @@
       "last": 255,
       "type": "light_220",
       "site": "7ed26f9f-167b-4c0e-9d39-074d9c7a97a9",
-      "modified": 1541716597646
+      "modified": 1542707177838,
+      "title": "Свет"
     },
     "f6:e7:c3:b6:e2:26/dim/4": {
       "type": 4,
@@ -2867,7 +1688,8 @@
       "last": 255,
       "type": "light_220",
       "site": "06b0562e-b888-4181-babe-9efef4ca2e74",
-      "modified": 1541716597646
+      "modified": 1542707565699,
+      "title": "Споты"
     },
     "5e:87:59:3c:9b:3e/dim/4": {
       "type": 2,
@@ -2884,7 +1706,8 @@
       "last": 255,
       "type": "light_220",
       "site": "06b0562e-b888-4181-babe-9efef4ca2e74",
-      "modified": 1541716597646
+      "modified": 1542707570019,
+      "title": "Люстра"
     },
     "26:3c:a7:80:50:48/dim/1": {
       "type": 2,
@@ -2905,42 +1728,11 @@
       "bind": "450676d7-996c-40c8-88b0-2037df1704c5",
       "modified": 1541716597646
     },
-    "6cf5b362-4187-4a1a-aa9a-57c3edf537d7": {
-      "type": "script",
+    "f73a3a3f-668e-41a9-9a84-a9ffa3ae2b93": {
+      "type": "TV",
       "site": "06b0562e-b888-4181-babe-9efef4ca2e74",
-      "code": "D19 on",
-      "action": [
-        "442bec95-6934-4d16-88a8-8d65347531b1"
-      ],
-      "modified": 1541716597646
-    },
-    "442bec95-6934-4d16-88a8-8d65347531b1": {
-      "type": "ACTION_LIGHT_SET",
-      "script": "6cf5b362-4187-4a1a-aa9a-57c3edf537d7",
-      "payload": {
-        "id": "4bb6bff8-7cc3-400c-bf01-950de876fa13",
-        "value": 255
-      },
-      "scene": "6cf5b362-4187-4a1a-aa9a-57c3edf537d7",
-      "modified": 1541716597646
-    },
-    "de425a8c-06e8-4395-aa48-fc460a198b0a": {
-      "type": "script",
-      "site": "06b0562e-b888-4181-babe-9efef4ca2e74",
-      "code": "D19-D20 off",
-      "action": [
-        "8d23c677-9a18-43a0-8e0c-ad515a63c136"
-      ],
-      "modified": 1541716597646
-    },
-    "8d23c677-9a18-43a0-8e0c-ad515a63c136": {
-      "type": "ACTION_SITE_LIGHT_OFF",
-      "script": "de425a8c-06e8-4395-aa48-fc460a198b0a",
-      "payload": {
-        "id": "06b0562e-b888-4181-babe-9efef4ca2e74"
-      },
-      "scene": "de425a8c-06e8-4395-aa48-fc460a198b0a",
-      "modified": 1541716597646
+      "title": "TV",
+      "modified": 1542553997234
     },
     "e35d0b31-0253-4dda-888c-43bfa536cb59": {
       "type": "site",
@@ -3033,6 +1825,11 @@
       },
       "modified": 1541716597646
     },
+    "ACTION_TOGGLE": {
+      "type": "action",
+      "code": "ACTION_TOGGLE",
+      "modified": 1542710343884
+    },
     "9acd3cfc-eb07-43cf-a4ec-8da2a5078852": {
       "code": "кн19.1",
       "type": "button",
@@ -3087,7 +1884,8 @@
       "last": 158,
       "type": "light_220",
       "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
-      "modified": 1541716597646
+      "modified": 1542707676530,
+      "title": "Люстра"
     },
     "ee:ae:07:0e:7f:b2/dim/2": {
       "type": 2,
@@ -3104,30 +1902,14 @@
       "last": 135,
       "type": "light_220",
       "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
-      "modified": 1541716597646
+      "modified": 1542707733032,
+      "title": "Споты"
     },
     "ee:ae:07:0e:7f:b2/dim/3": {
       "type": 2,
       "value": 0,
       "velocity": 200,
       "bind": "98355c88-4d59-4b7f-bed7-b2e5639c8b90",
-      "modified": 1541716597646
-    },
-    "1ef8e41b-1808-4dd2-8318-b9cba3a5b09b": {
-      "code": "D15",
-      "on": false,
-      "value": 0,
-      "bind": "ee:ae:07:0e:7f:b2/dim/4",
-      "last": 110,
-      "type": "light_220",
-      "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
-      "modified": 1541716597646
-    },
-    "ee:ae:07:0e:7f:b2/dim/4": {
-      "type": 2,
-      "value": 0,
-      "velocity": 200,
-      "bind": "1ef8e41b-1808-4dd2-8318-b9cba3a5b09b",
       "modified": 1541716597646
     },
     "549ff2c7-3747-4910-aa5b-1ffe5f169d39": {
@@ -3138,30 +1920,14 @@
       "last": 161,
       "type": "light_220",
       "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
-      "modified": 1541716597646
+      "modified": 1542707777983,
+      "title": "Ночник"
     },
     "5e:87:59:3c:9b:3e/dim/1": {
       "type": 1,
       "value": 0,
       "velocity": 200,
       "bind": "549ff2c7-3747-4910-aa5b-1ffe5f169d39",
-      "modified": 1541716597646
-    },
-    "f2b363d7-b746-4106-afaa-fa9d07b99c69": {
-      "code": "D17",
-      "on": false,
-      "value": 0,
-      "bind": "5e:87:59:3c:9b:3e/dim/2",
-      "last": 143,
-      "type": "light_220",
-      "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
-      "modified": 1541716597646
-    },
-    "5e:87:59:3c:9b:3e/dim/2": {
-      "type": 1,
-      "value": 0,
-      "velocity": 200,
-      "bind": "f2b363d7-b746-4106-afaa-fa9d07b99c69",
       "modified": 1541716597646
     },
     "d06d2885-a100-46b9-8f14-af4d99ef66be": {
@@ -3175,6 +1941,18 @@
       "bind": "d06d2885-a100-46b9-8f14-af4d99ef66be",
       "value": 0,
       "modified": 1541716597646
+    },
+    "460b8381-91a4-43d8-bc5e-5f1691044e25": {
+      "type": "TV",
+      "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
+      "title": "TV",
+      "modified": 1542554023522
+    },
+    "d4d252e8-3ca0-4928-bdbb-20bb2f94c641": {
+      "type": "AC",
+      "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
+      "code": "AC",
+      "modified": 1542554055534
     },
     "40f45d49-d92b-4951-8a16-92543aacf6c0": {
       "type": "site",
@@ -3218,7 +1996,8 @@
       "last": 255,
       "type": "light_220",
       "site": "40f45d49-d92b-4951-8a16-92543aacf6c0",
-      "modified": 1541716597646
+      "modified": 1542707165815,
+      "title": "Свет"
     },
     "5e:87:59:3c:9b:3e/dim/3": {
       "type": 1,
@@ -3237,43 +2016,6 @@
     "02:00:00:00:02:01/do/11": {
       "value": 0,
       "bind": "a8b2e030-dadf-4ffb-9de7-8d239b3e3c1a",
-      "modified": 1541716597646
-    },
-    "ed320920-bce7-46b2-bf87-037ff16888ce": {
-      "type": "script",
-      "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
-      "code": "D23 on",
-      "action": [
-        "8c2d0d4d-e52c-48ee-910e-cc5120b84507"
-      ],
-      "modified": 1541716597646
-    },
-    "8c2d0d4d-e52c-48ee-910e-cc5120b84507": {
-      "type": "ACTION_LIGHT_SET",
-      "script": "ed320920-bce7-46b2-bf87-037ff16888ce",
-      "payload": {
-        "id": "93a26b84-8dc7-4d84-a951-cfeba0bb7a3e",
-        "value": 255
-      },
-      "scene": "ed320920-bce7-46b2-bf87-037ff16888ce",
-      "modified": 1541716597646
-    },
-    "e84461ec-de8a-4206-b391-f07cc7257c66": {
-      "type": "script",
-      "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
-      "code": "D23 D24 off",
-      "action": [
-        "5f582179-b176-497b-b169-c5ac2fd6f845"
-      ],
-      "modified": 1541716597646
-    },
-    "5f582179-b176-497b-b169-c5ac2fd6f845": {
-      "type": "ACTION_SITE_LIGHT_OFF",
-      "script": "e84461ec-de8a-4206-b391-f07cc7257c66",
-      "payload": {
-        "id": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3"
-      },
-      "scene": "e84461ec-de8a-4206-b391-f07cc7257c66",
       "modified": 1541716597646
     },
     "780c906d-ab5a-4b05-b0b4-7ad8c681de13": {
@@ -3359,7 +2101,8 @@
       "type": "fan",
       "site": "ef750f41-2821-49b7-b732-bb10084b5f8c",
       "bind": "62:0c:36:a8:9c:04/do/7",
-      "modified": 1541716597646
+      "modified": 1542708231475,
+      "title": "Вытяжка"
     },
     "62:0c:36:a8:9c:04/do/7": {
       "value": 0,
@@ -3396,7 +2139,8 @@
       "last": 127.5,
       "type": "light_220",
       "site": "ef750f41-2821-49b7-b732-bb10084b5f8c",
-      "modified": 1541716597646
+      "modified": 1542708076401,
+      "title": "Свет"
     },
     "d2:35:6e:49:7f:1c/dim/3": {
       "type": 2,
@@ -3433,7 +2177,8 @@
       "last": 117,
       "type": "light_220",
       "site": "ef750f41-2821-49b7-b732-bb10084b5f8c",
-      "modified": 1541716597646
+      "modified": 1542708080824,
+      "title": "Зеркало"
     },
     "d2:35:6e:49:7f:1c/dim/4": {
       "type": 2,
@@ -3500,7 +2245,8 @@
       "last": 255,
       "type": "light_220",
       "site": "b5f797d5-7931-4b95-90ab-e74f3acee0a7",
-      "modified": 1541716597646
+      "modified": 1542706636769,
+      "title": "Свет"
     },
     "c6:5e:6c:fc:e7:a9/dim/1": {
       "type": 4,
@@ -3639,7 +2385,8 @@
       "last": 255,
       "type": "light_220",
       "site": "cc424f23-fba2-4728-8cfa-2bd00c18f704",
-      "modified": 1541716597646
+      "modified": 1542706647666,
+      "title": "Свет"
     },
     "c6:5e:6c:fc:e7:a9/dim/4": {
       "type": 2,
@@ -3686,14 +2433,15 @@
       "modified": 1541716597646
     },
     "71184c93-5246-46ea-94dc-b524b5f0cdbe": {
-      "code": "D25a",
+      "code": "D25а",
       "on": false,
       "bind": "ba:20:01:07:b4:16/dim/1",
       "value": 0,
       "last": 74,
       "type": "light_220",
       "site": "a165aada-1317-42d0-8d70-fb02a74c4181",
-      "modified": 1541716597646
+      "modified": 1542707381844,
+      "title": "Споты"
     },
     "ba:20:01:07:b4:16/dim/1": {
       "type": 1,
@@ -3710,7 +2458,8 @@
       "last": 217,
       "type": "light_220",
       "site": "a165aada-1317-42d0-8d70-fb02a74c4181",
-      "modified": 1541716597646
+      "modified": 1542707388936,
+      "title": "Бра"
     },
     "ba:20:01:07:b4:16/dim/2": {
       "type": 1,
@@ -3916,7 +2665,8 @@
       "last": 93,
       "type": "light_220",
       "site": "2ccd42cf-c249-4532-96e1-a93d27e332b0",
-      "modified": 1541716597646
+      "modified": 1542706699466,
+      "title": "Свет"
     },
     "06:e7:a7:52:0b:5f/dim/1": {
       "type": 4,
@@ -4035,7 +2785,8 @@
       "last": 168,
       "type": "light_220",
       "site": "2f62ed7f-e3b6-4f83-ac1c-dabd4f632e67",
-      "modified": 1541716597646
+      "modified": 1542706708337,
+      "title": "Свет"
     },
     "06:e7:a7:52:0b:5f/dim/2": {
       "type": 4,
@@ -4161,7 +2912,8 @@
       "type": "fan",
       "site": "caa9153c-c87b-4ade-910e-af98fd951d12",
       "bind": "62:0c:36:a8:9c:04/do/6",
-      "modified": 1541716597646
+      "modified": 1542708213936,
+      "title": "Вытяжка"
     },
     "62:0c:36:a8:9c:04/do/6": {
       "value": 0,
@@ -4224,7 +2976,8 @@
       "last": 127.5,
       "type": "light_220",
       "site": "caa9153c-c87b-4ade-910e-af98fd951d12",
-      "modified": 1541716597646
+      "modified": 1542706718932,
+      "title": "Свет"
     },
     "06:e7:a7:52:0b:5f/dim/3": {
       "type": 2,
@@ -4336,7 +3089,8 @@
       "value": 0,
       "type": "light_220",
       "site": "28453360-a188-48e0-8200-58a17d4a9ed6",
-      "modified": 1541716597646
+      "modified": 1542706739595,
+      "title": "Свет"
     },
     "fa:1e:31:ca:ff:8c/dim/3": {
       "type": 1,
@@ -4431,7 +3185,8 @@
       "type": "fan",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
       "bind": "62:0c:36:a8:9c:04/do/5",
-      "modified": 1541716597646
+      "modified": 1542708226491,
+      "title": "Вытяжка"
     },
     "62:0c:36:a8:9c:04/do/5": {
       "value": 0,
@@ -4655,8 +3410,8 @@
       "last": 255,
       "type": "light_LED",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "Подсветка",
-      "modified": 1541716597646
+      "title": "Шторы",
+      "modified": 1542707106993
     },
     "ba:20:01:07:b4:16/dim/4": {
       "type": 3,
@@ -4673,8 +3428,8 @@
       "bind": "06:e7:a7:52:0b:5f/dim/4",
       "type": "light_220",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "Основной",
-      "modified": 1541716597646
+      "title": "Люстра",
+      "modified": 1542706771294
     },
     "06:e7:a7:52:0b:5f/dim/4": {
       "type": 2,
@@ -4691,8 +3446,8 @@
       "bind": "fa:1e:31:ca:ff:8c/dim/1",
       "type": "light_220",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "Бра",
-      "modified": 1541716597646
+      "title": "Диван",
+      "modified": 1542706855816
     },
     "fa:1e:31:ca:ff:8c/dim/1": {
       "type": 2,
@@ -4709,8 +3464,8 @@
       "bind": "fa:1e:31:ca:ff:8c/dim/2",
       "type": "light_220",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "Стол",
-      "modified": 1541716597646
+      "title": "Бар",
+      "modified": 1542706883664
     },
     "fa:1e:31:ca:ff:8c/dim/2": {
       "type": 2,
@@ -4727,8 +3482,8 @@
       "bind": "fa:1e:31:ca:ff:8c/dim/4",
       "type": "light_220",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "Картина",
-      "modified": 1541716597646
+      "title": "Стол",
+      "modified": 1542706859960
     },
     "fa:1e:31:ca:ff:8c/dim/4": {
       "type": 2,
@@ -4741,12 +3496,12 @@
       "code": "D4a",
       "on": true,
       "value": 255,
-      "last": 255,
+      "last": 41,
       "bind": "d2:6e:5a:f7:f1:2e/dim/1",
       "type": "light_220",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "Люстра",
-      "modified": 1541716597646
+      "title": "Бра",
+      "modified": 1542706873945
     },
     "d2:6e:5a:f7:f1:2e/dim/1": {
       "type": 2,
@@ -4763,8 +3518,8 @@
       "bind": "d2:6e:5a:f7:f1:2e/dim/2",
       "type": "light_220",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "Бар",
-      "modified": 1541716597646
+      "title": "Споты",
+      "modified": 1542707078290
     },
     "d2:6e:5a:f7:f1:2e/dim/2": {
       "type": 2,
@@ -4781,8 +3536,8 @@
       "bind": "d2:6e:5a:f7:f1:2e/dim/3",
       "type": "light_220",
       "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "Торшер",
-      "modified": 1541716597646
+      "title": "Картина",
+      "modified": 1542706899071
     },
     "d2:6e:5a:f7:f1:2e/dim/3": {
       "type": 2,
@@ -4826,6 +3581,18 @@
       "value": 0,
       "bind": "b8ac2578-539e-49c8-a7f7-aa2c864d0189",
       "modified": 1541716597646
+    },
+    "a51bd688-02e0-464b-bd23-08f212a759de": {
+      "type": "TV",
+      "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
+      "title": "TV",
+      "modified": 1542553962068
+    },
+    "a907e415-fdcc-4d80-9977-c6d3e92fabe2": {
+      "type": "AC",
+      "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
+      "title": "AC",
+      "modified": 1542554108444
     },
     "84cd718c-05df-4865-8032-6bda3cb1c02c": {
       "type": "site",
@@ -4968,7 +3735,8 @@
       "bind": "ba:20:01:07:b4:16/dim/3",
       "type": "light_LED",
       "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
-      "modified": 1541716597646
+      "modified": 1542707098752,
+      "title": "Шторы"
     },
     "ba:20:01:07:b4:16/dim/3": {
       "type": 3,
@@ -4998,11 +3766,12 @@
       "code": "D7а",
       "on": false,
       "value": 0,
-      "last": 138,
+      "last": 120,
       "bind": "02:bc:fb:9c:dd:a8/dim/2",
       "type": "light_220",
       "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
-      "modified": 1541716597646
+      "modified": 1542706973020,
+      "title": "Споты"
     },
     "02:bc:fb:9c:dd:a8/dim/2": {
       "type": 2,
@@ -5019,7 +3788,8 @@
       "bind": "02:bc:fb:9c:dd:a8/dim/3",
       "type": "light_220",
       "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
-      "modified": 1541716597646
+      "modified": 1542706982060,
+      "title": "Бра"
     },
     "02:bc:fb:9c:dd:a8/dim/3": {
       "type": 2,
@@ -5036,7 +3806,8 @@
       "bind": "02:bc:fb:9c:dd:a8/dim/4",
       "type": "light_220",
       "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
-      "modified": 1541716597646
+      "modified": 1542706992420,
+      "title": "Бра"
     },
     "02:bc:fb:9c:dd:a8/dim/4": {
       "type": 2,
@@ -5068,6 +3839,18 @@
       "value": 0,
       "bind": "fcc3aadf-c388-403d-a19f-0f9da1810f70",
       "modified": 1541716597646
+    },
+    "43f48184-b9bd-487a-b97c-80803e0cdcd3": {
+      "type": "TV",
+      "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
+      "title": "TV",
+      "modified": 1542553971332
+    },
+    "502aa9ee-e7ac-4141-8c6d-9068d956884a": {
+      "type": "AC",
+      "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
+      "title": "AC",
+      "modified": 1542554098939
     },
     "86652704-8851-4d90-8ec1-74c41d52d426": {
       "type": "valve_heating",
@@ -5223,7 +4006,8 @@
       "last": 255,
       "type": "light_LED",
       "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
-      "modified": 1541716597646
+      "modified": 1542707128664,
+      "title": "Окна"
     },
     "52:18:e7:50:3c:c3/dim/2": {
       "type": 3,
@@ -5240,7 +4024,8 @@
       "last": 255,
       "type": "light_220",
       "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
-      "modified": 1541716597646
+      "modified": 1542707139552,
+      "title": "Споты"
     },
     "76:29:43:d2:f2:e3/dim/2": {
       "type": 2,
@@ -5260,6 +4045,18 @@
       "value": 0,
       "bind": "cb96e59c-82dd-4b3a-990f-139afa6d7db8",
       "modified": 1541716597646
+    },
+    "2ce223d9-09b3-43f7-8c2c-cd8192283c05": {
+      "type": "TV",
+      "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
+      "title": "TV",
+      "modified": 1542554008122
+    },
+    "454e4de5-19d1-49f0-8a0c-c22e096c8e0a": {
+      "type": "AC",
+      "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
+      "title": "AC",
+      "modified": 1542554034233
     },
     "5ac6646f-3a72-4dca-b4d6-704d476fa2ac": {
       "type": "site",
@@ -5368,7 +4165,8 @@
       "last": 255,
       "type": "light_220",
       "site": "5ac6646f-3a72-4dca-b4d6-704d476fa2ac",
-      "modified": 1541716597646
+      "modified": 1542707147671,
+      "title": "Свет"
     },
     "76:29:43:d2:f2:e3/dim/3": {
       "type": 2,
@@ -5482,7 +4280,8 @@
       "last": 255,
       "type": "light_220",
       "site": "1015f612-de2e-408c-8d0b-d999633c867e",
-      "modified": 1541716597646
+      "modified": 1542707155199,
+      "title": "Свет"
     },
     "76:29:43:d2:f2:e3/dim/4": {
       "type": 4,
@@ -5858,7 +4657,7 @@
         "2cf49234-0868-407e-9689-740ccad9dd4e"
       ],
       "parent": "25e19468-fd2c-4656-a9e4-e2405caab65e",
-      "modified": 1541716597646
+      "modified": 1542709572283
     },
     "0557a968-f31f-4c41-9118-b6f99860edf4": {
       "title": "",
@@ -5866,12 +4665,12 @@
       "modified": 1541716597646
     },
     "e3e929d0-3317-4752-96a3-9bb3f3b90c94": {
-      "title": "",
+      "title": "Вход",
       "code": "cam1",
       "type": "camera",
       "main_URL": "rtsp://admin:koro4794@192.168.88.64:554/Streaming/Channels/101",
       "preview_URL": "rtsp://admin:koro4794@192.168.88.64:554/Streaming/Channels/102",
-      "modified": 1541716597646
+      "modified": 1542710366981
     },
     "5f4f3d2c-d80a-480b-8d5a-abd6ddaa0968": {
       "type": "camera",
@@ -5879,7 +4678,8 @@
       "code": "intercom",
       "main_URL": "rtsp://admin:kurina25072018@192.168.0.12:554/Streaming/Channels/101",
       "preview_URL": "rtsp://admin:kurina25072018@192.168.0.12:554/Streaming/Channels/101",
-      "modified": 1541716597646
+      "modified": 1542710362543,
+      "title": "Домофон"
     },
     "3e7ba773-80ea-4aa8-8b10-f874ceba53f1": {
       "code": "движ-у1",
@@ -5899,7 +4699,8 @@
       "site": "ba02845a-7059-4ca0-83e1-d340bbf72b61",
       "on": false,
       "value": 0,
-      "modified": 1541716597646
+      "modified": 1542706563215,
+      "title": "Свет"
     },
     "c6:5e:6c:fc:e7:a9/dim/2": {
       "type": 2,
@@ -5927,12 +4728,12 @@
       "modified": 1541716597646
     },
     "50b64c08-cfa0-467d-893e-b5730f881e35": {
-      "title": "",
+      "title": "Веранда",
       "code": "cam2",
       "type": "camera",
       "main_URL": "rtsp://admin:ms1234@192.168.88.190:554//main",
       "preview_URL": "rtsp://admin:ms1234@192.168.88.190:554//sub",
-      "modified": 1541716597646
+      "modified": 1542710388061
     },
     "b68b496c-3114-4dac-a866-5a07fd6cd5f9": {
       "code": "кн5.1",
@@ -5972,7 +4773,8 @@
       "site": "76bbc491-7b3e-4859-a321-dc7e9b141638",
       "on": false,
       "value": 0,
-      "modified": 1541716597646
+      "modified": 1542706607618,
+      "title": "Люстры"
     },
     "d2:35:6e:49:7f:1c/dim/1": {
       "type": 2,
@@ -5988,7 +4790,8 @@
       "site": "76bbc491-7b3e-4859-a321-dc7e9b141638",
       "on": false,
       "value": 0,
-      "modified": 1541716597646
+      "modified": 1542706612258,
+      "title": "Фонари"
     },
     "d2:35:6e:49:7f:1c/dim/2": {
       "type": 2,
@@ -6013,7 +4816,8 @@
       "site": "6f05e235-3d84-4a7a-a056-23d3697764ba",
       "on": false,
       "value": 0,
-      "modified": 1541716597646
+      "modified": 1542706622018,
+      "title": "Свет"
     },
     "c6:5e:6c:fc:e7:a9/dim/3": {
       "type": 2,
@@ -6039,7 +4843,8 @@
       "type": "camera",
       "main_URL": "rtsp://admin:koro4794@192.168.88.85:554/cam/realmonitor?channel=1&subtype=0",
       "preview_URL": "rtsp://admin:koro4794@192.168.88.85:554/cam/realmonitor?channel=1&subtype=1",
-      "modified": 1541716597646
+      "modified": 1542710402323,
+      "title": "Двор"
     },
     "6e241357-ff31-474b-b382-de975b4d62a2": {
       "code": "D5б",
@@ -6073,6 +4878,11 @@
         "id": "a6770974-84ae-4807-838f-3a42b176f39c"
       },
       "modified": 1541716597646
+    },
+    "ACTION_LIGHT_OFF": {
+      "type": "action",
+      "code": "ACTION_LIGHT_OFF",
+      "modified": 1542710343814
     },
     "6c28c2a3-384e-4dca-99a3-5d22b0c23dbf": {
       "type": "script",
@@ -6271,6 +5081,11 @@
         "value": 2
       },
       "modified": 1541716597646
+    },
+    "ACTION_SITE_LIGHT_SET_RELATIVE": {
+      "type": "action",
+      "code": "ACTION_SITE_LIGHT_SET_RELATIVE",
+      "modified": 1542710343843
     },
     "589701a9-ec71-4ae9-806e-a500719f9c4d": {
       "type": "ACTION_TIMER_START",
@@ -7325,6 +6140,13 @@
       "bind": "3d93ec13-6caf-49a1-a341-6f8005f94994",
       "modified": 1541716597646
     },
+    "5e:87:59:3c:9b:3e/dim/2": {
+      "type": 1,
+      "value": 0,
+      "velocity": 200,
+      "bind": "f2b363d7-b746-4106-afaa-fa9d07b99c69",
+      "modified": 1541716597646
+    },
     "de:e6:99:3c:77:7d/do/5": {
       "value": 0,
       "modified": 1541716597646
@@ -7335,6 +6157,13 @@
     },
     "de:e6:99:3c:77:7d/do/7": {
       "value": 0,
+      "modified": 1541716597646
+    },
+    "ee:ae:07:0e:7f:b2/dim/4": {
+      "type": 2,
+      "value": 0,
+      "velocity": 200,
+      "bind": "1ef8e41b-1808-4dd2-8318-b9cba3a5b09b",
       "modified": 1541716597646
     },
     "62:0c:36:a8:9c:04/do/8": {
@@ -8204,6 +7033,36 @@
       "code": "my mac",
       "modified": 1542570349875
     },
+    "aa:e0:98:45:d7:ab": {
+      "type": 17,
+      "version": "21.7",
+      "ip": "192.168.18.102",
+      "online": false,
+      "ready": false,
+      "initialized": false,
+      "finding": false,
+      "pendingFirmware": "do12",
+      "pending": false,
+      "updating": false,
+      "length": 1,
+      "code": "DO 1",
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f": {
+      "type": 18,
+      "version": "21.7",
+      "ip": "192.168.18.101",
+      "online": true,
+      "ready": true,
+      "initialized": true,
+      "finding": false,
+      "pendingFirmware": "di24",
+      "pending": false,
+      "updating": false,
+      "length": 277,
+      "code": "DI 1",
+      "modified": 1541719544023
+    },
     "16:0d:fc:49:60:ad": {
       "type": 1,
       "version": "21.69",
@@ -8228,71 +7087,1042 @@
       "active": true,
       "modified": 1541715067162
     },
-    "d57abfdd-b27d-434b-819a-a7b947c08eda": {
-      "type": "TV",
-      "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
-      "title": "TV",
-      "modified": 1542554079725
+    "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c": {
+      "type": "site",
+      "code": "lab",
+      "title": "Супер-кухня",
+      "parent": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "light_220": [
+        "ae707fe6-9184-4454-b4fe-9ee0c1a22445",
+        "90fde3e0-3416-4b75-9343-0348e8a26e63"
+      ],
+      "button": [
+        "f6da2d19-67cb-44e6-b9d7-5492b04dc802",
+        "089b619d-76d9-462e-a12f-0c0a8f495374",
+        "d40ab1e1-07e4-46de-991d-daddd071dd7b",
+        "bd444da6-c9d2-47f0-80b6-615eed17e92f"
+      ],
+      "motion_sensor": [
+        "89aba44f-0d6c-4e05-a118-6f8f604b6eb4"
+      ],
+      "light_on": 0,
+      "leakage_sensor": [],
+      "valve_heating": [],
+      "sensor": [
+        "2a:3a:4b:d3:49:d8"
+      ],
+      "humidity": 20.41,
+      "temperature": 27.61,
+      "valve_water": [],
+      "doppler": [],
+      "setpoint": 19,
+      "scene": [
+        "14dbf1be-ad87-4c1d-bc72-be524396b275"
+      ],
+      "camera": [
+        "f670648a-f461-4309-ae4d-32b75d207921",
+        "5437494b-195b-4e27-a7b2-13c0a98f2189"
+      ],
+      "image": "4b18513b-2c61-4ebf-8eb8-fe563c1aeca5.jpg",
+      "palette": {
+        "vibrant": "#f8b309",
+        "lightVibrant": "#f9ec68",
+        "darkVibrant": "#803c04",
+        "muted": "#746c84",
+        "lightMuted": "#919cac",
+        "darkMuted": "#512c33"
+      },
+      "light_LED": [
+        "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
+      ],
+      "undefined": [
+        "14dbf1be-ad87-4c1d-bc72-be524396b275",
+        "b8:27:eb:c1:db:99"
+      ],
+      "modified": 1541719544023,
+      "TV": [
+        "5e994736-3351-4162-b155-b80be900343f"
+      ],
+      "AC": [
+        "e4d3df1e-75bf-449f-a3b6-07435fb4c90b"
+      ]
     },
-    "b599c7d8-8bc3-4d3d-bc5c-13d58715514e": {
+    "dce82723-b07a-48fc-9b85-fd2a0c94df12": {
+      "type": "project",
+      "title": "Korolab",
+      "daemon": "b8:27:eb:c1:db:99",
+      "site": [
+        "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c"
+      ],
+      "script": [
+        "20483d68-1ee3-4dec-a942-d8d9db9878c7",
+        "418ae32f-9452-4d58-99e3-c905f12bde88",
+        "610720b6-2994-4c30-a666-ef0f1fedd867",
+        "37edf114-b47a-49a1-8468-fb276c9434d4",
+        "4cbbe19b-5059-46d8-97ff-90a970cd817b",
+        "53e384c1-2d54-4002-9620-5e7fed098423",
+        "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e",
+        "ed1d7f32-1828-4de6-be4c-6449e9a94ab0",
+        "8b92edf4-b87b-41ff-80a4-fb258b4b17c1",
+        "abb5337e-f9da-4205-9a49-5ec8f495fda6",
+        "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
+        "7cb06570-d9e5-40f6-8091-015ae1a8419c",
+        "6693c5ff-f81a-42b7-a08f-d809a804628d",
+        "74f6706b-42c3-4c3a-8108-353f6a6801b9",
+        "7744e4fe-15a2-443d-8564-2846631dd7c1",
+        "349214c3-4ab3-47f2-872c-738b65f99c6c",
+        "ac86d204-25d7-4dfe-8381-f8c944f48464",
+        "0fe692af-c2b8-4be4-865d-b61438351f15",
+        "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
+        "388877d1-f4f7-403c-b9cc-2336f5639a4c",
+        "deb1467c-a39a-454a-ba3f-1f957e8f0553",
+        "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
+        "14dbf1be-ad87-4c1d-bc72-be524396b275"
+      ],
+      "timer": [
+        "c7b10f39-3798-4170-bf5c-8cd6069fface",
+        "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453",
+        "9a25079f-0e21-439d-997d-bbdfe626617c"
+      ],
+      "modified": 1542557265556,
+      "light_on": 0
+    },
+    "b8:27:eb:c1:db:99": {
+      "type": "daemon",
+      "version": "5.1",
+      "ip": "192.168.88.204",
+      "port": 37296,
+      "online": true,
+      "device": [
+        "aa:e0:98:45:d7:ab",
+        "e6:93:90:8b:73:6f",
+        "0e:e2:da:98:fe:fd",
+        "2a:3a:4b:d3:49:d8"
+      ],
+      "project": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "title": "test server",
+      "multicast": true,
+      "code": "",
+      "modified": 1542557265557
+    },
+    "0e:e2:da:98:fe:fd": {
+      "type": 15,
+      "version": "21.160",
+      "ip": "192.168.18.100",
+      "online": true,
+      "ready": true,
+      "initialized": true,
+      "finding": false,
+      "pendingFirmware": "dim8",
+      "pending": false,
+      "updating": false,
+      "length": 1,
+      "code": "DIM 1",
+      "modified": 1541719544023
+    },
+    "2a:3a:4b:d3:49:d8": {
+      "type": 1,
+      "version": "20.67",
+      "ip": "192.168.18.109",
+      "online": false,
+      "ready": false,
+      "humidity": 20.41,
+      "temperature": 27.61,
+      "finding": false,
+      "code": "сенсор5",
+      "pendingFirmware": "sensor4",
+      "pending": false,
+      "updating": false,
+      "length": 1,
+      "initialized": false,
+      "value": 0,
+      "timestamp": 1532276988397,
+      "gain": 0,
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "modified": 1541719544023
+    },
+    "20483d68-1ee3-4dec-a942-d8d9db9878c7": {
+      "type": "script",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "bulb on",
+      "action": [
+        "048646f2-04f2-4b5b-9a1c-19f6035bcd09"
+      ],
+      "title": "",
+      "modified": 1541719544023
+    },
+    "048646f2-04f2-4b5b-9a1c-19f6035bcd09": {
+      "type": "ACTION_LIGHT_ON",
+      "script": "20483d68-1ee3-4dec-a942-d8d9db9878c7",
+      "payload": {
+        "id": "fbdcbd89-4a7e-41ad-b86c-4ac51767e748"
+      },
+      "scene": "20483d68-1ee3-4dec-a942-d8d9db9878c7",
+      "modified": 1541719544023
+    },
+    "418ae32f-9452-4d58-99e3-c905f12bde88": {
+      "type": "script",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "off all",
+      "action": [
+        "41c7dc05-f208-4fb5-8c53-09f39f54c631"
+      ],
+      "modified": 1541719544023
+    },
+    "41c7dc05-f208-4fb5-8c53-09f39f54c631": {
+      "type": "ACTION_SITE_LIGHT_OFF",
+      "script": "418ae32f-9452-4d58-99e3-c905f12bde88",
+      "payload": {
+        "id": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c"
+      },
+      "scene": "418ae32f-9452-4d58-99e3-c905f12bde88",
+      "modified": 1541719544023
+    },
+    "610720b6-2994-4c30-a666-ef0f1fedd867": {
+      "type": "script",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "bulb off",
+      "action": [
+        "28b7f784-560b-480e-94b2-0bd6318add2f"
+      ],
+      "modified": 1541719544023
+    },
+    "28b7f784-560b-480e-94b2-0bd6318add2f": {
+      "type": "ACTION_LIGHT_OFF",
+      "script": "610720b6-2994-4c30-a666-ef0f1fedd867",
+      "payload": {
+        "id": "fbdcbd89-4a7e-41ad-b86c-4ac51767e748"
+      },
+      "scene": "610720b6-2994-4c30-a666-ef0f1fedd867",
+      "modified": 1541719544023
+    },
+    "37edf114-b47a-49a1-8468-fb276c9434d4": {
+      "type": "script",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "led small off",
+      "action": [
+        "11838511-8b7a-4bb7-bd2b-51cf94dcde24"
+      ],
+      "modified": 1541719544023
+    },
+    "11838511-8b7a-4bb7-bd2b-51cf94dcde24": {
+      "type": "ACTION_LIGHT_OFF",
+      "script": "37edf114-b47a-49a1-8468-fb276c9434d4",
+      "payload": {
+        "id": "ae707fe6-9184-4454-b4fe-9ee0c1a22445"
+      },
+      "scene": "37edf114-b47a-49a1-8468-fb276c9434d4",
+      "modified": 1541719544023
+    },
+    "4cbbe19b-5059-46d8-97ff-90a970cd817b": {
+      "type": "script",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "led big off",
+      "action": [
+        "3a6a4c4d-9c24-42c6-b959-bb6c25c9bd1e",
+        "69d8b232-8da8-4ec2-85e9-b8ef61690e78"
+      ],
+      "modified": 1541719544023
+    },
+    "3a6a4c4d-9c24-42c6-b959-bb6c25c9bd1e": {
+      "type": "ACTION_LIGHT_OFF",
+      "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
+      "payload": {
+        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
+      },
+      "scene": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
+      "modified": 1541719544023
+    },
+    "69d8b232-8da8-4ec2-85e9-b8ef61690e78": {
+      "type": "ACTION_TIMER_STOP",
+      "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
+      "payload": {
+        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface"
+      },
+      "modified": 1541719544023
+    },
+    "53e384c1-2d54-4002-9620-5e7fed098423": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "start timer1",
+      "action": [
+        "138e5b60-ae03-4601-8589-d19202e702d6"
+      ],
+      "modified": 1541719544023
+    },
+    "138e5b60-ae03-4601-8589-d19202e702d6": {
+      "type": "ACTION_TIMER_START",
+      "script": "53e384c1-2d54-4002-9620-5e7fed098423",
+      "payload": {
+        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface",
+        "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
+        "time": 60000
+      },
+      "time": 10000,
+      "modified": 1541719544023
+    },
+    "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "stop timer1",
+      "action": [
+        "47d9cbf7-c248-4c52-a4f2-78bd0ee430a0"
+      ],
+      "modified": 1541719544023
+    },
+    "47d9cbf7-c248-4c52-a4f2-78bd0ee430a0": {
+      "type": "ACTION_TIMER_STOP",
+      "script": "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e",
+      "payload": {
+        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface"
+      },
+      "modified": 1541719544023
+    },
+    "ed1d7f32-1828-4de6-be4c-6449e9a94ab0": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "start timer 2",
+      "action": [
+        "fc5b3304-d4be-4290-b041-06e139e0c643"
+      ],
+      "modified": 1541719544023
+    },
+    "fc5b3304-d4be-4290-b041-06e139e0c643": {
+      "type": "ACTION_TIMER_START",
+      "script": "ed1d7f32-1828-4de6-be4c-6449e9a94ab0",
+      "payload": {
+        "id": "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453",
+        "script": "37edf114-b47a-49a1-8468-fb276c9434d4",
+        "time": 60000
+      },
+      "modified": 1541719544023
+    },
+    "8b92edf4-b87b-41ff-80a4-fb258b4b17c1": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "stop timer 2",
+      "action": [
+        "05defc14-7ffd-467b-bad1-1d52a6e5bc6f"
+      ],
+      "modified": 1541719544023
+    },
+    "05defc14-7ffd-467b-bad1-1d52a6e5bc6f": {
+      "type": "ACTION_TIMER_STOP",
+      "script": "8b92edf4-b87b-41ff-80a4-fb258b4b17c1",
+      "payload": {
+        "id": "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453"
+      },
+      "modified": 1541719544023
+    },
+    "abb5337e-f9da-4205-9a49-5ec8f495fda6": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "stop timers",
+      "action": [
+        "421ee680-5440-4b17-8299-d834630694f6",
+        "a607575b-c5c7-4a9f-8009-fd36ca44be1c"
+      ],
+      "modified": 1541719544023
+    },
+    "421ee680-5440-4b17-8299-d834630694f6": {
+      "type": "ACTION_TIMER_STOP",
+      "script": "abb5337e-f9da-4205-9a49-5ec8f495fda6",
+      "payload": {
+        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface"
+      },
+      "modified": 1541719544023
+    },
+    "a607575b-c5c7-4a9f-8009-fd36ca44be1c": {
+      "type": "ACTION_TIMER_STOP",
+      "script": "abb5337e-f9da-4205-9a49-5ec8f495fda6",
+      "payload": {
+        "id": "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453"
+      },
+      "modified": 1541719544023
+    },
+    "075f8b87-ac28-4501-b5e1-6cba9dd87f22": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "led big on",
+      "action": [
+        "032b0089-1731-448d-8922-d01223a0356e"
+      ],
+      "modified": 1541719544023
+    },
+    "032b0089-1731-448d-8922-d01223a0356e": {
+      "type": "ACTION_LIGHT_ON",
+      "script": "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
+      "payload": {
+        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
+      },
+      "modified": 1542049134194
+    },
+    "7cb06570-d9e5-40f6-8091-015ae1a8419c": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "doppler",
+      "action": [
+        "d0cc5d35-60a1-4620-b23e-413344f52a6a"
+      ],
+      "title": "led small controll by motion sensor (doppler)",
+      "modified": 1541719544023
+    },
+    "d0cc5d35-60a1-4620-b23e-413344f52a6a": {
+      "type": "ACTION_DOPPLER_HANDLE",
+      "script": "7cb06570-d9e5-40f6-8091-015ae1a8419c",
+      "payload": {
+        "id": "16:0d:fc:49:60:ad",
+        "low": "1",
+        "onLowThreshold": "8b92edf4-b87b-41ff-80a4-fb258b4b17c1",
+        "high": "10",
+        "onHightThreshold": "604e4330-1742-435f-8c36-238380700338",
+        "onHighThreshold": "6693c5ff-f81a-42b7-a08f-d809a804628d",
+        "onQuiet": "ed1d7f32-1828-4de6-be4c-6449e9a94ab0"
+      },
+      "modified": 1541719544023
+    },
+    "6693c5ff-f81a-42b7-a08f-d809a804628d": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "led small on",
+      "action": [
+        "411d3153-67dd-4534-adc6-228a41d3aa98"
+      ],
+      "modified": 1541719544023
+    },
+    "411d3153-67dd-4534-adc6-228a41d3aa98": {
+      "type": "ACTION_LIGHT_ON",
+      "script": "6693c5ff-f81a-42b7-a08f-d809a804628d",
+      "payload": {
+        "id": "ae707fe6-9184-4454-b4fe-9ee0c1a22445"
+      },
+      "modified": 1541719544023
+    },
+    "74f6706b-42c3-4c3a-8108-353f6a6801b9": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "toggle",
+      "action": [
+        "068b80bd-283f-4ea4-88d2-c4c037309955"
+      ],
+      "modified": 1541719544023
+    },
+    "068b80bd-283f-4ea4-88d2-c4c037309955": {
+      "type": "ACTION_TOGGLE",
+      "script": "74f6706b-42c3-4c3a-8108-353f6a6801b9",
+      "payload": {
+        "onOn": "7744e4fe-15a2-443d-8564-2846631dd7c1",
+        "test": [
+          "ae707fe6-9184-4454-b4fe-9ee0c1a22445",
+          "90fde3e0-3416-4b75-9343-0348e8a26e63"
+        ],
+        "onOff": "418ae32f-9452-4d58-99e3-c905f12bde88"
+      },
+      "modified": 1541719544023
+    },
+    "7744e4fe-15a2-443d-8564-2846631dd7c1": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "on all",
+      "action": [
+        "d17977b4-fa47-42da-86ec-62207ee00058",
+        "5cad0cdc-8a2c-4416-a2ea-81009ce8b69b"
+      ],
+      "modified": 1541719544023
+    },
+    "d17977b4-fa47-42da-86ec-62207ee00058": {
+      "type": "ACTION_LIGHT_ON",
+      "script": "7744e4fe-15a2-443d-8564-2846631dd7c1",
+      "payload": {
+        "id": "ae707fe6-9184-4454-b4fe-9ee0c1a22445"
+      },
+      "modified": 1541719544023
+    },
+    "5cad0cdc-8a2c-4416-a2ea-81009ce8b69b": {
+      "type": "ACTION_LIGHT_ON",
+      "script": "7744e4fe-15a2-443d-8564-2846631dd7c1",
+      "payload": {
+        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
+      },
+      "modified": 1541719544023
+    },
+    "349214c3-4ab3-47f2-872c-738b65f99c6c": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "run script",
+      "action": [
+        "f9f8910f-349d-4916-b5bf-8cdaa9ee362e"
+      ],
+      "modified": 1541719544023
+    },
+    "f9f8910f-349d-4916-b5bf-8cdaa9ee362e": {
+      "type": "ACTION_SCRIPT_RUN",
+      "script": "349214c3-4ab3-47f2-872c-738b65f99c6c",
+      "payload": {
+        "script": "418ae32f-9452-4d58-99e3-c905f12bde88",
+        "id": "418ae32f-9452-4d58-99e3-c905f12bde88"
+      },
+      "paylad": {
+        "script": "418ae32f-9452-4d58-99e3-c905f12bde88",
+        "id": "418ae32f-9452-4d58-99e3-c905f12bde88"
+      },
+      "modified": 1541719544023
+    },
+    "ACTION_SCRIPT_RUN": {
+      "type": "action",
+      "code": "ACTION_SCRIPT_RUN",
+      "modified": 1542555269835
+    },
+    "ac86d204-25d7-4dfe-8381-f8c944f48464": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "set up",
+      "action": [
+        "f4531cd0-8c75-49e2-a59b-5852f9c18a9a",
+        "6b6ac314-ac4b-4be8-8fdb-ccc00485cbfd"
+      ],
+      "modified": 1541719544023
+    },
+    "f4531cd0-8c75-49e2-a59b-5852f9c18a9a": {
+      "type": "ACTION_SITE_LIGHT_SET_RELATIVE",
+      "script": "ac86d204-25d7-4dfe-8381-f8c944f48464",
+      "payload": {
+        "id": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+        "operator": "OPERATOR_PLUS",
+        "value": 3
+      },
+      "modified": 1541719544023
+    },
+    "6b6ac314-ac4b-4be8-8fdb-ccc00485cbfd": {
+      "type": "ACTION_TIMER_START",
+      "script": "ac86d204-25d7-4dfe-8381-f8c944f48464",
+      "payload": {
+        "id": "9a25079f-0e21-439d-997d-bbdfe626617c",
+        "script": "ac86d204-25d7-4dfe-8381-f8c944f48464",
+        "time": 100
+      },
+      "modified": 1541719544023
+    },
+    "0fe692af-c2b8-4be4-865d-b61438351f15": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "timer 4 stop",
+      "action": [
+        "7b8d2b6c-73aa-4988-820d-d7ec1ad5abbd"
+      ],
+      "modified": 1541719544023
+    },
+    "7b8d2b6c-73aa-4988-820d-d7ec1ad5abbd": {
+      "type": "ACTION_TIMER_STOP",
+      "script": "0fe692af-c2b8-4be4-865d-b61438351f15",
+      "payload": {
+        "id": "9a25079f-0e21-439d-997d-bbdfe626617c"
+      },
+      "modified": 1541719544023
+    },
+    "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "set down",
+      "action": [
+        "09fa5ef7-1f1a-47ef-bfa0-3837dcb445aa",
+        "4657bf5d-ccf9-4889-a5ba-dfc35473b371"
+      ],
+      "modified": 1541719544023
+    },
+    "09fa5ef7-1f1a-47ef-bfa0-3837dcb445aa": {
+      "type": "ACTION_SITE_LIGHT_SET_RELATIVE",
+      "script": "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
+      "payload": {
+        "id": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+        "value": 3,
+        "operator": "OPERATOR_MINUS"
+      },
+      "modified": 1541719544023
+    },
+    "4657bf5d-ccf9-4889-a5ba-dfc35473b371": {
+      "type": "ACTION_TIMER_START",
+      "script": "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
+      "payload": {
+        "id": "9a25079f-0e21-439d-997d-bbdfe626617c",
+        "script": "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
+        "time": 100
+      },
+      "modified": 1541719544023
+    },
+    "388877d1-f4f7-403c-b9cc-2336f5639a4c": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "led on",
+      "action": [
+        "39a34760-ff75-4aeb-8f08-a7d175a0aad1"
+      ],
+      "modified": 1541719544023
+    },
+    "39a34760-ff75-4aeb-8f08-a7d175a0aad1": {
+      "type": "ACTION_LIGHT_ON",
+      "script": "388877d1-f4f7-403c-b9cc-2336f5639a4c",
+      "payload": {
+        "id": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
+      },
+      "modified": 1542049158823
+    },
+    "deb1467c-a39a-454a-ba3f-1f957e8f0553": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "led off",
+      "action": [
+        "79a9417a-8b71-482c-9eea-dd95e1f91a53"
+      ],
+      "modified": 1541719544023
+    },
+    "79a9417a-8b71-482c-9eea-dd95e1f91a53": {
+      "type": "ACTION_LIGHT_OFF",
+      "script": "deb1467c-a39a-454a-ba3f-1f957e8f0553",
+      "payload": {
+        "id": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
+      },
+      "modified": 1541719544023
+    },
+    "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "led toggle",
+      "action": [
+        "94d38e41-c9ee-45a5-ae82-74077b0165ed"
+      ],
+      "modified": 1541719544023
+    },
+    "94d38e41-c9ee-45a5-ae82-74077b0165ed": {
+      "type": "ACTION_TOGGLE",
+      "script": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
+      "payload": {
+        "test": [
+          "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
+        ],
+        "onOff": "deb1467c-a39a-454a-ba3f-1f957e8f0553",
+        "onOn": "388877d1-f4f7-403c-b9cc-2336f5639a4c"
+      },
+      "modified": 1541719544023
+    },
+    "14dbf1be-ad87-4c1d-bc72-be524396b275": {
+      "type": "script",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "title": "Моя сцена",
+      "action": [
+        "a48ccf7f-81ee-4bcd-afdb-e27c991e18f4",
+        "b5bd20e8-5c87-4e2f-b04c-db6a350c36cd",
+        "d4ee59ff-a16c-416c-b87c-25b4c50378fb"
+      ],
+      "code": "my scene",
+      "modified": 1541719544023
+    },
+    "a48ccf7f-81ee-4bcd-afdb-e27c991e18f4": {
+      "type": "ACTION_LIGHT_SET",
+      "script": "14dbf1be-ad87-4c1d-bc72-be524396b275",
+      "payload": {
+        "value": 128,
+        "id": "ae707fe6-9184-4454-b4fe-9ee0c1a22445"
+      },
+      "modified": 1541719544023
+    },
+    "b5bd20e8-5c87-4e2f-b04c-db6a350c36cd": {
+      "type": "ACTION_LIGHT_SET",
+      "script": "14dbf1be-ad87-4c1d-bc72-be524396b275",
+      "payload": {
+        "value": 218,
+        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
+      },
+      "modified": 1541719544023
+    },
+    "d4ee59ff-a16c-416c-b87c-25b4c50378fb": {
+      "type": "ACTION_LIGHT_SET",
+      "script": "14dbf1be-ad87-4c1d-bc72-be524396b275",
+      "payload": {
+        "value": 86,
+        "id": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27"
+      },
+      "modified": 1541719544023
+    },
+    "c7b10f39-3798-4170-bf5c-8cd6069fface": {
+      "type": "timer",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "timer big",
+      "state": true,
+      "timestamp": 1542570321151,
+      "time": 60000,
+      "script": "4cbbe19b-5059-46d8-97ff-90a970cd817b",
+      "tame": 0,
+      "modified": 1541719544023
+    },
+    "ae9964fe-7ef0-43e2-8ef6-a8b9e0eca453": {
+      "type": "timer",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "timer small",
+      "state": false,
+      "time": 0,
+      "script": "37edf114-b47a-49a1-8468-fb276c9434d4",
+      "timestamp": 1542552276897,
+      "modified": 1541719544023,
+      "tame": 0
+    },
+    "9a25079f-0e21-439d-997d-bbdfe626617c": {
+      "type": "timer",
+      "site": "dce82723-b07a-48fc-9b85-fd2a0c94df12",
+      "code": "timer dim",
+      "script": "012ec6ff-aaec-4604-9bd6-2db3c8cdcfde",
+      "state": false,
+      "timestamp": 1538600545837,
+      "time": 100,
+      "modified": 1541719544023
+    },
+    "ae707fe6-9184-4454-b4fe-9ee0c1a22445": {
+      "type": "light_220",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "led small",
+      "bind": "0e:e2:da:98:fe:fd/dim/2",
+      "last": 128,
+      "on": false,
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd/dim/2": {
+      "type": 2,
+      "value": 0,
+      "velocity": 128,
+      "bind": "ae707fe6-9184-4454-b4fe-9ee0c1a22445",
+      "onOn": "ed1d7f32-1828-4de6-be4c-6449e9a94ab0",
+      "modified": 1541719544023
+    },
+    "90fde3e0-3416-4b75-9343-0348e8a26e63": {
+      "type": "light_220",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "led big",
+      "bind": "0e:e2:da:98:fe:fd/dim/1",
+      "last": 218,
+      "on": false,
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd/dim/1": {
+      "type": 2,
+      "value": 0,
+      "velocity": 128,
+      "bind": "90fde3e0-3416-4b75-9343-0348e8a26e63",
+      "modified": 1541719544023
+    },
+    "f6da2d19-67cb-44e6-b9d7-5492b04dc802": {
+      "type": "button",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "b1",
+      "bind": "e6:93:90:8b:73:6f/di/2",
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/2": {
+      "value": 0,
+      "bind": "f6da2d19-67cb-44e6-b9d7-5492b04dc802",
+      "onOn": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
+      "modified": 1541719544023
+    },
+    "089b619d-76d9-462e-a12f-0c0a8f495374": {
+      "type": "button",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "b2",
+      "bind": "e6:93:90:8b:73:6f/di/3",
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/3": {
+      "value": 0,
+      "bind": "089b619d-76d9-462e-a12f-0c0a8f495374",
+      "modified": 1541719544023
+    },
+    "d40ab1e1-07e4-46de-991d-daddd071dd7b": {
+      "type": "button",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "b3",
+      "bind": "e6:93:90:8b:73:6f/di/4",
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/4": {
+      "value": 0,
+      "bind": "d40ab1e1-07e4-46de-991d-daddd071dd7b",
+      "modified": 1541719544023
+    },
+    "bd444da6-c9d2-47f0-80b6-615eed17e92f": {
+      "type": "button",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "b4",
+      "bind": "e6:93:90:8b:73:6f/di/5",
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/5": {
+      "value": 0,
+      "bind": "bd444da6-c9d2-47f0-80b6-615eed17e92f",
+      "modified": 1541719544023
+    },
+    "89aba44f-0d6c-4e05-a118-6f8f604b6eb4": {
+      "type": "motion_sensor",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "bind": "e6:93:90:8b:73:6f/di/1",
+      "code": "motion sensor",
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/1": {
+      "value": 0,
+      "bind": "89aba44f-0d6c-4e05-a118-6f8f604b6eb4",
+      "onOff": "53e384c1-2d54-4002-9620-5e7fed098423",
+      "onOn": "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
+      "onHold": "390b1a05-02a5-43b3-87a8-a8a60d1e2b4e",
+      "scene": [
+        "4cbbe19b-5059-46d8-97ff-90a970cd817b",
+        "a8542e3e-4859-45b7-9667-08ba4ec08c03"
+      ],
+      "script": [
+        "53e384c1-2d54-4002-9620-5e7fed098423",
+        "a8542e3e-4859-45b7-9667-08ba4ec08c03"
+      ],
+      "modified": 1541719544023
+    },
+    "a8542e3e-4859-45b7-9667-08ba4ec08c03": {
+      "type": "script",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "led big on by motion",
+      "action": [
+        "a91e9ec0-1f8e-4099-8535-58970ffb1d06",
+        "72ef13cf-f7fc-4f1c-b770-d0529df09eda"
+      ],
+      "modified": 1541719544023
+    },
+    "a91e9ec0-1f8e-4099-8535-58970ffb1d06": {
+      "type": "ACTION_LIGHT_SET",
+      "script": "a8542e3e-4859-45b7-9667-08ba4ec08c03",
+      "payload": {
+        "value": 255,
+        "id": "90fde3e0-3416-4b75-9343-0348e8a26e63"
+      },
+      "scene": "a8542e3e-4859-45b7-9667-08ba4ec08c03",
+      "modified": 1541719544023
+    },
+    "72ef13cf-f7fc-4f1c-b770-d0529df09eda": {
+      "type": "ACTION_TIMER_STOP",
+      "script": "a8542e3e-4859-45b7-9667-08ba4ec08c03",
+      "payload": {
+        "id": "c7b10f39-3798-4170-bf5c-8cd6069fface"
+      },
+      "modified": 1541719544023
+    },
+    "f670648a-f461-4309-ae4d-32b75d207921": {
+      "type": "camera",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "cam lab",
+      "title": "Кухня",
+      "main_URL": "rtsp://admin:koro4794@192.168.88.64:554/Streaming/Channels/101",
+      "preview_URL": "rtsp://admin:koro4794@192.168.88.64:554/Streaming/Channels/102",
+      "modified": 1541719544023
+    },
+    "5437494b-195b-4e27-a7b2-13c0a98f2189": {
+      "type": "camera",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "cam elevator",
+      "title": "Лифт",
+      "preview_URL": "rtsp://admin:koro4794@192.168.88.85:554/cam/realmonitor?channel=1&subtype=1",
+      "main_URL": "rtsp://admin:koro4794@192.168.88.85:554/cam/realmonitor?channel=1&subtype=0",
+      "modified": 1541719544023
+    },
+    "1e81fd48-21b4-458d-96d1-f28ef0cd0f27": {
+      "type": "light_LED",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "led",
+      "bind": "0e:e2:da:98:fe:fd/dim/3",
+      "last": 86,
+      "on": false,
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd/dim/3": {
+      "type": 3,
+      "value": 0,
+      "velocity": 128,
+      "bind": "1e81fd48-21b4-458d-96d1-f28ef0cd0f27",
+      "modified": 1541719544023
+    },
+    "5e994736-3351-4162-b155-b80be900343f": {
+      "type": "TV",
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "TV 1",
+      "modified": 1541934116186
+    },
+    "e4d3df1e-75bf-449f-a3b6-07435fb4c90b": {
       "type": "AC",
-      "site": "9fed9e3f-8950-4c5e-abaa-335f607fd5a6",
-      "title": "AC",
-      "modified": 1542554087165
+      "site": "a0dbbf8a-42a6-46d8-b5c1-570b1e87aa6c",
+      "code": "AC 1",
+      "modified": 1541934107308
     },
-    "f73a3a3f-668e-41a9-9a84-a9ffa3ae2b93": {
-      "type": "TV",
+    "6cf5b362-4187-4a1a-aa9a-57c3edf537d7": {
+      "type": "script",
       "site": "06b0562e-b888-4181-babe-9efef4ca2e74",
-      "title": "TV",
-      "modified": 1542553997234
+      "code": "D19 on",
+      "action": [
+        "442bec95-6934-4d16-88a8-8d65347531b1"
+      ],
+      "modified": 1541716597646
     },
-    "460b8381-91a4-43d8-bc5e-5f1691044e25": {
-      "type": "TV",
+    "442bec95-6934-4d16-88a8-8d65347531b1": {
+      "type": "ACTION_LIGHT_SET",
+      "script": "6cf5b362-4187-4a1a-aa9a-57c3edf537d7",
+      "payload": {
+        "id": "4bb6bff8-7cc3-400c-bf01-950de876fa13",
+        "value": 255
+      },
+      "scene": "6cf5b362-4187-4a1a-aa9a-57c3edf537d7",
+      "modified": 1541716597646
+    },
+    "de425a8c-06e8-4395-aa48-fc460a198b0a": {
+      "type": "script",
+      "site": "06b0562e-b888-4181-babe-9efef4ca2e74",
+      "code": "D19-D20 off",
+      "action": [
+        "8d23c677-9a18-43a0-8e0c-ad515a63c136"
+      ],
+      "modified": 1541716597646
+    },
+    "8d23c677-9a18-43a0-8e0c-ad515a63c136": {
+      "type": "ACTION_SITE_LIGHT_OFF",
+      "script": "de425a8c-06e8-4395-aa48-fc460a198b0a",
+      "payload": {
+        "id": "06b0562e-b888-4181-babe-9efef4ca2e74"
+      },
+      "scene": "de425a8c-06e8-4395-aa48-fc460a198b0a",
+      "modified": 1541716597646
+    },
+    "1ef8e41b-1808-4dd2-8318-b9cba3a5b09b": {
+      "code": "D15",
+      "on": false,
+      "value": 0,
+      "bind": "ee:ae:07:0e:7f:b2/dim/4",
+      "last": 110,
+      "type": "light_220",
       "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
-      "title": "TV",
-      "modified": 1542554023522
+      "modified": 1541716597646
     },
-    "d4d252e8-3ca0-4928-bdbb-20bb2f94c641": {
-      "type": "AC",
+    "f2b363d7-b746-4106-afaa-fa9d07b99c69": {
+      "code": "D17",
+      "on": false,
+      "value": 0,
+      "bind": "5e:87:59:3c:9b:3e/dim/2",
+      "last": 143,
+      "type": "light_220",
       "site": "e35d0b31-0253-4dda-888c-43bfa536cb59",
-      "code": "AC",
-      "modified": 1542554055534
+      "modified": 1541716597646
     },
-    "a51bd688-02e0-464b-bd23-08f212a759de": {
-      "type": "TV",
-      "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "TV",
-      "modified": 1542553962068
+    "1c64fac7-5e27-4aae-b818-754124df6405": {
+      "type": "script",
+      "site": "47269bb1-9877-4a99-a888-80f27bad23d4",
+      "code": "Ванная общ on",
+      "action": [
+        "d5894f2d-e4f5-4b93-8adb-843cd5afa0c4"
+      ],
+      "modified": 1541716597646
     },
-    "a907e415-fdcc-4d80-9977-c6d3e92fabe2": {
-      "type": "AC",
-      "site": "6e9892ed-cfc7-4b46-9422-e9cef428bc35",
-      "title": "AC",
-      "modified": 1542554108444
+    "d5894f2d-e4f5-4b93-8adb-843cd5afa0c4": {
+      "type": "ACTION_LIGHT_ON",
+      "script": "1c64fac7-5e27-4aae-b818-754124df6405",
+      "payload": {
+        "id": "5fa82b7d-24bc-4452-967e-eeb7e125f315"
+      },
+      "scene": "1c64fac7-5e27-4aae-b818-754124df6405",
+      "modified": 1541716597646
     },
-    "43f48184-b9bd-487a-b97c-80803e0cdcd3": {
-      "type": "TV",
-      "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
-      "title": "TV",
-      "modified": 1542553971332
+    "bd492231-beb8-4359-a832-dd8a0abece95": {
+      "type": "script",
+      "site": "47269bb1-9877-4a99-a888-80f27bad23d4",
+      "code": "Ванная общ off",
+      "action": [
+        "d60129a3-3265-4695-8e8d-a2acd98b9c7f"
+      ],
+      "modified": 1541716597646
     },
-    "502aa9ee-e7ac-4141-8c6d-9068d956884a": {
-      "type": "AC",
-      "site": "84cd718c-05df-4865-8032-6bda3cb1c02c",
-      "title": "AC",
-      "modified": 1542554098939
+    "d60129a3-3265-4695-8e8d-a2acd98b9c7f": {
+      "type": "ACTION_SITE_LIGHT_OFF",
+      "script": "bd492231-beb8-4359-a832-dd8a0abece95",
+      "payload": {
+        "id": "47269bb1-9877-4a99-a888-80f27bad23d4"
+      },
+      "scene": "bd492231-beb8-4359-a832-dd8a0abece95",
+      "modified": 1541716597646
     },
-    "2ce223d9-09b3-43f7-8c2c-cd8192283c05": {
-      "type": "TV",
-      "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
-      "title": "TV",
-      "modified": 1542554008122
+    "ed320920-bce7-46b2-bf87-037ff16888ce": {
+      "type": "script",
+      "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
+      "code": "D23 on",
+      "action": [
+        "8c2d0d4d-e52c-48ee-910e-cc5120b84507"
+      ],
+      "modified": 1541716597646
     },
-    "454e4de5-19d1-49f0-8a0c-c22e096c8e0a": {
-      "type": "AC",
-      "site": "c08a67cd-0f65-4fc4-925b-052528156de9",
-      "title": "AC",
-      "modified": 1542554034233
+    "8c2d0d4d-e52c-48ee-910e-cc5120b84507": {
+      "type": "ACTION_LIGHT_SET",
+      "script": "ed320920-bce7-46b2-bf87-037ff16888ce",
+      "payload": {
+        "id": "93a26b84-8dc7-4d84-a951-cfeba0bb7a3e",
+        "value": 255
+      },
+      "scene": "ed320920-bce7-46b2-bf87-037ff16888ce",
+      "modified": 1541716597646
+    },
+    "e84461ec-de8a-4206-b391-f07cc7257c66": {
+      "type": "script",
+      "site": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3",
+      "code": "D23 D24 off",
+      "action": [
+        "5f582179-b176-497b-b169-c5ac2fd6f845"
+      ],
+      "modified": 1541716597646
+    },
+    "5f582179-b176-497b-b169-c5ac2fd6f845": {
+      "type": "ACTION_SITE_LIGHT_OFF",
+      "script": "e84461ec-de8a-4206-b391-f07cc7257c66",
+      "payload": {
+        "id": "5d239c9a-b3a2-41a3-bd13-e738437ba2a3"
+      },
+      "scene": "e84461ec-de8a-4206-b391-f07cc7257c66",
+      "modified": 1541716597646
+    },
+    "2a:3a:4b:d3:49:d8/1": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "2a:3a:4b:d3:49:d8/2": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "2a:3a:4b:d3:49:d8/3": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "2a:3a:4b:d3:49:d8/4": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "2a:3a:4b:d3:49:d8/di/1": {
+      "value": 0,
+      "onOn": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8",
+      "modified": 1542226808357
+    },
+    "2a:3a:4b:d3:49:d8/di/2": {
+      "value": 0,
+      "modified": 1542129855789,
+      "onOn": null
+    },
+    "2a:3a:4b:d3:49:d8/di/3": {
+      "value": 0,
+      "modified": 1542129857034,
+      "onOn": null
+    },
+    "2a:3a:4b:d3:49:d8/di/4": {
+      "value": 0,
+      "onOn": "418ae32f-9452-4d58-99e3-c905f12bde88",
+      "modified": 1542226814440
     },
     "16:0d:fc:49:60:ad/di/4": {
       "value": 0,
@@ -8316,11 +8146,228 @@
       "value": 0,
       "onOn": "8c32a6de-45f9-4c2c-bf6f-abbb7aa8efc8"
     },
+    "aa:e0:98:45:d7:ab/do/1": {
+      "value": 0,
+      "bind": "24cc372d-597b-4efa-b2f4-06081a82cdd3",
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/2": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/3": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/4": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/5": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/6": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/7": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/8": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/12": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/11": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/10": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "aa:e0:98:45:d7:ab/do/9": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd/dim/4": {
+      "type": 0,
+      "value": 0,
+      "velocity": 0,
+      "bind": null,
+      "onOff": null,
+      "onOn": "53e384c1-2d54-4002-9620-5e7fed098423",
+      "script": [
+        "abb5337e-f9da-4205-9a49-5ec8f495fda6",
+        "53e384c1-2d54-4002-9620-5e7fed098423"
+      ],
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd/dim/5": {
+      "type": 0,
+      "value": 0,
+      "velocity": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/10": {
+      "value": 0,
+      "bind": null,
+      "onOn": null,
+      "onOff": null,
+      "onHold": null,
+      "onClick": null,
+      "scene": [
+        null,
+        "418ae32f-9452-4d58-99e3-c905f12bde88"
+      ],
+      "script": [
+        null,
+        "418ae32f-9452-4d58-99e3-c905f12bde88"
+      ],
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/9": {
+      "value": 0,
+      "bind": null,
+      "onOn": null,
+      "onHold": null,
+      "scene": [
+        null,
+        "a8542e3e-4859-45b7-9667-08ba4ec08c03",
+        "4cbbe19b-5059-46d8-97ff-90a970cd817b"
+      ],
+      "script": [
+        null,
+        "075f8b87-ac28-4501-b5e1-6cba9dd87f22",
+        "4cbbe19b-5059-46d8-97ff-90a970cd817b"
+      ],
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/11": {
+      "value": 0,
+      "bind": null,
+      "onOn": null,
+      "onOhold": "37edf114-b47a-49a1-8468-fb276c9434d4",
+      "scene": [
+        null,
+        "604e4330-1742-435f-8c36-238380700338",
+        "37edf114-b47a-49a1-8468-fb276c9434d4"
+      ],
+      "script": [
+        null,
+        "604e4330-1742-435f-8c36-238380700338",
+        "37edf114-b47a-49a1-8468-fb276c9434d4"
+      ],
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/12": {
+      "value": 0,
+      "bind": null,
+      "onOn": null,
+      "onHold": null,
+      "onOff": null,
+      "onClick": null,
+      "scene": [
+        null,
+        "20483d68-1ee3-4dec-a942-d8d9db9878c7",
+        "610720b6-2994-4c30-a666-ef0f1fedd867"
+      ],
+      "script": [
+        null,
+        "20483d68-1ee3-4dec-a942-d8d9db9878c7",
+        "610720b6-2994-4c30-a666-ef0f1fedd867"
+      ],
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/7": {
+      "value": 0,
+      "bind": "fd33ca79-525a-4dfc-8e58-9fe6d06da6de",
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/8": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/17": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/24": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/23": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/22": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/21": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/6": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/13": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/14": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/18": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/16": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/15": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/19": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "e6:93:90:8b:73:6f/di/20": {
+      "value": 0,
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd/dim/6": {
+      "type": 0,
+      "value": 0,
+      "velocity": 0,
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd/dim/7": {
+      "type": 0,
+      "value": 0,
+      "velocity": 0,
+      "modified": 1541719544023
+    },
+    "0e:e2:da:98:fe:fd/dim/8": {
+      "type": 0,
+      "value": 0,
+      "velocity": 0,
+      "modified": 1541719544023
+    },
     "root": {
       "daemon": [
-        "b8:27:eb:c1:db:99",
         "00:0b:ab:d5:dd:d0",
-        "20:c9:d0:7f:aa:29"
+        "20:c9:d0:7f:aa:29",
+        "b8:27:eb:c1:db:99"
       ]
     }
   }
