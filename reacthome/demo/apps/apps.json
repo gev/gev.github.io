@@ -4,8 +4,8 @@
   "app": [
     {
       "id": "reacthome-mobile-demo",
-      "title": "Reacthome smart control application",
-      "description": "",
+      "title": "Reacthome",
+      "description": "Reacthome smart control application",
       "platform": ["ios", "android"]
     }
   ]
