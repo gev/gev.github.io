@@ -5,16 +5,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700&subset=latin,cyrillic">
     <style>
-      * {
+      .price {
         font-family: Ubuntu;
         font-size: 20px;
       }
 
-      #tab {
-        margin-bottom: 48px;
-      }
-
-      td {
+      .price td {
         padding: 12px;
         border: solid 1px #eee;
       }
@@ -38,11 +34,9 @@
         text-align: center;
       }
 
-      .head {
-        width: 90%;
-        font-size: 28px;
-        background-color: #eee;
-        text-align: center;
+      .pivot {
+        background-color: gold;
+        font-weight: bold
       }
 
       /* input::-webkit-outer-spin-button,
@@ -51,7 +45,7 @@
           margin: 0;
       } */
 
-      input[type=number] {
+      .price input[type=number] {
         -moz-appearance:textfield;
         text-align: center;
       }
@@ -127,7 +121,6 @@
           });
           $(this).html(html);
         });
-        parent.iframeLoaded();
         select('#f1');
       })
     </script>
@@ -144,7 +137,7 @@
         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#f3" role="tab" aria-selected="false">3к. кв.</a>
       </li>
     </ul>
-    <table cellspacing=0 >
+    <table class="price" cellspacing=0 >
       <thead>
         <tr>
           <td class="head" colspan="2">Базовая комплектация</td>
@@ -203,9 +196,9 @@
           <td class="option">Дистанционное управление умным домом через интернет по защищенному VPN каналу</td>
           <td class="cell quantity"></td>
         </tr>
-        <tr>
+        <tr class="pivot">
           <td class="option">Стоимость</td>
-          <td class="cell base price"></td>
+          <td class="cell base"></td>
         </tr>
         <tr>
           <td class="head" colspan="2">Дополнительные опции</td>
@@ -285,7 +278,7 @@
           <td class="option">Пусконаладка 25%</td>
           <td class="cell work"></td>
         </tr>
-        <tr>
+        <tr class="pivot">
           <td class="option">Всего</td>
           <td class="cell total"></td>
         </tr>
