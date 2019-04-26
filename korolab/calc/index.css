@@ -1,0 +1,41 @@
+
+* {
+  font-family: Ubuntu;
+  font-size: 20px;
+}
+
+#tab {
+  margin-bottom: 48px;
+}
+
+td {
+  padding: 12px;
+  border: solid 1px #eee;
+}
+
+.head {
+  width: 90%;
+  font-size: 28px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.value {
+  width: 10%;
+}
+
+.cell{
+  text-align: center;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+input[type=number] {
+  -moz-appearance:textfield;
+  text-align: center;
+  border: none;
+}
