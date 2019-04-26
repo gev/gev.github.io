@@ -4,7 +4,58 @@
     <title>Калькулятор</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700&subset=latin,cyrillic">
-    <link rel="stylesheet" href="index.css">
+    <style>
+      * {
+        font-family: Ubuntu;
+        font-size: 20px;
+      }
+
+      #tab {
+        margin-bottom: 48px;
+      }
+
+      td {
+        padding: 12px;
+        border: solid 1px #eee;
+      }
+
+      .head {
+        width: 85%;
+        font-size: 28px;
+        background-color: #eee;
+        text-align: center;
+      }
+
+      .value {
+        width: 15%;
+      }
+
+      .option{
+        text-align: left;
+      }
+
+      .cell{
+        text-align: center;
+      }
+
+      .head {
+        width: 90%;
+        font-size: 28px;
+        background-color: #eee;
+        text-align: center;
+      }
+
+      /* input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+      } */
+
+      input[type=number] {
+        -moz-appearance:textfield;
+        text-align: center;
+      }
+    </style>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -100,141 +151,141 @@
       </thead>
       <tbody>
         <tr>
-          <td class=>Управление освещением</td>
+          <td class="option">Управление освещением</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Управление шторами</td>
+          <td class="option">Управление шторами</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Управление отоплением</td>
+          <td class="option">Управление отоплением</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Управление электрическими теплыми полами</td>
+          <td class="option">Управление электрическими теплыми полами</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Управление вытяжными вентилляторами в санузле и на кухне</td>
+          <td class="option">Управление вытяжными вентилляторами в санузле и на кухне</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Защита от протечек воды на кухне и в санузле</td>
+          <td class="option">Защита от протечек воды на кухне и в санузле</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Отключаемые розетки</td>
+          <td class="option">Отключаемые розетки</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Универсалный пульт для TV</td>
+          <td class="option">Универсалный пульт для TV</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Wi-Fi сеть</td>
+          <td class="option">Wi-Fi сеть</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Учет расхода воды и электроэнергии с выводом показаний на панель управления</td>
+          <td class="option">Учет расхода воды и электроэнергии с выводом показаний на панель управления</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Отключение всех систем одной кнопкой</td>
+          <td class="option">Отключение всех систем одной кнопкой</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Управление умным домом с Iphone, Ipad, Android</td>
+          <td class="option">Управление умным домом с Iphone, Ipad, Android</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Дистанционное управление умным домом через интернет по защищенному VPN каналу</td>
+          <td class="option">Дистанционное управление умным домом через интернет по защищенному VPN каналу</td>
           <td class="cell quantity"></td>
         </tr>
         <tr>
-          <td>Стоимость</td>
+          <td class="option">Стоимость</td>
           <td class="cell base price"></td>
         </tr>
         <tr>
           <td class="head" colspan="2">Дополнительные опции</td>
         </tr>
         <tr>
-          <td>Управление с механических кнопочных выключателей</td>
+          <td class="option">Управление с механических кнопочных выключателей</td>
           <td class="cell input value"></td>
         </tr>
         <tr>
-          <td>Управление с универсальных сенсорных выключателей оснащенных датчиками: присутствия, температуры, влажности, освещенности, температуры пола и ик-передатчиком</td>
+          <td class="option">Управление с универсальных сенсорных выключателей оснащенных датчиками: присутствия, температуры, влажности, освещенности, температуры пола и ик-передатчиком</td>
           <td class="cell input value"></td>
         </tr>
         <tr>
-          <td>Интелектуальная сенсорная панель управления умным домом c экраном 13.3'' + cервисы погоды и календарь + интеграция потоков с видеокамер + звонки с sip видеодомофона</td>
+          <td class="option">Интелектуальная сенсорная панель управления умным домом c экраном 13.3'' + cервисы погоды и календарь + интеграция потоков с видеокамер + звонки с sip видеодомофона</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td>Димирование 8-х групп света (лампы накаливания, светодиодные светильники и led ленты)</td>
+          <td class="option">Димирование 8-х групп света (лампы накаливания, светодиодные светильники и led ленты)</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td>Следящий свет (автоматическая работа освещения по скрытым датчикам присуствия в коридорах, санузлах и гардеробных комнатах)</td>
+          <td class="option">Следящий свет (автоматическая работа освещения по скрытым датчикам присуствия в коридорах, санузлах и гардеробных комнатах)</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td>Управление кондиционером по ик каналу</td>
+          <td class="option">Управление кондиционером по ик каналу</td>
           <td class="cell input value"></td>
         </tr>
         <tr>
-          <td>Управление кондиционером по Modbus</td>
+          <td class="option">Управление кондиционером по Modbus</td>
           <td class="cell input value"></td>
         </tr>
         <tr>
-          <td>Управление приточно-вытяжной установкой по Modbus</td>
+          <td class="option">Управление приточно-вытяжной установкой по Modbus</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td>Аудиомультирум + потолочная акустика</td>
+          <td class="option">Аудиомультирум + потолочная акустика</td>
           <td class="cell input value"></td>
         </tr>
         <tr>
-          <td>Охранная сигнализация</td>
+          <td class="option">Охранная сигнализация</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td>Пожарная сигнализация</td>
+          <td class="option">Пожарная сигнализация</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td>Видеонаблюдение (камер, NVR и вывод видео на панели управления)</td>
+          <td class="option">Видеонаблюдение (камер, NVR и вывод видео на панели управления)</td>
           <td class="cell input value"></td>
         </tr>
         <tr>
-          <td>Вывод камер видеонаблюдение на экран любого телевизора</td>
+          <td class="option">Вывод камер видеонаблюдение на экран любого телевизора</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td>SIP видеодомофон</td>
+          <td class="option">SIP видеодомофон</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td>Централизованное хранилище медиаконтента</td>
+          <td class="option">Централизованное хранилище медиаконтента</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
           <td class="head" colspan="2">Работы</td>
         </tr>
         <tr>
-          <td>Проектирование 15%</td>
+          <td class="option">Проектирование 15%</td>
           <td class="cell work"></td>
         </tr>
         <tr>
-          <td>Шефмонтаж 20%</td>
+          <td class="option">Шефмонтаж 20%</td>
           <td class="cell work"></td>
         </tr>
         <tr>
-          <td>Пусконаладка 25%</td>
+          <td class="option">Пусконаладка 25%</td>
           <td class="cell work"></td>
         </tr>
         <tr>
-          <td>Всего</td>
+          <td class="option">Всего</td>
           <td class="cell total"></td>
         </tr>
         </tbody>
