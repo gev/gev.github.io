@@ -5,6 +5,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700&subset=latin,cyrillic">
     <style>
+      .select {
+        margin-bottom: 48px;
+      }
+      a.active {
+          color: white !important
+      }
       .price {
         font-family: Ubuntu;
         font-size: 20px;
@@ -39,6 +45,12 @@
         font-weight: bold
       }
 
+      .input input {
+        display: inline;
+        margin-right: 12px;
+        width: 40%;
+      }
+
       /* input::-webkit-outer-spin-button,
       input::-webkit-inner-spin-button {
           -webkit-appearance: none;
@@ -55,50 +67,59 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
       let base = 0;
+      let check;
       let check0 = [];
       const work = [0, 0, 0];
-      const check = [0, 0, 0, 0, 0, 0, 0, 0, 0];
       const input = [0, 0, 0, 0, 0, 0];
       const input0 = [0, 0, 0, 0, 0, 20000];
-      const input1 = [5000, 15000, 15000, 30000, 70000, 20000];
+      const input1 = [5000, 15000, 15000, 30000, 70000, 15000];
+      const magnitude1 = ['штука', 'штука', 'штука', 'штука', 'зона', 'камера'];
+      const magnitude2 = ['штуки', 'штуки', 'штуки', 'штуки', 'зоны', 'камеры'];
+      const magnitude = ['штук', 'штук', 'штук', 'штук', 'зон', 'камер'];
+      const step = [4, 1, 1, 1, 2, 1];
       const data = {
         '#f1': {
-          options: ['10 групп', '2 зоны', '2 зоны', '1 зоны', '2 шт.', '2 зоны', '1 группа', '2 TV', '1 точка доступа', 'да', 'да', 'да', 'да'],
-          check: [60000, 39900, 20000, 35000, 30999, 30000, 30000, 20000, 40000],
+          options: ['10 групп', '2 зоны', '2 зоны', '1 зоны', '2 штуки', '2 зоны', '1 группа', '2 TV', '1 точка доступа', 'да', 'да', 'да', 'да'],
+          check: [60000, 39900, 20000, 35000, 30999, 30000, 20000, 40000],
           price: 170000
         },
         '#f2': {
-          options: ['20 групп', '3 зоны', '3 зоны', '2 зоны', '3 шт.', '3 зоны', '2 группы', '3 TV', '2 точки доступа', 'да', 'да', 'да', 'да'],
-          check: [60000, 39900, 30000, 35000, 40999, 30000, 30000, 20000, 40000],
+          options: ['20 групп', '3 зоны', '3 зоны', '2 зоны', '3 штуки', '3 зоны', '2 группы', '3 TV', '2 точки доступа', 'да', 'да', 'да', 'да'],
+          check: [60000, 39900, 30000, 35000, 40999, 30000, 20000, 40000],
           price: 230000
         },
         '#f3': {
-          options: ['30 групп', '4 зоны', '4 зоны', '3 зоны', '3 шт.', '3 зоны', '3 группы', '4 TV', '3 точки доступа', 'да', 'да', 'да', 'да'],
-          check: [60000, 39900, 40000, 35000, 50999, 30000, 30000, 20000, 40000],
+          options: ['30 групп', '4 зоны', '4 зоны', '3 зоны', '3 штуки', '3 зоны', '3 группы', '4 TV', '3 точки доступа', 'да', 'да', 'да', 'да'],
+          check: [60000, 39900, 40000, 35000, 50999, 30000, 20000, 40000],
           price: 310000
         },
       }
       function sum(a, b) {
         return a + b;
       }
+      function mul(a, i) {
+        return a * (check0[i] || 0);
+      }
       function total() {
-        const price = base + check.reduce(sum) + input.reduce(sum);
+        const options = check.map(mul).reduce(sum) + input.reduce(sum);
+        const price = base + options;
         work[0] = 0.15 * price;
         work[1] = 0.20 * price;
         work[2] = 0.25 * price;
         const total = price + work.reduce(sum);
         $('.work').each(function(i) {
-          $(this).text(`${work[i].toLocaleString()}₽`);
+          $(this).text(`${work[i].toLocaleString()} ₽`);
         });
-        $('.total').text(`${total.toLocaleString()}₽`);
+        $('.options').text(`${options.toLocaleString()} ₽`);
+        $('.total').text(`${total.toLocaleString()} ₽`);
       }
       function select(hash) {
-        check0 = data[hash].check;
+        check = data[hash].check;
         base = data[hash].price;
         $('.quantity').each(function(i) {
           $(this).text(data[hash].options[i]);
         });
-        $('.base').text(`${base.toLocaleString()}₽`);
+        $('.base').text(`${base.toLocaleString()} ₽`);
         total();
       }
       $(function() {
@@ -108,15 +129,28 @@
         $('.check.value').each(function(i) {
           const html = $(`<input type="checkbox">`);
           html.change(function() {
-            check[i] = check0[i] * this.checked;
+            check0[i] = this.checked;
             total();
           });
           $(this).html(html);
         });
         $('.input.value').each(function(i) {
-          const html = $(`<input type="number" class="form-control" min="0">`);
-          html.change(function() {
-            input[i] = input0[i] + input1[i] * this.value;
+          const html = $(`<input type="number" class="form-control" min="0" step="${step[i]}"><span id="m${i}">${magnitude[i]}</span>`);
+          html.on('input', function() {
+            const v = this.value % step[i];
+            const value = (v ? 1 : 0) + Math.floor(this.value / step[i]);
+            input[i] = this.value > 0 ? input0[i] + (input1[i] * value) : 0;
+            const s1 = this.value.substr(-1);
+            const s2 = this.value.substr(-2);
+            let m = magnitude;
+            if (s2 !== '11' && s2 !=='12' && s2 !== '13' && s2 !== '14') {
+              if (s1 === '1') {
+                m = magnitude1;
+              } else if (s1 === '2' || s1 === '3' || s1 === '4') {
+                m = magnitude2;
+              }
+            }
+            $(`#m${i}`).text(m[i]);
             total();
           });
           $(this).html(html);
@@ -126,15 +160,15 @@
     </script>
   </head>
   <body>
-    <ul class="nav nav-tabs" id="tab" role="tablist">
+    <ul class="select nav nav-pills nav-fill" id="tab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#f1" role="tab" aria-selected="true">1к. кв.</a>
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#f1" role="tab" aria-selected="true">1 комната</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#f2" role="tab" aria-selected="false">2к. кв.</a>
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#f2" role="tab" aria-selected="false">2 комнаты</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#f3" role="tab" aria-selected="false">3к. кв.</a>
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#f3" role="tab" aria-selected="false">3 комнаты</a>
       </li>
     </ul>
     <table class="price" cellspacing=0 >
@@ -240,15 +274,11 @@
           <td class="cell input value"></td>
         </tr>
         <tr>
-          <td class="option">Охранная сигнализация</td>
+          <td class="option">Охранно-пожарная сигнализация</td>
           <td class="cell check value"></td>
         </tr>
         <tr>
-          <td class="option">Пожарная сигнализация</td>
-          <td class="cell check value"></td>
-        </tr>
-        <tr>
-          <td class="option">Видеонаблюдение (камер, NVR и вывод видео на панели управления)</td>
+          <td class="option">Видеонаблюдение</td>
           <td class="cell input value"></td>
         </tr>
         <tr>
@@ -263,23 +293,27 @@
           <td class="option">Централизованное хранилище медиаконтента</td>
           <td class="cell check value"></td>
         </tr>
+        <tr class="pivot">
+            <td class="option">Стоимость</td>
+            <td class="cell options"></td>
+        </tr>
         <tr>
           <td class="head" colspan="2">Работы</td>
         </tr>
         <tr>
-          <td class="option">Проектирование 15%</td>
+          <td class="option">Проектирование</td>
           <td class="cell work"></td>
         </tr>
         <tr>
-          <td class="option">Шефмонтаж 20%</td>
+          <td class="option">Шефмонтаж</td>
           <td class="cell work"></td>
         </tr>
         <tr>
-          <td class="option">Пусконаладка 25%</td>
+          <td class="option">Пусконаладка</td>
           <td class="cell work"></td>
         </tr>
         <tr class="pivot">
-          <td class="option">Всего</td>
+          <td class="option">Всего за оборудование и работы</td>
           <td class="cell total"></td>
         </tr>
         </tbody>
